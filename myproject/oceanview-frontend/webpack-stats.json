@@ -1,0 +1,31 @@
+{
+  "status": "done",
+  "assets": {
+    "favicon.ico": {
+      "name": "favicon.ico",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\favicon.ico",
+      "publicPath": "http://0.0.0.0:8080/favicon.ico"
+    },
+    "index.html": {
+      "name": "index.html",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\index.html",
+      "publicPath": "http://0.0.0.0:8080/index.html"
+    },
+    "js/about.js": {
+      "name": "js/about.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\js\\about.js",
+      "publicPath": "http://0.0.0.0:8080/js/about.js"
+    },
+    "js/app.js": {
+      "name": "js/app.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\js\\app.js",
+      "publicPath": "http://0.0.0.0:8080/js/app.js"
+    }
+  },
+  "chunks": {
+    "app": [
+      "js/app.js"
+    ]
+  },
+  "publicPath": "http://0.0.0.0:8080/"
+}
