@@ -1,4 +1,4 @@
-{% load render_bundle from webpack_loader%}
+{% load render_bundle from webpack_loader %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,10 +9,8 @@
     <title>Test</title>
 </head>
 <body>
-    <h1>hello world</h1>
-    <div class="app">
-        
-    </div>
+    <div id="app"></div>
+    
     {% render_bundle 'app' 'js' %}
 </body>
 </html>

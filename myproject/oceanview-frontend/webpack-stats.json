@@ -1,31 +1,1529 @@
 {
   "status": "done",
   "assets": {
+    "app.004b94ba0f40e9f4.hot-update.js": {
+      "name": "app.004b94ba0f40e9f4.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.004b94ba0f40e9f4.hot-update.js",
+      "publicPath": "http://localhost:8080/app.004b94ba0f40e9f4.hot-update.js"
+    },
+    "app.004b94ba0f40e9f4.hot-update.json": {
+      "name": "app.004b94ba0f40e9f4.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.004b94ba0f40e9f4.hot-update.json",
+      "publicPath": "http://localhost:8080/app.004b94ba0f40e9f4.hot-update.json"
+    },
+    "app.04bf272ce763bac3.hot-update.js": {
+      "name": "app.04bf272ce763bac3.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.04bf272ce763bac3.hot-update.js",
+      "publicPath": "http://localhost:8080/app.04bf272ce763bac3.hot-update.js"
+    },
+    "app.04bf272ce763bac3.hot-update.json": {
+      "name": "app.04bf272ce763bac3.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.04bf272ce763bac3.hot-update.json",
+      "publicPath": "http://localhost:8080/app.04bf272ce763bac3.hot-update.json"
+    },
+    "app.05ef4691309e3900.hot-update.js": {
+      "name": "app.05ef4691309e3900.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.05ef4691309e3900.hot-update.js",
+      "publicPath": "http://localhost:8080/app.05ef4691309e3900.hot-update.js"
+    },
+    "app.05ef4691309e3900.hot-update.json": {
+      "name": "app.05ef4691309e3900.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.05ef4691309e3900.hot-update.json",
+      "publicPath": "http://localhost:8080/app.05ef4691309e3900.hot-update.json"
+    },
+    "app.06632787c90d699d.hot-update.js": {
+      "name": "app.06632787c90d699d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.06632787c90d699d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.06632787c90d699d.hot-update.js"
+    },
+    "app.06632787c90d699d.hot-update.json": {
+      "name": "app.06632787c90d699d.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.06632787c90d699d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.06632787c90d699d.hot-update.json"
+    },
+    "app.0784cab1635edb10.hot-update.js": {
+      "name": "app.0784cab1635edb10.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.0784cab1635edb10.hot-update.js",
+      "publicPath": "http://localhost:8080/app.0784cab1635edb10.hot-update.js"
+    },
+    "app.0784cab1635edb10.hot-update.json": {
+      "name": "app.0784cab1635edb10.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.0784cab1635edb10.hot-update.json",
+      "publicPath": "http://localhost:8080/app.0784cab1635edb10.hot-update.json"
+    },
+    "app.11519963502067d2.hot-update.js": {
+      "name": "app.11519963502067d2.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.11519963502067d2.hot-update.js",
+      "publicPath": "http://localhost:8080/app.11519963502067d2.hot-update.js"
+    },
+    "app.11519963502067d2.hot-update.json": {
+      "name": "app.11519963502067d2.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.11519963502067d2.hot-update.json",
+      "publicPath": "http://localhost:8080/app.11519963502067d2.hot-update.json"
+    },
+    "app.121184c04843f85f.hot-update.js": {
+      "name": "app.121184c04843f85f.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.121184c04843f85f.hot-update.js",
+      "publicPath": "http://localhost:8080/app.121184c04843f85f.hot-update.js"
+    },
+    "app.121184c04843f85f.hot-update.json": {
+      "name": "app.121184c04843f85f.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.121184c04843f85f.hot-update.json",
+      "publicPath": "http://localhost:8080/app.121184c04843f85f.hot-update.json"
+    },
+    "app.13ebd164dcc9ad19.hot-update.js": {
+      "name": "app.13ebd164dcc9ad19.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.13ebd164dcc9ad19.hot-update.js",
+      "publicPath": "http://localhost:8080/app.13ebd164dcc9ad19.hot-update.js"
+    },
+    "app.13ebd164dcc9ad19.hot-update.json": {
+      "name": "app.13ebd164dcc9ad19.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.13ebd164dcc9ad19.hot-update.json",
+      "publicPath": "http://localhost:8080/app.13ebd164dcc9ad19.hot-update.json"
+    },
+    "app.14cac2225accd80a.hot-update.js": {
+      "name": "app.14cac2225accd80a.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.14cac2225accd80a.hot-update.js",
+      "publicPath": "http://localhost:8080/app.14cac2225accd80a.hot-update.js"
+    },
+    "app.14cac2225accd80a.hot-update.json": {
+      "name": "app.14cac2225accd80a.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.14cac2225accd80a.hot-update.json",
+      "publicPath": "http://localhost:8080/app.14cac2225accd80a.hot-update.json"
+    },
+    "app.1511e3d22b0f9483.hot-update.js": {
+      "name": "app.1511e3d22b0f9483.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.1511e3d22b0f9483.hot-update.js",
+      "publicPath": "http://localhost:8080/app.1511e3d22b0f9483.hot-update.js"
+    },
+    "app.1511e3d22b0f9483.hot-update.json": {
+      "name": "app.1511e3d22b0f9483.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.1511e3d22b0f9483.hot-update.json",
+      "publicPath": "http://localhost:8080/app.1511e3d22b0f9483.hot-update.json"
+    },
+    "app.16c2f932448e929b.hot-update.js": {
+      "name": "app.16c2f932448e929b.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.16c2f932448e929b.hot-update.js",
+      "publicPath": "http://localhost:8080/app.16c2f932448e929b.hot-update.js"
+    },
+    "app.16c2f932448e929b.hot-update.json": {
+      "name": "app.16c2f932448e929b.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.16c2f932448e929b.hot-update.json",
+      "publicPath": "http://localhost:8080/app.16c2f932448e929b.hot-update.json"
+    },
+    "app.18e4df6676e51aa2.hot-update.js": {
+      "name": "app.18e4df6676e51aa2.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.18e4df6676e51aa2.hot-update.js",
+      "publicPath": "http://localhost:8080/app.18e4df6676e51aa2.hot-update.js"
+    },
+    "app.18e4df6676e51aa2.hot-update.json": {
+      "name": "app.18e4df6676e51aa2.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.18e4df6676e51aa2.hot-update.json",
+      "publicPath": "http://localhost:8080/app.18e4df6676e51aa2.hot-update.json"
+    },
+    "app.1e80fbd07f8a2d8b.hot-update.js": {
+      "name": "app.1e80fbd07f8a2d8b.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.1e80fbd07f8a2d8b.hot-update.js",
+      "publicPath": "http://localhost:8080/app.1e80fbd07f8a2d8b.hot-update.js"
+    },
+    "app.1e80fbd07f8a2d8b.hot-update.json": {
+      "name": "app.1e80fbd07f8a2d8b.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.1e80fbd07f8a2d8b.hot-update.json",
+      "publicPath": "http://localhost:8080/app.1e80fbd07f8a2d8b.hot-update.json"
+    },
+    "app.1eea596a9623d6bc.hot-update.js": {
+      "name": "app.1eea596a9623d6bc.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.1eea596a9623d6bc.hot-update.js",
+      "publicPath": "http://localhost:8080/app.1eea596a9623d6bc.hot-update.js"
+    },
+    "app.1eea596a9623d6bc.hot-update.json": {
+      "name": "app.1eea596a9623d6bc.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.1eea596a9623d6bc.hot-update.json",
+      "publicPath": "http://localhost:8080/app.1eea596a9623d6bc.hot-update.json"
+    },
+    "app.21037385fbd9ff86.hot-update.js": {
+      "name": "app.21037385fbd9ff86.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.21037385fbd9ff86.hot-update.js",
+      "publicPath": "http://localhost:8080/app.21037385fbd9ff86.hot-update.js"
+    },
+    "app.21037385fbd9ff86.hot-update.json": {
+      "name": "app.21037385fbd9ff86.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.21037385fbd9ff86.hot-update.json",
+      "publicPath": "http://localhost:8080/app.21037385fbd9ff86.hot-update.json"
+    },
+    "app.222105bfdd7ef6ea.hot-update.js": {
+      "name": "app.222105bfdd7ef6ea.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.222105bfdd7ef6ea.hot-update.js",
+      "publicPath": "http://localhost:8080/app.222105bfdd7ef6ea.hot-update.js"
+    },
+    "app.222105bfdd7ef6ea.hot-update.json": {
+      "name": "app.222105bfdd7ef6ea.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.222105bfdd7ef6ea.hot-update.json",
+      "publicPath": "http://localhost:8080/app.222105bfdd7ef6ea.hot-update.json"
+    },
+    "app.256e17a493107e7d.hot-update.js": {
+      "name": "app.256e17a493107e7d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.256e17a493107e7d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.256e17a493107e7d.hot-update.js"
+    },
+    "app.256e17a493107e7d.hot-update.json": {
+      "name": "app.256e17a493107e7d.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.256e17a493107e7d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.256e17a493107e7d.hot-update.json"
+    },
+    "app.29b1744ecd8bb9d6.hot-update.js": {
+      "name": "app.29b1744ecd8bb9d6.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.29b1744ecd8bb9d6.hot-update.js",
+      "publicPath": "http://localhost:8080/app.29b1744ecd8bb9d6.hot-update.js"
+    },
+    "app.29b1744ecd8bb9d6.hot-update.json": {
+      "name": "app.29b1744ecd8bb9d6.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.29b1744ecd8bb9d6.hot-update.json",
+      "publicPath": "http://localhost:8080/app.29b1744ecd8bb9d6.hot-update.json"
+    },
+    "app.2c3d5e5588894f76.hot-update.js": {
+      "name": "app.2c3d5e5588894f76.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.2c3d5e5588894f76.hot-update.js",
+      "publicPath": "http://localhost:8080/app.2c3d5e5588894f76.hot-update.js"
+    },
+    "app.2c3d5e5588894f76.hot-update.json": {
+      "name": "app.2c3d5e5588894f76.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.2c3d5e5588894f76.hot-update.json",
+      "publicPath": "http://localhost:8080/app.2c3d5e5588894f76.hot-update.json"
+    },
+    "app.2c4ded1b9842075d.hot-update.js": {
+      "name": "app.2c4ded1b9842075d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.2c4ded1b9842075d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.2c4ded1b9842075d.hot-update.js"
+    },
+    "app.2c4ded1b9842075d.hot-update.json": {
+      "name": "app.2c4ded1b9842075d.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.2c4ded1b9842075d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.2c4ded1b9842075d.hot-update.json"
+    },
+    "app.2f9fb7d2343b0626.hot-update.js": {
+      "name": "app.2f9fb7d2343b0626.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.2f9fb7d2343b0626.hot-update.js",
+      "publicPath": "http://localhost:8080/app.2f9fb7d2343b0626.hot-update.js"
+    },
+    "app.2f9fb7d2343b0626.hot-update.json": {
+      "name": "app.2f9fb7d2343b0626.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.2f9fb7d2343b0626.hot-update.json",
+      "publicPath": "http://localhost:8080/app.2f9fb7d2343b0626.hot-update.json"
+    },
+    "app.36e612fba4c8a3a6.hot-update.js": {
+      "name": "app.36e612fba4c8a3a6.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.36e612fba4c8a3a6.hot-update.js",
+      "publicPath": "http://localhost:8080/app.36e612fba4c8a3a6.hot-update.js"
+    },
+    "app.36e612fba4c8a3a6.hot-update.json": {
+      "name": "app.36e612fba4c8a3a6.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.36e612fba4c8a3a6.hot-update.json",
+      "publicPath": "http://localhost:8080/app.36e612fba4c8a3a6.hot-update.json"
+    },
+    "app.3783792e4b750c3f.hot-update.js": {
+      "name": "app.3783792e4b750c3f.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.3783792e4b750c3f.hot-update.js",
+      "publicPath": "http://localhost:8080/app.3783792e4b750c3f.hot-update.js"
+    },
+    "app.3783792e4b750c3f.hot-update.json": {
+      "name": "app.3783792e4b750c3f.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.3783792e4b750c3f.hot-update.json",
+      "publicPath": "http://localhost:8080/app.3783792e4b750c3f.hot-update.json"
+    },
+    "app.3ebfbcf08636f637.hot-update.js": {
+      "name": "app.3ebfbcf08636f637.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.3ebfbcf08636f637.hot-update.js",
+      "publicPath": "http://localhost:8080/app.3ebfbcf08636f637.hot-update.js"
+    },
+    "app.3ebfbcf08636f637.hot-update.json": {
+      "name": "app.3ebfbcf08636f637.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.3ebfbcf08636f637.hot-update.json",
+      "publicPath": "http://localhost:8080/app.3ebfbcf08636f637.hot-update.json"
+    },
+    "app.42bf6b32e07dd0bc.hot-update.js": {
+      "name": "app.42bf6b32e07dd0bc.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.42bf6b32e07dd0bc.hot-update.js",
+      "publicPath": "http://localhost:8080/app.42bf6b32e07dd0bc.hot-update.js"
+    },
+    "app.42bf6b32e07dd0bc.hot-update.json": {
+      "name": "app.42bf6b32e07dd0bc.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.42bf6b32e07dd0bc.hot-update.json",
+      "publicPath": "http://localhost:8080/app.42bf6b32e07dd0bc.hot-update.json"
+    },
+    "app.4ac6e46e2614167a.hot-update.js": {
+      "name": "app.4ac6e46e2614167a.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.4ac6e46e2614167a.hot-update.js",
+      "publicPath": "http://localhost:8080/app.4ac6e46e2614167a.hot-update.js"
+    },
+    "app.4ac6e46e2614167a.hot-update.json": {
+      "name": "app.4ac6e46e2614167a.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.4ac6e46e2614167a.hot-update.json",
+      "publicPath": "http://localhost:8080/app.4ac6e46e2614167a.hot-update.json"
+    },
+    "app.4c11dead0be054ba.hot-update.js": {
+      "name": "app.4c11dead0be054ba.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.4c11dead0be054ba.hot-update.js",
+      "publicPath": "http://localhost:8080/app.4c11dead0be054ba.hot-update.js"
+    },
+    "app.4c11dead0be054ba.hot-update.json": {
+      "name": "app.4c11dead0be054ba.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.4c11dead0be054ba.hot-update.json",
+      "publicPath": "http://localhost:8080/app.4c11dead0be054ba.hot-update.json"
+    },
+    "app.4ce7f5d7c23a9e16.hot-update.js": {
+      "name": "app.4ce7f5d7c23a9e16.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.4ce7f5d7c23a9e16.hot-update.js",
+      "publicPath": "http://localhost:8080/app.4ce7f5d7c23a9e16.hot-update.js"
+    },
+    "app.4ce7f5d7c23a9e16.hot-update.json": {
+      "name": "app.4ce7f5d7c23a9e16.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.4ce7f5d7c23a9e16.hot-update.json",
+      "publicPath": "http://localhost:8080/app.4ce7f5d7c23a9e16.hot-update.json"
+    },
+    "app.4ea16a2d1880fe23.hot-update.js": {
+      "name": "app.4ea16a2d1880fe23.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.4ea16a2d1880fe23.hot-update.js",
+      "publicPath": "http://localhost:8080/app.4ea16a2d1880fe23.hot-update.js"
+    },
+    "app.4ea16a2d1880fe23.hot-update.json": {
+      "name": "app.4ea16a2d1880fe23.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.4ea16a2d1880fe23.hot-update.json",
+      "publicPath": "http://localhost:8080/app.4ea16a2d1880fe23.hot-update.json"
+    },
+    "app.575f4457d49fa4b9.hot-update.js": {
+      "name": "app.575f4457d49fa4b9.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.575f4457d49fa4b9.hot-update.js",
+      "publicPath": "http://localhost:8080/app.575f4457d49fa4b9.hot-update.js"
+    },
+    "app.575f4457d49fa4b9.hot-update.json": {
+      "name": "app.575f4457d49fa4b9.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.575f4457d49fa4b9.hot-update.json",
+      "publicPath": "http://localhost:8080/app.575f4457d49fa4b9.hot-update.json"
+    },
+    "app.58935f017eed121e.hot-update.js": {
+      "name": "app.58935f017eed121e.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.58935f017eed121e.hot-update.js",
+      "publicPath": "http://localhost:8080/app.58935f017eed121e.hot-update.js"
+    },
+    "app.58935f017eed121e.hot-update.json": {
+      "name": "app.58935f017eed121e.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.58935f017eed121e.hot-update.json",
+      "publicPath": "http://localhost:8080/app.58935f017eed121e.hot-update.json"
+    },
+    "app.5a69c07352234f6c.hot-update.js": {
+      "name": "app.5a69c07352234f6c.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.5a69c07352234f6c.hot-update.js",
+      "publicPath": "http://localhost:8080/app.5a69c07352234f6c.hot-update.js"
+    },
+    "app.5a69c07352234f6c.hot-update.json": {
+      "name": "app.5a69c07352234f6c.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.5a69c07352234f6c.hot-update.json",
+      "publicPath": "http://localhost:8080/app.5a69c07352234f6c.hot-update.json"
+    },
+    "app.5aecda5529c8f9dc.hot-update.js": {
+      "name": "app.5aecda5529c8f9dc.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.5aecda5529c8f9dc.hot-update.js",
+      "publicPath": "http://localhost:8080/app.5aecda5529c8f9dc.hot-update.js"
+    },
+    "app.5aecda5529c8f9dc.hot-update.json": {
+      "name": "app.5aecda5529c8f9dc.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.5aecda5529c8f9dc.hot-update.json",
+      "publicPath": "http://localhost:8080/app.5aecda5529c8f9dc.hot-update.json"
+    },
+    "app.5c4bef90617bd376.hot-update.js": {
+      "name": "app.5c4bef90617bd376.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.5c4bef90617bd376.hot-update.js",
+      "publicPath": "http://localhost:8080/app.5c4bef90617bd376.hot-update.js"
+    },
+    "app.5c4bef90617bd376.hot-update.json": {
+      "name": "app.5c4bef90617bd376.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.5c4bef90617bd376.hot-update.json",
+      "publicPath": "http://localhost:8080/app.5c4bef90617bd376.hot-update.json"
+    },
+    "app.5f7946dd39507232.hot-update.js": {
+      "name": "app.5f7946dd39507232.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.5f7946dd39507232.hot-update.js",
+      "publicPath": "http://localhost:8080/app.5f7946dd39507232.hot-update.js"
+    },
+    "app.5f7946dd39507232.hot-update.json": {
+      "name": "app.5f7946dd39507232.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.5f7946dd39507232.hot-update.json",
+      "publicPath": "http://localhost:8080/app.5f7946dd39507232.hot-update.json"
+    },
+    "app.6031a094d550c3df.hot-update.js": {
+      "name": "app.6031a094d550c3df.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.6031a094d550c3df.hot-update.js",
+      "publicPath": "http://localhost:8080/app.6031a094d550c3df.hot-update.js"
+    },
+    "app.6031a094d550c3df.hot-update.json": {
+      "name": "app.6031a094d550c3df.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.6031a094d550c3df.hot-update.json",
+      "publicPath": "http://localhost:8080/app.6031a094d550c3df.hot-update.json"
+    },
+    "app.625d1e6baf8e7a13.hot-update.js": {
+      "name": "app.625d1e6baf8e7a13.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.625d1e6baf8e7a13.hot-update.js",
+      "publicPath": "http://localhost:8080/app.625d1e6baf8e7a13.hot-update.js"
+    },
+    "app.625d1e6baf8e7a13.hot-update.json": {
+      "name": "app.625d1e6baf8e7a13.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.625d1e6baf8e7a13.hot-update.json",
+      "publicPath": "http://localhost:8080/app.625d1e6baf8e7a13.hot-update.json"
+    },
+    "app.64016e936ae8ec87.hot-update.js": {
+      "name": "app.64016e936ae8ec87.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.64016e936ae8ec87.hot-update.js",
+      "publicPath": "http://localhost:8080/app.64016e936ae8ec87.hot-update.js"
+    },
+    "app.64016e936ae8ec87.hot-update.json": {
+      "name": "app.64016e936ae8ec87.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.64016e936ae8ec87.hot-update.json",
+      "publicPath": "http://localhost:8080/app.64016e936ae8ec87.hot-update.json"
+    },
+    "app.647f33e72d061e4f.hot-update.js": {
+      "name": "app.647f33e72d061e4f.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.647f33e72d061e4f.hot-update.js",
+      "publicPath": "http://localhost:8080/app.647f33e72d061e4f.hot-update.js"
+    },
+    "app.647f33e72d061e4f.hot-update.json": {
+      "name": "app.647f33e72d061e4f.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.647f33e72d061e4f.hot-update.json",
+      "publicPath": "http://localhost:8080/app.647f33e72d061e4f.hot-update.json"
+    },
+    "app.65d05e224d2ee050.hot-update.js": {
+      "name": "app.65d05e224d2ee050.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.65d05e224d2ee050.hot-update.js",
+      "publicPath": "http://localhost:8080/app.65d05e224d2ee050.hot-update.js"
+    },
+    "app.65d05e224d2ee050.hot-update.json": {
+      "name": "app.65d05e224d2ee050.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.65d05e224d2ee050.hot-update.json",
+      "publicPath": "http://localhost:8080/app.65d05e224d2ee050.hot-update.json"
+    },
+    "app.66ebe11931bded27.hot-update.js": {
+      "name": "app.66ebe11931bded27.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.66ebe11931bded27.hot-update.js",
+      "publicPath": "http://localhost:8080/app.66ebe11931bded27.hot-update.js"
+    },
+    "app.66ebe11931bded27.hot-update.json": {
+      "name": "app.66ebe11931bded27.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.66ebe11931bded27.hot-update.json",
+      "publicPath": "http://localhost:8080/app.66ebe11931bded27.hot-update.json"
+    },
+    "app.66f20ccfcdc9e4a3.hot-update.js": {
+      "name": "app.66f20ccfcdc9e4a3.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.66f20ccfcdc9e4a3.hot-update.js",
+      "publicPath": "http://localhost:8080/app.66f20ccfcdc9e4a3.hot-update.js"
+    },
+    "app.66f20ccfcdc9e4a3.hot-update.json": {
+      "name": "app.66f20ccfcdc9e4a3.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.66f20ccfcdc9e4a3.hot-update.json",
+      "publicPath": "http://localhost:8080/app.66f20ccfcdc9e4a3.hot-update.json"
+    },
+    "app.6b7b70a03737e7cb.hot-update.js": {
+      "name": "app.6b7b70a03737e7cb.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.6b7b70a03737e7cb.hot-update.js",
+      "publicPath": "http://localhost:8080/app.6b7b70a03737e7cb.hot-update.js"
+    },
+    "app.6b7b70a03737e7cb.hot-update.json": {
+      "name": "app.6b7b70a03737e7cb.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.6b7b70a03737e7cb.hot-update.json",
+      "publicPath": "http://localhost:8080/app.6b7b70a03737e7cb.hot-update.json"
+    },
+    "app.6cbee01008bec2be.hot-update.js": {
+      "name": "app.6cbee01008bec2be.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.6cbee01008bec2be.hot-update.js",
+      "publicPath": "http://localhost:8080/app.6cbee01008bec2be.hot-update.js"
+    },
+    "app.6cbee01008bec2be.hot-update.json": {
+      "name": "app.6cbee01008bec2be.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.6cbee01008bec2be.hot-update.json",
+      "publicPath": "http://localhost:8080/app.6cbee01008bec2be.hot-update.json"
+    },
+    "app.6d481b5108979dad.hot-update.js": {
+      "name": "app.6d481b5108979dad.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.6d481b5108979dad.hot-update.js",
+      "publicPath": "http://localhost:8080/app.6d481b5108979dad.hot-update.js"
+    },
+    "app.6d481b5108979dad.hot-update.json": {
+      "name": "app.6d481b5108979dad.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.6d481b5108979dad.hot-update.json",
+      "publicPath": "http://localhost:8080/app.6d481b5108979dad.hot-update.json"
+    },
+    "app.6e9127ee3370c91f.hot-update.js": {
+      "name": "app.6e9127ee3370c91f.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.6e9127ee3370c91f.hot-update.js",
+      "publicPath": "http://localhost:8080/app.6e9127ee3370c91f.hot-update.js"
+    },
+    "app.6e9127ee3370c91f.hot-update.json": {
+      "name": "app.6e9127ee3370c91f.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.6e9127ee3370c91f.hot-update.json",
+      "publicPath": "http://localhost:8080/app.6e9127ee3370c91f.hot-update.json"
+    },
+    "app.70436d3b02d61350.hot-update.js": {
+      "name": "app.70436d3b02d61350.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.70436d3b02d61350.hot-update.js",
+      "publicPath": "http://localhost:8080/app.70436d3b02d61350.hot-update.js"
+    },
+    "app.70436d3b02d61350.hot-update.json": {
+      "name": "app.70436d3b02d61350.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.70436d3b02d61350.hot-update.json",
+      "publicPath": "http://localhost:8080/app.70436d3b02d61350.hot-update.json"
+    },
+    "app.70f2058fe9a7befa.hot-update.js": {
+      "name": "app.70f2058fe9a7befa.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.70f2058fe9a7befa.hot-update.js",
+      "publicPath": "http://localhost:8080/app.70f2058fe9a7befa.hot-update.js"
+    },
+    "app.70f2058fe9a7befa.hot-update.json": {
+      "name": "app.70f2058fe9a7befa.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.70f2058fe9a7befa.hot-update.json",
+      "publicPath": "http://localhost:8080/app.70f2058fe9a7befa.hot-update.json"
+    },
+    "app.76473eca9aee0946.hot-update.js": {
+      "name": "app.76473eca9aee0946.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.76473eca9aee0946.hot-update.js",
+      "publicPath": "http://localhost:8080/app.76473eca9aee0946.hot-update.js"
+    },
+    "app.76473eca9aee0946.hot-update.json": {
+      "name": "app.76473eca9aee0946.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.76473eca9aee0946.hot-update.json",
+      "publicPath": "http://localhost:8080/app.76473eca9aee0946.hot-update.json"
+    },
+    "app.7726c9764e2ea83d.hot-update.js": {
+      "name": "app.7726c9764e2ea83d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.7726c9764e2ea83d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.7726c9764e2ea83d.hot-update.js"
+    },
+    "app.7726c9764e2ea83d.hot-update.json": {
+      "name": "app.7726c9764e2ea83d.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.7726c9764e2ea83d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.7726c9764e2ea83d.hot-update.json"
+    },
+    "app.7af5e06dc927be93.hot-update.js": {
+      "name": "app.7af5e06dc927be93.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.7af5e06dc927be93.hot-update.js",
+      "publicPath": "http://localhost:8080/app.7af5e06dc927be93.hot-update.js"
+    },
+    "app.7af5e06dc927be93.hot-update.json": {
+      "name": "app.7af5e06dc927be93.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.7af5e06dc927be93.hot-update.json",
+      "publicPath": "http://localhost:8080/app.7af5e06dc927be93.hot-update.json"
+    },
+    "app.7b5316de0dec176d.hot-update.js": {
+      "name": "app.7b5316de0dec176d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.7b5316de0dec176d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.7b5316de0dec176d.hot-update.js"
+    },
+    "app.7b5316de0dec176d.hot-update.json": {
+      "name": "app.7b5316de0dec176d.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.7b5316de0dec176d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.7b5316de0dec176d.hot-update.json"
+    },
+    "app.7dfd4ca4aa9a7938.hot-update.js": {
+      "name": "app.7dfd4ca4aa9a7938.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.7dfd4ca4aa9a7938.hot-update.js",
+      "publicPath": "http://localhost:8080/app.7dfd4ca4aa9a7938.hot-update.js"
+    },
+    "app.7dfd4ca4aa9a7938.hot-update.json": {
+      "name": "app.7dfd4ca4aa9a7938.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.7dfd4ca4aa9a7938.hot-update.json",
+      "publicPath": "http://localhost:8080/app.7dfd4ca4aa9a7938.hot-update.json"
+    },
+    "app.7f439d0035d4e285.hot-update.js": {
+      "name": "app.7f439d0035d4e285.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.7f439d0035d4e285.hot-update.js",
+      "publicPath": "http://localhost:8080/app.7f439d0035d4e285.hot-update.js"
+    },
+    "app.7f439d0035d4e285.hot-update.json": {
+      "name": "app.7f439d0035d4e285.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.7f439d0035d4e285.hot-update.json",
+      "publicPath": "http://localhost:8080/app.7f439d0035d4e285.hot-update.json"
+    },
+    "app.7fa9601a9944f86d.hot-update.js": {
+      "name": "app.7fa9601a9944f86d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.7fa9601a9944f86d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.7fa9601a9944f86d.hot-update.js"
+    },
+    "app.7fa9601a9944f86d.hot-update.json": {
+      "name": "app.7fa9601a9944f86d.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.7fa9601a9944f86d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.7fa9601a9944f86d.hot-update.json"
+    },
+    "app.813f73aea0359228.hot-update.js": {
+      "name": "app.813f73aea0359228.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.813f73aea0359228.hot-update.js",
+      "publicPath": "http://localhost:8080/app.813f73aea0359228.hot-update.js"
+    },
+    "app.813f73aea0359228.hot-update.json": {
+      "name": "app.813f73aea0359228.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.813f73aea0359228.hot-update.json",
+      "publicPath": "http://localhost:8080/app.813f73aea0359228.hot-update.json"
+    },
+    "app.81c8ad6f3d9e0ef6.hot-update.js": {
+      "name": "app.81c8ad6f3d9e0ef6.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.81c8ad6f3d9e0ef6.hot-update.js",
+      "publicPath": "http://localhost:8080/app.81c8ad6f3d9e0ef6.hot-update.js"
+    },
+    "app.81c8ad6f3d9e0ef6.hot-update.json": {
+      "name": "app.81c8ad6f3d9e0ef6.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.81c8ad6f3d9e0ef6.hot-update.json",
+      "publicPath": "http://localhost:8080/app.81c8ad6f3d9e0ef6.hot-update.json"
+    },
+    "app.82ad1de3127108be.hot-update.js": {
+      "name": "app.82ad1de3127108be.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.82ad1de3127108be.hot-update.js",
+      "publicPath": "http://localhost:8080/app.82ad1de3127108be.hot-update.js"
+    },
+    "app.82ad1de3127108be.hot-update.json": {
+      "name": "app.82ad1de3127108be.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.82ad1de3127108be.hot-update.json",
+      "publicPath": "http://localhost:8080/app.82ad1de3127108be.hot-update.json"
+    },
+    "app.856c5b95d1978ebc.hot-update.js": {
+      "name": "app.856c5b95d1978ebc.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.856c5b95d1978ebc.hot-update.js",
+      "publicPath": "http://localhost:8080/app.856c5b95d1978ebc.hot-update.js"
+    },
+    "app.856c5b95d1978ebc.hot-update.json": {
+      "name": "app.856c5b95d1978ebc.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.856c5b95d1978ebc.hot-update.json",
+      "publicPath": "http://localhost:8080/app.856c5b95d1978ebc.hot-update.json"
+    },
+    "app.8663f103b568e484.hot-update.js": {
+      "name": "app.8663f103b568e484.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.8663f103b568e484.hot-update.js",
+      "publicPath": "http://localhost:8080/app.8663f103b568e484.hot-update.js"
+    },
+    "app.8663f103b568e484.hot-update.json": {
+      "name": "app.8663f103b568e484.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.8663f103b568e484.hot-update.json",
+      "publicPath": "http://localhost:8080/app.8663f103b568e484.hot-update.json"
+    },
+    "app.87719c768e91db8b.hot-update.js": {
+      "name": "app.87719c768e91db8b.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.87719c768e91db8b.hot-update.js",
+      "publicPath": "http://localhost:8080/app.87719c768e91db8b.hot-update.js"
+    },
+    "app.87719c768e91db8b.hot-update.json": {
+      "name": "app.87719c768e91db8b.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.87719c768e91db8b.hot-update.json",
+      "publicPath": "http://localhost:8080/app.87719c768e91db8b.hot-update.json"
+    },
+    "app.8a043dac13fb46db.hot-update.js": {
+      "name": "app.8a043dac13fb46db.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.8a043dac13fb46db.hot-update.js",
+      "publicPath": "http://localhost:8080/app.8a043dac13fb46db.hot-update.js"
+    },
+    "app.8a043dac13fb46db.hot-update.json": {
+      "name": "app.8a043dac13fb46db.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.8a043dac13fb46db.hot-update.json",
+      "publicPath": "http://localhost:8080/app.8a043dac13fb46db.hot-update.json"
+    },
+    "app.8ed1716dc9e2541d.hot-update.js": {
+      "name": "app.8ed1716dc9e2541d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.8ed1716dc9e2541d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.8ed1716dc9e2541d.hot-update.js"
+    },
+    "app.8ed1716dc9e2541d.hot-update.json": {
+      "name": "app.8ed1716dc9e2541d.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.8ed1716dc9e2541d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.8ed1716dc9e2541d.hot-update.json"
+    },
+    "app.9547fc163cddee62.hot-update.js": {
+      "name": "app.9547fc163cddee62.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.9547fc163cddee62.hot-update.js",
+      "publicPath": "http://localhost:8080/app.9547fc163cddee62.hot-update.js"
+    },
+    "app.9547fc163cddee62.hot-update.json": {
+      "name": "app.9547fc163cddee62.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.9547fc163cddee62.hot-update.json",
+      "publicPath": "http://localhost:8080/app.9547fc163cddee62.hot-update.json"
+    },
+    "app.9566c9b29ad84f14.hot-update.js": {
+      "name": "app.9566c9b29ad84f14.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.9566c9b29ad84f14.hot-update.js",
+      "publicPath": "http://localhost:8080/app.9566c9b29ad84f14.hot-update.js"
+    },
+    "app.9566c9b29ad84f14.hot-update.json": {
+      "name": "app.9566c9b29ad84f14.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.9566c9b29ad84f14.hot-update.json",
+      "publicPath": "http://localhost:8080/app.9566c9b29ad84f14.hot-update.json"
+    },
+    "app.a16eed1b3cb312fb.hot-update.js": {
+      "name": "app.a16eed1b3cb312fb.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.a16eed1b3cb312fb.hot-update.js",
+      "publicPath": "http://localhost:8080/app.a16eed1b3cb312fb.hot-update.js"
+    },
+    "app.a16eed1b3cb312fb.hot-update.json": {
+      "name": "app.a16eed1b3cb312fb.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.a16eed1b3cb312fb.hot-update.json",
+      "publicPath": "http://localhost:8080/app.a16eed1b3cb312fb.hot-update.json"
+    },
+    "app.a26fc9c7ca0db990.hot-update.js": {
+      "name": "app.a26fc9c7ca0db990.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.a26fc9c7ca0db990.hot-update.js",
+      "publicPath": "http://localhost:8080/app.a26fc9c7ca0db990.hot-update.js"
+    },
+    "app.a26fc9c7ca0db990.hot-update.json": {
+      "name": "app.a26fc9c7ca0db990.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.a26fc9c7ca0db990.hot-update.json",
+      "publicPath": "http://localhost:8080/app.a26fc9c7ca0db990.hot-update.json"
+    },
+    "app.a452098c85fc196d.hot-update.js": {
+      "name": "app.a452098c85fc196d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.a452098c85fc196d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.a452098c85fc196d.hot-update.js"
+    },
+    "app.a452098c85fc196d.hot-update.json": {
+      "name": "app.a452098c85fc196d.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.a452098c85fc196d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.a452098c85fc196d.hot-update.json"
+    },
+    "app.a4dd16a8ec3a151b.hot-update.js": {
+      "name": "app.a4dd16a8ec3a151b.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.a4dd16a8ec3a151b.hot-update.js",
+      "publicPath": "http://localhost:8080/app.a4dd16a8ec3a151b.hot-update.js"
+    },
+    "app.a4dd16a8ec3a151b.hot-update.json": {
+      "name": "app.a4dd16a8ec3a151b.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.a4dd16a8ec3a151b.hot-update.json",
+      "publicPath": "http://localhost:8080/app.a4dd16a8ec3a151b.hot-update.json"
+    },
+    "app.a6d6168747c99f76.hot-update.js": {
+      "name": "app.a6d6168747c99f76.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.a6d6168747c99f76.hot-update.js",
+      "publicPath": "http://localhost:8080/app.a6d6168747c99f76.hot-update.js"
+    },
+    "app.a6d6168747c99f76.hot-update.json": {
+      "name": "app.a6d6168747c99f76.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.a6d6168747c99f76.hot-update.json",
+      "publicPath": "http://localhost:8080/app.a6d6168747c99f76.hot-update.json"
+    },
+    "app.b0ffaec270d0c7f2.hot-update.js": {
+      "name": "app.b0ffaec270d0c7f2.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.b0ffaec270d0c7f2.hot-update.js",
+      "publicPath": "http://localhost:8080/app.b0ffaec270d0c7f2.hot-update.js"
+    },
+    "app.b0ffaec270d0c7f2.hot-update.json": {
+      "name": "app.b0ffaec270d0c7f2.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.b0ffaec270d0c7f2.hot-update.json",
+      "publicPath": "http://localhost:8080/app.b0ffaec270d0c7f2.hot-update.json"
+    },
+    "app.b4014898fb65892c.hot-update.js": {
+      "name": "app.b4014898fb65892c.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.b4014898fb65892c.hot-update.js",
+      "publicPath": "http://localhost:8080/app.b4014898fb65892c.hot-update.js"
+    },
+    "app.b4014898fb65892c.hot-update.json": {
+      "name": "app.b4014898fb65892c.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.b4014898fb65892c.hot-update.json",
+      "publicPath": "http://localhost:8080/app.b4014898fb65892c.hot-update.json"
+    },
+    "app.b51fada0928e2f8b.hot-update.js": {
+      "name": "app.b51fada0928e2f8b.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.b51fada0928e2f8b.hot-update.js",
+      "publicPath": "http://localhost:8080/app.b51fada0928e2f8b.hot-update.js"
+    },
+    "app.b51fada0928e2f8b.hot-update.json": {
+      "name": "app.b51fada0928e2f8b.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.b51fada0928e2f8b.hot-update.json",
+      "publicPath": "http://localhost:8080/app.b51fada0928e2f8b.hot-update.json"
+    },
+    "app.b75a5aba3845893d.hot-update.js": {
+      "name": "app.b75a5aba3845893d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.b75a5aba3845893d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.b75a5aba3845893d.hot-update.js"
+    },
+    "app.b75a5aba3845893d.hot-update.json": {
+      "name": "app.b75a5aba3845893d.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.b75a5aba3845893d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.b75a5aba3845893d.hot-update.json"
+    },
+    "app.b77cacb96860b1c5.hot-update.js": {
+      "name": "app.b77cacb96860b1c5.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.b77cacb96860b1c5.hot-update.js",
+      "publicPath": "http://localhost:8080/app.b77cacb96860b1c5.hot-update.js"
+    },
+    "app.b77cacb96860b1c5.hot-update.json": {
+      "name": "app.b77cacb96860b1c5.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.b77cacb96860b1c5.hot-update.json",
+      "publicPath": "http://localhost:8080/app.b77cacb96860b1c5.hot-update.json"
+    },
+    "app.bc38951e99e38cf3.hot-update.js": {
+      "name": "app.bc38951e99e38cf3.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.bc38951e99e38cf3.hot-update.js",
+      "publicPath": "http://localhost:8080/app.bc38951e99e38cf3.hot-update.js"
+    },
+    "app.bc38951e99e38cf3.hot-update.json": {
+      "name": "app.bc38951e99e38cf3.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.bc38951e99e38cf3.hot-update.json",
+      "publicPath": "http://localhost:8080/app.bc38951e99e38cf3.hot-update.json"
+    },
+    "app.c0bad8c5efa119da.hot-update.js": {
+      "name": "app.c0bad8c5efa119da.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.c0bad8c5efa119da.hot-update.js",
+      "publicPath": "http://localhost:8080/app.c0bad8c5efa119da.hot-update.js"
+    },
+    "app.c0bad8c5efa119da.hot-update.json": {
+      "name": "app.c0bad8c5efa119da.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.c0bad8c5efa119da.hot-update.json",
+      "publicPath": "http://localhost:8080/app.c0bad8c5efa119da.hot-update.json"
+    },
+    "app.c24494b93ff4f18b.hot-update.js": {
+      "name": "app.c24494b93ff4f18b.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.c24494b93ff4f18b.hot-update.js",
+      "publicPath": "http://localhost:8080/app.c24494b93ff4f18b.hot-update.js"
+    },
+    "app.c24494b93ff4f18b.hot-update.json": {
+      "name": "app.c24494b93ff4f18b.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.c24494b93ff4f18b.hot-update.json",
+      "publicPath": "http://localhost:8080/app.c24494b93ff4f18b.hot-update.json"
+    },
+    "app.ca34b11785c2a3e9.hot-update.js": {
+      "name": "app.ca34b11785c2a3e9.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.ca34b11785c2a3e9.hot-update.js",
+      "publicPath": "http://localhost:8080/app.ca34b11785c2a3e9.hot-update.js"
+    },
+    "app.ca34b11785c2a3e9.hot-update.json": {
+      "name": "app.ca34b11785c2a3e9.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.ca34b11785c2a3e9.hot-update.json",
+      "publicPath": "http://localhost:8080/app.ca34b11785c2a3e9.hot-update.json"
+    },
+    "app.cdd9b8467d5bdeba.hot-update.js": {
+      "name": "app.cdd9b8467d5bdeba.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.cdd9b8467d5bdeba.hot-update.js",
+      "publicPath": "http://localhost:8080/app.cdd9b8467d5bdeba.hot-update.js"
+    },
+    "app.cdd9b8467d5bdeba.hot-update.json": {
+      "name": "app.cdd9b8467d5bdeba.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.cdd9b8467d5bdeba.hot-update.json",
+      "publicPath": "http://localhost:8080/app.cdd9b8467d5bdeba.hot-update.json"
+    },
+    "app.ce00b44ea453c5cc.hot-update.js": {
+      "name": "app.ce00b44ea453c5cc.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.ce00b44ea453c5cc.hot-update.js",
+      "publicPath": "http://localhost:8080/app.ce00b44ea453c5cc.hot-update.js"
+    },
+    "app.ce00b44ea453c5cc.hot-update.json": {
+      "name": "app.ce00b44ea453c5cc.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.ce00b44ea453c5cc.hot-update.json",
+      "publicPath": "http://localhost:8080/app.ce00b44ea453c5cc.hot-update.json"
+    },
+    "app.cebf42391c8c4dca.hot-update.js": {
+      "name": "app.cebf42391c8c4dca.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.cebf42391c8c4dca.hot-update.js",
+      "publicPath": "http://localhost:8080/app.cebf42391c8c4dca.hot-update.js"
+    },
+    "app.cebf42391c8c4dca.hot-update.json": {
+      "name": "app.cebf42391c8c4dca.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.cebf42391c8c4dca.hot-update.json",
+      "publicPath": "http://localhost:8080/app.cebf42391c8c4dca.hot-update.json"
+    },
+    "app.cf8c5aac3f7b30cd.hot-update.js": {
+      "name": "app.cf8c5aac3f7b30cd.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.cf8c5aac3f7b30cd.hot-update.js",
+      "publicPath": "http://localhost:8080/app.cf8c5aac3f7b30cd.hot-update.js"
+    },
+    "app.cf8c5aac3f7b30cd.hot-update.json": {
+      "name": "app.cf8c5aac3f7b30cd.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.cf8c5aac3f7b30cd.hot-update.json",
+      "publicPath": "http://localhost:8080/app.cf8c5aac3f7b30cd.hot-update.json"
+    },
+    "app.d309a4c707e8ef0f.hot-update.js": {
+      "name": "app.d309a4c707e8ef0f.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.d309a4c707e8ef0f.hot-update.js",
+      "publicPath": "http://localhost:8080/app.d309a4c707e8ef0f.hot-update.js"
+    },
+    "app.d309a4c707e8ef0f.hot-update.json": {
+      "name": "app.d309a4c707e8ef0f.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.d309a4c707e8ef0f.hot-update.json",
+      "publicPath": "http://localhost:8080/app.d309a4c707e8ef0f.hot-update.json"
+    },
+    "app.d380449998d0185c.hot-update.js": {
+      "name": "app.d380449998d0185c.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.d380449998d0185c.hot-update.js",
+      "publicPath": "http://localhost:8080/app.d380449998d0185c.hot-update.js"
+    },
+    "app.d380449998d0185c.hot-update.json": {
+      "name": "app.d380449998d0185c.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.d380449998d0185c.hot-update.json",
+      "publicPath": "http://localhost:8080/app.d380449998d0185c.hot-update.json"
+    },
+    "app.d56d5b9d5cb87303.hot-update.js": {
+      "name": "app.d56d5b9d5cb87303.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.d56d5b9d5cb87303.hot-update.js",
+      "publicPath": "http://localhost:8080/app.d56d5b9d5cb87303.hot-update.js"
+    },
+    "app.d56d5b9d5cb87303.hot-update.json": {
+      "name": "app.d56d5b9d5cb87303.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.d56d5b9d5cb87303.hot-update.json",
+      "publicPath": "http://localhost:8080/app.d56d5b9d5cb87303.hot-update.json"
+    },
+    "app.d573364983942273.hot-update.js": {
+      "name": "app.d573364983942273.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.d573364983942273.hot-update.js",
+      "publicPath": "http://localhost:8080/app.d573364983942273.hot-update.js"
+    },
+    "app.d573364983942273.hot-update.json": {
+      "name": "app.d573364983942273.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.d573364983942273.hot-update.json",
+      "publicPath": "http://localhost:8080/app.d573364983942273.hot-update.json"
+    },
+    "app.d79f76328c8d9dea.hot-update.js": {
+      "name": "app.d79f76328c8d9dea.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.d79f76328c8d9dea.hot-update.js",
+      "publicPath": "http://localhost:8080/app.d79f76328c8d9dea.hot-update.js"
+    },
+    "app.d79f76328c8d9dea.hot-update.json": {
+      "name": "app.d79f76328c8d9dea.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.d79f76328c8d9dea.hot-update.json",
+      "publicPath": "http://localhost:8080/app.d79f76328c8d9dea.hot-update.json"
+    },
+    "app.d8f9710b54e6538f.hot-update.js": {
+      "name": "app.d8f9710b54e6538f.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.d8f9710b54e6538f.hot-update.js",
+      "publicPath": "http://localhost:8080/app.d8f9710b54e6538f.hot-update.js"
+    },
+    "app.d8f9710b54e6538f.hot-update.json": {
+      "name": "app.d8f9710b54e6538f.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.d8f9710b54e6538f.hot-update.json",
+      "publicPath": "http://localhost:8080/app.d8f9710b54e6538f.hot-update.json"
+    },
+    "app.da333862ae274cff.hot-update.js": {
+      "name": "app.da333862ae274cff.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.da333862ae274cff.hot-update.js",
+      "publicPath": "http://localhost:8080/app.da333862ae274cff.hot-update.js"
+    },
+    "app.da333862ae274cff.hot-update.json": {
+      "name": "app.da333862ae274cff.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.da333862ae274cff.hot-update.json",
+      "publicPath": "http://localhost:8080/app.da333862ae274cff.hot-update.json"
+    },
+    "app.daa0e60db41a4433.hot-update.js": {
+      "name": "app.daa0e60db41a4433.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.daa0e60db41a4433.hot-update.js",
+      "publicPath": "http://localhost:8080/app.daa0e60db41a4433.hot-update.js"
+    },
+    "app.daa0e60db41a4433.hot-update.json": {
+      "name": "app.daa0e60db41a4433.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.daa0e60db41a4433.hot-update.json",
+      "publicPath": "http://localhost:8080/app.daa0e60db41a4433.hot-update.json"
+    },
+    "app.df3a4f58252cd2c7.hot-update.js": {
+      "name": "app.df3a4f58252cd2c7.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.df3a4f58252cd2c7.hot-update.js",
+      "publicPath": "http://localhost:8080/app.df3a4f58252cd2c7.hot-update.js"
+    },
+    "app.df3a4f58252cd2c7.hot-update.json": {
+      "name": "app.df3a4f58252cd2c7.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.df3a4f58252cd2c7.hot-update.json",
+      "publicPath": "http://localhost:8080/app.df3a4f58252cd2c7.hot-update.json"
+    },
+    "app.df9369e6ad827fa3.hot-update.js": {
+      "name": "app.df9369e6ad827fa3.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.df9369e6ad827fa3.hot-update.js",
+      "publicPath": "http://localhost:8080/app.df9369e6ad827fa3.hot-update.js"
+    },
+    "app.df9369e6ad827fa3.hot-update.json": {
+      "name": "app.df9369e6ad827fa3.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.df9369e6ad827fa3.hot-update.json",
+      "publicPath": "http://localhost:8080/app.df9369e6ad827fa3.hot-update.json"
+    },
+    "app.e08ed3903e82f60d.hot-update.js": {
+      "name": "app.e08ed3903e82f60d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e08ed3903e82f60d.hot-update.js",
+      "publicPath": "http://localhost:8080/app.e08ed3903e82f60d.hot-update.js"
+    },
+    "app.e08ed3903e82f60d.hot-update.json": {
+      "name": "app.e08ed3903e82f60d.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e08ed3903e82f60d.hot-update.json",
+      "publicPath": "http://localhost:8080/app.e08ed3903e82f60d.hot-update.json"
+    },
+    "app.e26a206a98b23c53.hot-update.js": {
+      "name": "app.e26a206a98b23c53.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e26a206a98b23c53.hot-update.js",
+      "publicPath": "http://localhost:8080/app.e26a206a98b23c53.hot-update.js"
+    },
+    "app.e26a206a98b23c53.hot-update.json": {
+      "name": "app.e26a206a98b23c53.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e26a206a98b23c53.hot-update.json",
+      "publicPath": "http://localhost:8080/app.e26a206a98b23c53.hot-update.json"
+    },
+    "app.e2be0492e2fc70ee.hot-update.js": {
+      "name": "app.e2be0492e2fc70ee.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e2be0492e2fc70ee.hot-update.js",
+      "publicPath": "http://localhost:8080/app.e2be0492e2fc70ee.hot-update.js"
+    },
+    "app.e2be0492e2fc70ee.hot-update.json": {
+      "name": "app.e2be0492e2fc70ee.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e2be0492e2fc70ee.hot-update.json",
+      "publicPath": "http://localhost:8080/app.e2be0492e2fc70ee.hot-update.json"
+    },
+    "app.e4951de850ba36fb.hot-update.js": {
+      "name": "app.e4951de850ba36fb.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e4951de850ba36fb.hot-update.js",
+      "publicPath": "http://localhost:8080/app.e4951de850ba36fb.hot-update.js"
+    },
+    "app.e4951de850ba36fb.hot-update.json": {
+      "name": "app.e4951de850ba36fb.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e4951de850ba36fb.hot-update.json",
+      "publicPath": "http://localhost:8080/app.e4951de850ba36fb.hot-update.json"
+    },
+    "app.e51666f8d6b64678.hot-update.js": {
+      "name": "app.e51666f8d6b64678.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e51666f8d6b64678.hot-update.js",
+      "publicPath": "http://localhost:8080/app.e51666f8d6b64678.hot-update.js"
+    },
+    "app.e51666f8d6b64678.hot-update.json": {
+      "name": "app.e51666f8d6b64678.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e51666f8d6b64678.hot-update.json",
+      "publicPath": "http://localhost:8080/app.e51666f8d6b64678.hot-update.json"
+    },
+    "app.e591c9c21f0db0bb.hot-update.js": {
+      "name": "app.e591c9c21f0db0bb.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e591c9c21f0db0bb.hot-update.js",
+      "publicPath": "http://localhost:8080/app.e591c9c21f0db0bb.hot-update.js"
+    },
+    "app.e591c9c21f0db0bb.hot-update.json": {
+      "name": "app.e591c9c21f0db0bb.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e591c9c21f0db0bb.hot-update.json",
+      "publicPath": "http://localhost:8080/app.e591c9c21f0db0bb.hot-update.json"
+    },
+    "app.e6368906c3c0eda4.hot-update.js": {
+      "name": "app.e6368906c3c0eda4.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e6368906c3c0eda4.hot-update.js",
+      "publicPath": "http://localhost:8080/app.e6368906c3c0eda4.hot-update.js"
+    },
+    "app.e6368906c3c0eda4.hot-update.json": {
+      "name": "app.e6368906c3c0eda4.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e6368906c3c0eda4.hot-update.json",
+      "publicPath": "http://localhost:8080/app.e6368906c3c0eda4.hot-update.json"
+    },
+    "app.e8566c2679d09b8a.hot-update.js": {
+      "name": "app.e8566c2679d09b8a.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e8566c2679d09b8a.hot-update.js",
+      "publicPath": "http://localhost:8080/app.e8566c2679d09b8a.hot-update.js"
+    },
+    "app.e8566c2679d09b8a.hot-update.json": {
+      "name": "app.e8566c2679d09b8a.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.e8566c2679d09b8a.hot-update.json",
+      "publicPath": "http://localhost:8080/app.e8566c2679d09b8a.hot-update.json"
+    },
+    "app.eb642b0ea9c079e7.hot-update.js": {
+      "name": "app.eb642b0ea9c079e7.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.eb642b0ea9c079e7.hot-update.js",
+      "publicPath": "http://localhost:8080/app.eb642b0ea9c079e7.hot-update.js"
+    },
+    "app.eb642b0ea9c079e7.hot-update.json": {
+      "name": "app.eb642b0ea9c079e7.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.eb642b0ea9c079e7.hot-update.json",
+      "publicPath": "http://localhost:8080/app.eb642b0ea9c079e7.hot-update.json"
+    },
+    "app.eb668b1843fb8b0f.hot-update.js": {
+      "name": "app.eb668b1843fb8b0f.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.eb668b1843fb8b0f.hot-update.js",
+      "publicPath": "http://localhost:8080/app.eb668b1843fb8b0f.hot-update.js"
+    },
+    "app.eb668b1843fb8b0f.hot-update.json": {
+      "name": "app.eb668b1843fb8b0f.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.eb668b1843fb8b0f.hot-update.json",
+      "publicPath": "http://localhost:8080/app.eb668b1843fb8b0f.hot-update.json"
+    },
+    "app.f05c8e53a972beec.hot-update.js": {
+      "name": "app.f05c8e53a972beec.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.f05c8e53a972beec.hot-update.js",
+      "publicPath": "http://localhost:8080/app.f05c8e53a972beec.hot-update.js"
+    },
+    "app.f05c8e53a972beec.hot-update.json": {
+      "name": "app.f05c8e53a972beec.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.f05c8e53a972beec.hot-update.json",
+      "publicPath": "http://localhost:8080/app.f05c8e53a972beec.hot-update.json"
+    },
+    "app.f60122625efd9acf.hot-update.js": {
+      "name": "app.f60122625efd9acf.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.f60122625efd9acf.hot-update.js",
+      "publicPath": "http://localhost:8080/app.f60122625efd9acf.hot-update.js"
+    },
+    "app.f60122625efd9acf.hot-update.json": {
+      "name": "app.f60122625efd9acf.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.f60122625efd9acf.hot-update.json",
+      "publicPath": "http://localhost:8080/app.f60122625efd9acf.hot-update.json"
+    },
+    "app.f7cc3d25f1190e0f.hot-update.js": {
+      "name": "app.f7cc3d25f1190e0f.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.f7cc3d25f1190e0f.hot-update.js",
+      "publicPath": "http://localhost:8080/app.f7cc3d25f1190e0f.hot-update.js"
+    },
+    "app.f7cc3d25f1190e0f.hot-update.json": {
+      "name": "app.f7cc3d25f1190e0f.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.f7cc3d25f1190e0f.hot-update.json",
+      "publicPath": "http://localhost:8080/app.f7cc3d25f1190e0f.hot-update.json"
+    },
+    "app.f82d73ba176fb2b6.hot-update.js": {
+      "name": "app.f82d73ba176fb2b6.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.f82d73ba176fb2b6.hot-update.js",
+      "publicPath": "http://localhost:8080/app.f82d73ba176fb2b6.hot-update.js"
+    },
+    "app.f82d73ba176fb2b6.hot-update.json": {
+      "name": "app.f82d73ba176fb2b6.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.f82d73ba176fb2b6.hot-update.json",
+      "publicPath": "http://localhost:8080/app.f82d73ba176fb2b6.hot-update.json"
+    },
+    "app.fa220f6e1769ffa4.hot-update.js": {
+      "name": "app.fa220f6e1769ffa4.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.fa220f6e1769ffa4.hot-update.js",
+      "publicPath": "http://localhost:8080/app.fa220f6e1769ffa4.hot-update.js"
+    },
+    "app.fa220f6e1769ffa4.hot-update.json": {
+      "name": "app.fa220f6e1769ffa4.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.fa220f6e1769ffa4.hot-update.json",
+      "publicPath": "http://localhost:8080/app.fa220f6e1769ffa4.hot-update.json"
+    },
+    "app.fda17ebb7fc28746.hot-update.js": {
+      "name": "app.fda17ebb7fc28746.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.fda17ebb7fc28746.hot-update.js",
+      "publicPath": "http://localhost:8080/app.fda17ebb7fc28746.hot-update.js"
+    },
+    "app.fda17ebb7fc28746.hot-update.json": {
+      "name": "app.fda17ebb7fc28746.hot-update.json",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\app.fda17ebb7fc28746.hot-update.json",
+      "publicPath": "http://localhost:8080/app.fda17ebb7fc28746.hot-update.json"
+    },
     "favicon.ico": {
       "name": "favicon.ico",
       "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\favicon.ico",
-      "publicPath": "http://0.0.0.0:8080/favicon.ico"
+      "publicPath": "http://localhost:8080/favicon.ico"
+    },
+    "fonts/fa-brands-400-1.e313a105.eot": {
+      "name": "fonts/fa-brands-400-1.e313a105.eot",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-brands-400-1.e313a105.eot",
+      "publicPath": "http://localhost:8080/fonts/fa-brands-400-1.e313a105.eot"
+    },
+    "fonts/fa-brands-400.486a2eb5.woff": {
+      "name": "fonts/fa-brands-400.486a2eb5.woff",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-brands-400.486a2eb5.woff",
+      "publicPath": "http://localhost:8080/fonts/fa-brands-400.486a2eb5.woff"
+    },
+    "fonts/fa-brands-400.9936233a.woff2": {
+      "name": "fonts/fa-brands-400.9936233a.woff2",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-brands-400.9936233a.woff2",
+      "publicPath": "http://localhost:8080/fonts/fa-brands-400.9936233a.woff2"
+    },
+    "fonts/fa-brands-400.e313a105.eot": {
+      "name": "fonts/fa-brands-400.e313a105.eot",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-brands-400.e313a105.eot",
+      "publicPath": "http://localhost:8080/fonts/fa-brands-400.e313a105.eot"
+    },
+    "fonts/fa-brands-400.f6e6ea55.ttf": {
+      "name": "fonts/fa-brands-400.f6e6ea55.ttf",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-brands-400.f6e6ea55.ttf",
+      "publicPath": "http://localhost:8080/fonts/fa-brands-400.f6e6ea55.ttf"
+    },
+    "fonts/fa-regular-400-1.d254e0d2.eot": {
+      "name": "fonts/fa-regular-400-1.d254e0d2.eot",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-regular-400-1.d254e0d2.eot",
+      "publicPath": "http://localhost:8080/fonts/fa-regular-400-1.d254e0d2.eot"
+    },
+    "fonts/fa-regular-400.8aea09d1.ttf": {
+      "name": "fonts/fa-regular-400.8aea09d1.ttf",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-regular-400.8aea09d1.ttf",
+      "publicPath": "http://localhost:8080/fonts/fa-regular-400.8aea09d1.ttf"
+    },
+    "fonts/fa-regular-400.d254e0d2.eot": {
+      "name": "fonts/fa-regular-400.d254e0d2.eot",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-regular-400.d254e0d2.eot",
+      "publicPath": "http://localhost:8080/fonts/fa-regular-400.d254e0d2.eot"
+    },
+    "fonts/fa-regular-400.e69b40ba.woff2": {
+      "name": "fonts/fa-regular-400.e69b40ba.woff2",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-regular-400.e69b40ba.woff2",
+      "publicPath": "http://localhost:8080/fonts/fa-regular-400.e69b40ba.woff2"
+    },
+    "fonts/fa-regular-400.f1112a6c.woff": {
+      "name": "fonts/fa-regular-400.f1112a6c.woff",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-regular-400.f1112a6c.woff",
+      "publicPath": "http://localhost:8080/fonts/fa-regular-400.f1112a6c.woff"
+    },
+    "fonts/fa-solid-900-1.ca6ffe6c.eot": {
+      "name": "fonts/fa-solid-900-1.ca6ffe6c.eot",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-solid-900-1.ca6ffe6c.eot",
+      "publicPath": "http://localhost:8080/fonts/fa-solid-900-1.ca6ffe6c.eot"
+    },
+    "fonts/fa-solid-900.7e3c01a6.woff": {
+      "name": "fonts/fa-solid-900.7e3c01a6.woff",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-solid-900.7e3c01a6.woff",
+      "publicPath": "http://localhost:8080/fonts/fa-solid-900.7e3c01a6.woff"
+    },
+    "fonts/fa-solid-900.a27a17e7.ttf": {
+      "name": "fonts/fa-solid-900.a27a17e7.ttf",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-solid-900.a27a17e7.ttf",
+      "publicPath": "http://localhost:8080/fonts/fa-solid-900.a27a17e7.ttf"
+    },
+    "fonts/fa-solid-900.b1b68d1d.woff2": {
+      "name": "fonts/fa-solid-900.b1b68d1d.woff2",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-solid-900.b1b68d1d.woff2",
+      "publicPath": "http://localhost:8080/fonts/fa-solid-900.b1b68d1d.woff2"
+    },
+    "fonts/fa-solid-900.ca6ffe6c.eot": {
+      "name": "fonts/fa-solid-900.ca6ffe6c.eot",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\fonts\\fa-solid-900.ca6ffe6c.eot",
+      "publicPath": "http://localhost:8080/fonts/fa-solid-900.ca6ffe6c.eot"
+    },
+    "img/fa-brands-400.0f991faf.svg": {
+      "name": "img/fa-brands-400.0f991faf.svg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\fa-brands-400.0f991faf.svg",
+      "publicPath": "http://localhost:8080/img/fa-brands-400.0f991faf.svg"
+    },
+    "img/fa-regular-400.9002a410.svg": {
+      "name": "img/fa-regular-400.9002a410.svg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\fa-regular-400.9002a410.svg",
+      "publicPath": "http://localhost:8080/img/fa-regular-400.9002a410.svg"
+    },
+    "img/fa-solid-900.7d9d2acf.svg": {
+      "name": "img/fa-solid-900.7d9d2acf.svg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\fa-solid-900.7d9d2acf.svg",
+      "publicPath": "http://localhost:8080/img/fa-solid-900.7d9d2acf.svg"
+    },
+    "img/img1.f9834bb9.jpg": {
+      "name": "img/img1.f9834bb9.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\img1.f9834bb9.jpg",
+      "publicPath": "http://localhost:8080/img/img1.f9834bb9.jpg"
+    },
+    "img/img2.f38555b5.jpg": {
+      "name": "img/img2.f38555b5.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\img2.f38555b5.jpg",
+      "publicPath": "http://localhost:8080/img/img2.f38555b5.jpg"
+    },
+    "img/img24.260f453b.jpg": {
+      "name": "img/img24.260f453b.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\img24.260f453b.jpg",
+      "publicPath": "http://localhost:8080/img/img24.260f453b.jpg"
+    },
+    "img/img3.ab46a3be.jpg": {
+      "name": "img/img3.ab46a3be.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\img3.ab46a3be.jpg",
+      "publicPath": "http://localhost:8080/img/img3.ab46a3be.jpg"
+    },
+    "img/img4.4af92b80.jpg": {
+      "name": "img/img4.4af92b80.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\img4.4af92b80.jpg",
+      "publicPath": "http://localhost:8080/img/img4.4af92b80.jpg"
+    },
+    "img/img5.1f7cd7fe.jpg": {
+      "name": "img/img5.1f7cd7fe.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\img5.1f7cd7fe.jpg",
+      "publicPath": "http://localhost:8080/img/img5.1f7cd7fe.jpg"
+    },
+    "img/img6.a4066c95.jpg": {
+      "name": "img/img6.a4066c95.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\img6.a4066c95.jpg",
+      "publicPath": "http://localhost:8080/img/img6.a4066c95.jpg"
+    },
+    "img/img7.331d0112.jpg": {
+      "name": "img/img7.331d0112.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\img7.331d0112.jpg",
+      "publicPath": "http://localhost:8080/img/img7.331d0112.jpg"
+    },
+    "img/img8.282fe573.jpg": {
+      "name": "img/img8.282fe573.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\img8.282fe573.jpg",
+      "publicPath": "http://localhost:8080/img/img8.282fe573.jpg"
+    },
+    "img/loading.99fd1e91.gif": {
+      "name": "img/loading.99fd1e91.gif",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\loading.99fd1e91.gif",
+      "publicPath": "http://localhost:8080/img/loading.99fd1e91.gif"
+    },
+    "img/slick.b3d9b478.svg": {
+      "name": "img/slick.b3d9b478.svg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\slick.b3d9b478.svg",
+      "publicPath": "http://localhost:8080/img/slick.b3d9b478.svg"
+    },
+    "img/slider-banner-1.5be62589.jpg": {
+      "name": "img/slider-banner-1.5be62589.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\slider-banner-1.5be62589.jpg",
+      "publicPath": "http://localhost:8080/img/slider-banner-1.5be62589.jpg"
+    },
+    "img/slider-banner-2.801c4920.jpg": {
+      "name": "img/slider-banner-2.801c4920.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\slider-banner-2.801c4920.jpg",
+      "publicPath": "http://localhost:8080/img/slider-banner-2.801c4920.jpg"
+    },
+    "img/slider-banner-3.ef63454c.jpg": {
+      "name": "img/slider-banner-3.ef63454c.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\slider-banner-3.ef63454c.jpg",
+      "publicPath": "http://localhost:8080/img/slider-banner-3.ef63454c.jpg"
+    },
+    "img/slider-banner-4.ccb005dd.jpg": {
+      "name": "img/slider-banner-4.ccb005dd.jpg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\slider-banner-4.ccb005dd.jpg",
+      "publicPath": "http://localhost:8080/img/slider-banner-4.ccb005dd.jpg"
+    },
+    "img/WL_main_logo_blue.ba9db4d9.svg": {
+      "name": "img/WL_main_logo_blue.ba9db4d9.svg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\WL_main_logo_blue.ba9db4d9.svg",
+      "publicPath": "http://localhost:8080/img/WL_main_logo_blue.ba9db4d9.svg"
+    },
+    "img/WL_main_logo_white.b5859e75.svg": {
+      "name": "img/WL_main_logo_white.b5859e75.svg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\WL_main_logo_white.b5859e75.svg",
+      "publicPath": "http://localhost:8080/img/WL_main_logo_white.b5859e75.svg"
+    },
+    "img/WL_slogan_white.ffe5ee47.svg": {
+      "name": "img/WL_slogan_white.ffe5ee47.svg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\WL_slogan_white.ffe5ee47.svg",
+      "publicPath": "http://localhost:8080/img/WL_slogan_white.ffe5ee47.svg"
+    },
+    "img/WL_slogan.5daf673b.svg": {
+      "name": "img/WL_slogan.5daf673b.svg",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\img\\WL_slogan.5daf673b.svg",
+      "publicPath": "http://localhost:8080/img/WL_slogan.5daf673b.svg"
     },
     "index.html": {
       "name": "index.html",
       "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\index.html",
-      "publicPath": "http://0.0.0.0:8080/index.html"
+      "publicPath": "http://localhost:8080/index.html"
     },
     "js/about.js": {
       "name": "js/about.js",
       "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\js\\about.js",
-      "publicPath": "http://0.0.0.0:8080/js/about.js"
+      "publicPath": "http://localhost:8080/js/about.js"
     },
     "js/app.js": {
       "name": "js/app.js",
       "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\js\\app.js",
-      "publicPath": "http://0.0.0.0:8080/js/app.js"
+      "publicPath": "http://localhost:8080/js/app.js"
+    },
+    "js/home.js": {
+      "name": "js/home.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\js\\home.js",
+      "publicPath": "http://localhost:8080/js/home.js"
+    },
+    "js/src_views_HomeView_vue.js": {
+      "name": "js/src_views_HomeView_vue.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\js\\src_views_HomeView_vue.js",
+      "publicPath": "http://localhost:8080/js/src_views_HomeView_vue.js"
+    },
+    "src_views_HomeView_vue.004b94ba0f40e9f4.hot-update.js": {
+      "name": "src_views_HomeView_vue.004b94ba0f40e9f4.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.004b94ba0f40e9f4.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.004b94ba0f40e9f4.hot-update.js"
+    },
+    "src_views_HomeView_vue.05ef4691309e3900.hot-update.js": {
+      "name": "src_views_HomeView_vue.05ef4691309e3900.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.05ef4691309e3900.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.05ef4691309e3900.hot-update.js"
+    },
+    "src_views_HomeView_vue.121184c04843f85f.hot-update.js": {
+      "name": "src_views_HomeView_vue.121184c04843f85f.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.121184c04843f85f.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.121184c04843f85f.hot-update.js"
+    },
+    "src_views_HomeView_vue.14cac2225accd80a.hot-update.js": {
+      "name": "src_views_HomeView_vue.14cac2225accd80a.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.14cac2225accd80a.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.14cac2225accd80a.hot-update.js"
+    },
+    "src_views_HomeView_vue.16c2f932448e929b.hot-update.js": {
+      "name": "src_views_HomeView_vue.16c2f932448e929b.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.16c2f932448e929b.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.16c2f932448e929b.hot-update.js"
+    },
+    "src_views_HomeView_vue.18e4df6676e51aa2.hot-update.js": {
+      "name": "src_views_HomeView_vue.18e4df6676e51aa2.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.18e4df6676e51aa2.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.18e4df6676e51aa2.hot-update.js"
+    },
+    "src_views_HomeView_vue.1e80fbd07f8a2d8b.hot-update.js": {
+      "name": "src_views_HomeView_vue.1e80fbd07f8a2d8b.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.1e80fbd07f8a2d8b.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.1e80fbd07f8a2d8b.hot-update.js"
+    },
+    "src_views_HomeView_vue.222105bfdd7ef6ea.hot-update.js": {
+      "name": "src_views_HomeView_vue.222105bfdd7ef6ea.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.222105bfdd7ef6ea.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.222105bfdd7ef6ea.hot-update.js"
+    },
+    "src_views_HomeView_vue.2c3d5e5588894f76.hot-update.js": {
+      "name": "src_views_HomeView_vue.2c3d5e5588894f76.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.2c3d5e5588894f76.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.2c3d5e5588894f76.hot-update.js"
+    },
+    "src_views_HomeView_vue.36e612fba4c8a3a6.hot-update.js": {
+      "name": "src_views_HomeView_vue.36e612fba4c8a3a6.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.36e612fba4c8a3a6.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.36e612fba4c8a3a6.hot-update.js"
+    },
+    "src_views_HomeView_vue.4ac6e46e2614167a.hot-update.js": {
+      "name": "src_views_HomeView_vue.4ac6e46e2614167a.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.4ac6e46e2614167a.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.4ac6e46e2614167a.hot-update.js"
+    },
+    "src_views_HomeView_vue.4c11dead0be054ba.hot-update.js": {
+      "name": "src_views_HomeView_vue.4c11dead0be054ba.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.4c11dead0be054ba.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.4c11dead0be054ba.hot-update.js"
+    },
+    "src_views_HomeView_vue.58935f017eed121e.hot-update.js": {
+      "name": "src_views_HomeView_vue.58935f017eed121e.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.58935f017eed121e.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.58935f017eed121e.hot-update.js"
+    },
+    "src_views_HomeView_vue.5aecda5529c8f9dc.hot-update.js": {
+      "name": "src_views_HomeView_vue.5aecda5529c8f9dc.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.5aecda5529c8f9dc.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.5aecda5529c8f9dc.hot-update.js"
+    },
+    "src_views_HomeView_vue.64016e936ae8ec87.hot-update.js": {
+      "name": "src_views_HomeView_vue.64016e936ae8ec87.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.64016e936ae8ec87.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.64016e936ae8ec87.hot-update.js"
+    },
+    "src_views_HomeView_vue.65d05e224d2ee050.hot-update.js": {
+      "name": "src_views_HomeView_vue.65d05e224d2ee050.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.65d05e224d2ee050.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.65d05e224d2ee050.hot-update.js"
+    },
+    "src_views_HomeView_vue.66ebe11931bded27.hot-update.js": {
+      "name": "src_views_HomeView_vue.66ebe11931bded27.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.66ebe11931bded27.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.66ebe11931bded27.hot-update.js"
+    },
+    "src_views_HomeView_vue.6cbee01008bec2be.hot-update.js": {
+      "name": "src_views_HomeView_vue.6cbee01008bec2be.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.6cbee01008bec2be.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.6cbee01008bec2be.hot-update.js"
+    },
+    "src_views_HomeView_vue.6d481b5108979dad.hot-update.js": {
+      "name": "src_views_HomeView_vue.6d481b5108979dad.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.6d481b5108979dad.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.6d481b5108979dad.hot-update.js"
+    },
+    "src_views_HomeView_vue.6e9127ee3370c91f.hot-update.js": {
+      "name": "src_views_HomeView_vue.6e9127ee3370c91f.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.6e9127ee3370c91f.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.6e9127ee3370c91f.hot-update.js"
+    },
+    "src_views_HomeView_vue.70436d3b02d61350.hot-update.js": {
+      "name": "src_views_HomeView_vue.70436d3b02d61350.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.70436d3b02d61350.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.70436d3b02d61350.hot-update.js"
+    },
+    "src_views_HomeView_vue.76473eca9aee0946.hot-update.js": {
+      "name": "src_views_HomeView_vue.76473eca9aee0946.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.76473eca9aee0946.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.76473eca9aee0946.hot-update.js"
+    },
+    "src_views_HomeView_vue.7726c9764e2ea83d.hot-update.js": {
+      "name": "src_views_HomeView_vue.7726c9764e2ea83d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.7726c9764e2ea83d.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.7726c9764e2ea83d.hot-update.js"
+    },
+    "src_views_HomeView_vue.7af5e06dc927be93.hot-update.js": {
+      "name": "src_views_HomeView_vue.7af5e06dc927be93.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.7af5e06dc927be93.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.7af5e06dc927be93.hot-update.js"
+    },
+    "src_views_HomeView_vue.7dfd4ca4aa9a7938.hot-update.js": {
+      "name": "src_views_HomeView_vue.7dfd4ca4aa9a7938.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.7dfd4ca4aa9a7938.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.7dfd4ca4aa9a7938.hot-update.js"
+    },
+    "src_views_HomeView_vue.7f439d0035d4e285.hot-update.js": {
+      "name": "src_views_HomeView_vue.7f439d0035d4e285.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.7f439d0035d4e285.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.7f439d0035d4e285.hot-update.js"
+    },
+    "src_views_HomeView_vue.7fa9601a9944f86d.hot-update.js": {
+      "name": "src_views_HomeView_vue.7fa9601a9944f86d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.7fa9601a9944f86d.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.7fa9601a9944f86d.hot-update.js"
+    },
+    "src_views_HomeView_vue.813f73aea0359228.hot-update.js": {
+      "name": "src_views_HomeView_vue.813f73aea0359228.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.813f73aea0359228.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.813f73aea0359228.hot-update.js"
+    },
+    "src_views_HomeView_vue.87719c768e91db8b.hot-update.js": {
+      "name": "src_views_HomeView_vue.87719c768e91db8b.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.87719c768e91db8b.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.87719c768e91db8b.hot-update.js"
+    },
+    "src_views_HomeView_vue.a16eed1b3cb312fb.hot-update.js": {
+      "name": "src_views_HomeView_vue.a16eed1b3cb312fb.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.a16eed1b3cb312fb.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.a16eed1b3cb312fb.hot-update.js"
+    },
+    "src_views_HomeView_vue.a26fc9c7ca0db990.hot-update.js": {
+      "name": "src_views_HomeView_vue.a26fc9c7ca0db990.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.a26fc9c7ca0db990.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.a26fc9c7ca0db990.hot-update.js"
+    },
+    "src_views_HomeView_vue.a452098c85fc196d.hot-update.js": {
+      "name": "src_views_HomeView_vue.a452098c85fc196d.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.a452098c85fc196d.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.a452098c85fc196d.hot-update.js"
+    },
+    "src_views_HomeView_vue.b4014898fb65892c.hot-update.js": {
+      "name": "src_views_HomeView_vue.b4014898fb65892c.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.b4014898fb65892c.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.b4014898fb65892c.hot-update.js"
+    },
+    "src_views_HomeView_vue.b77cacb96860b1c5.hot-update.js": {
+      "name": "src_views_HomeView_vue.b77cacb96860b1c5.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.b77cacb96860b1c5.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.b77cacb96860b1c5.hot-update.js"
+    },
+    "src_views_HomeView_vue.ca34b11785c2a3e9.hot-update.js": {
+      "name": "src_views_HomeView_vue.ca34b11785c2a3e9.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.ca34b11785c2a3e9.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.ca34b11785c2a3e9.hot-update.js"
+    },
+    "src_views_HomeView_vue.cebf42391c8c4dca.hot-update.js": {
+      "name": "src_views_HomeView_vue.cebf42391c8c4dca.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.cebf42391c8c4dca.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.cebf42391c8c4dca.hot-update.js"
+    },
+    "src_views_HomeView_vue.df9369e6ad827fa3.hot-update.js": {
+      "name": "src_views_HomeView_vue.df9369e6ad827fa3.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.df9369e6ad827fa3.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.df9369e6ad827fa3.hot-update.js"
+    },
+    "src_views_HomeView_vue.e4951de850ba36fb.hot-update.js": {
+      "name": "src_views_HomeView_vue.e4951de850ba36fb.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.e4951de850ba36fb.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.e4951de850ba36fb.hot-update.js"
+    },
+    "src_views_HomeView_vue.e8566c2679d09b8a.hot-update.js": {
+      "name": "src_views_HomeView_vue.e8566c2679d09b8a.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.e8566c2679d09b8a.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.e8566c2679d09b8a.hot-update.js"
+    },
+    "src_views_HomeView_vue.eb642b0ea9c079e7.hot-update.js": {
+      "name": "src_views_HomeView_vue.eb642b0ea9c079e7.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.eb642b0ea9c079e7.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.eb642b0ea9c079e7.hot-update.js"
+    },
+    "src_views_HomeView_vue.f82d73ba176fb2b6.hot-update.js": {
+      "name": "src_views_HomeView_vue.f82d73ba176fb2b6.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.f82d73ba176fb2b6.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.f82d73ba176fb2b6.hot-update.js"
+    },
+    "src_views_HomeView_vue.fda17ebb7fc28746.hot-update.js": {
+      "name": "src_views_HomeView_vue.fda17ebb7fc28746.hot-update.js",
+      "path": "D:\\StalkeR\\Проекты на Vue CLI\\ocean\\myproject\\oceanview-frontend\\dist\\src_views_HomeView_vue.fda17ebb7fc28746.hot-update.js",
+      "publicPath": "http://localhost:8080/src_views_HomeView_vue.fda17ebb7fc28746.hot-update.js"
     }
   },
   "chunks": {
     "app": [
-      "js/app.js"
+      "js/app.js",
+      "app.04bf272ce763bac3.hot-update.js"
     ]
   },
-  "publicPath": "http://0.0.0.0:8080/"
+  "publicPath": "http://localhost:8080/",
+  "error": "CodeGenerationError",
+  "message": "The target environment doesn't support dynamic import() syntax so it's not possible to use external type 'module' within a script"
 }

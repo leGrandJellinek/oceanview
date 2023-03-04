@@ -2,7 +2,7 @@ const { defineConfig } = require('@vue/cli-service')
 const BundleTracker = require('webpack-bundle-tracker');
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: "http://0.0.0.0:8080",
+  publicPath: 'http://localhost:8080/',
   outputDir: "./dist/",  
 
   chainWebpack: config => {
@@ -17,7 +17,7 @@ module.exports = defineConfig({
       config.resolve.alias.set('__STATIC__', 'static')
 
       config.devServer
-          .host('0.0.0.0')
+          .host('localhost')
           .port(8080)
           .hot(true)
           .https(false)
@@ -25,5 +25,13 @@ module.exports = defineConfig({
       config.watchOptions({
         poll: 1000
       })
-  }
+  },
+  chainWebpack: (config) => {
+    config.module
+      .rule('pug')
+      .test(/\.pug$/)
+      .use('pug-plain-loader')
+      .loader('pug-plain-loader')
+      .end();
+  },
 })
