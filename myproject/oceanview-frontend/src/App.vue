@@ -1,5 +1,5 @@
 <template lang="pug">
-.wrapper 
+.wrapper
   Header
   router-view
   Footer
@@ -10,11 +10,23 @@ import { defineComponent } from 'vue';
 
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-
+import { useStore } from 'vuex';
 export default defineComponent({
+  methods:{
+  },
   components: {
     Header,
     Footer,
+  },
+  setup(
+    // props, { attrs }
+    ){
+      const store = useStore()
+      const currentlang = document.documentElement.lang
+      store.commit("setActiveLang", currentlang)
+    // const lang: string = attrs.lang;
+    // console.log(lang); // выводит значение атрибута lang в консоль
+    // return {};
   },
 })
 </script>

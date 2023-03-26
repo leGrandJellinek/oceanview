@@ -1516,7 +1516,7 @@ input[type=submit]:focus {
   margin-bottom: 0;
 }
 .site-identity img {
-  max-width: 170px;
+  max-width: 300px;
   -webkit-transition: opacity 0.4s linear;
   -moz-transition: opacity 0.4s linear;
   -ms-transition: opacity 0.4s linear;
@@ -1531,7 +1531,7 @@ input[type=submit]:focus {
 }
 @media screen and (max-width: 575px) {
   .site-identity img {
-    max-width: 120px;
+    max-width: 300px;
   }
 }
 
@@ -1884,7 +1884,7 @@ input[type=submit]:focus {
 
 /*---  fixed header css ---*/
 .bottom-header{
-  padding: 20px 0;
+  padding-top: 20px 0;
 }
 .bottom-header {
   -webkit-transition: background-color 0.5s linear;
@@ -2309,8 +2309,9 @@ input[type=submit]:focus {
   background-color: #0791BE;
 }
 
-.home-slider .slick-dots {
-  bottom: 100px;
+.home-slider{
+  height: 88vh;
+  overflow: hidden;
 }
 .home-slider .slick-arrow {
   -webkit-transition: linear 0.6s;
@@ -2350,18 +2351,14 @@ input[type=submit]:focus {
   }
 }
 
-.home-slider {
-  position: relative;
-  height: 88vh;
-  overflow: hidden;
-}
 .home-slider .home-banner-items .banner-content-wrap {
+  height: 80vh;
   padding-bottom: 230px;
 }
 .home-slider .banner-content {
   margin-left: auto;
   margin-right: auto;
-  max-width: 75%;
+  max-width: 70%;
 }
 
 .banner-inner-wrap {
@@ -2370,8 +2367,8 @@ input[type=submit]:focus {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: top top;
   background-repeat: no-repeat;
-  background-position: center center;
   position: absolute;
   bottom: 0;
   height: 100%;
@@ -2385,12 +2382,11 @@ input[type=submit]:focus {
 
 .home-banner-items {
   overflow: hidden;
-  height: 100vh;
   position: relative;
 }
 .home-banner-items .banner-content-wrap {
   padding-bottom: 140px;
-  padding-top: 230px;
+  padding-top: 260px;
 }
 .home-banner-items .banner-content {
   margin-left: auto;
@@ -2482,15 +2478,15 @@ input[type=submit]:focus {
   padding-bottom: 100px;
   position: relative;
 }
-/* .shape-search-section .slider-shape {
-  background-image: url(@/assets/images/slider-pattern.png);
+.shape-search-section .slider-shape {
+  /* background-image: url(@/assets/images/slider-pattern.png);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   content: "";
   height: 144px;
   width: 100%;
   margin-top: -70px;
-} */
+}
 @media screen and (min-width: 576px) {
   .shape-search-section .trip-search-inner {
     margin-top: -210px;
@@ -2723,7 +2719,7 @@ input[type=submit]:focus {
   color: #ffffff;
 }
 .desti-item .rating-start span:before {
-  color: #ffffff;
+  color: gold;
 }
 @media screen and (max-width: 991px) {
   .desti-item .desti-image img {
@@ -2759,7 +2755,7 @@ input[type=submit]:focus {
   font-size: 15px;
 }
 .rating-start:before {
-  color: #ccd6df;
+  color: #ffffff;
   content: "\f005\f005\f005\f005\f005";
   display: block;
   font-family: "Font Awesome 5 free";
@@ -4436,10 +4432,6 @@ Due to the split circle of progress-left and progress right, we must use the ani
 /*--------------------------------------------------------------
 >>> Main Footer
 ----------------------------------------------------------------*/
-.site-footer {
-  background-color: #383838;
-  /* padding-top: 80px; */
-}
 .site-footer .top-footer {
   padding-bottom: 55px;
 }
@@ -4506,7 +4498,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 @media screen and (max-width: 575px) {
   .site-footer {
-    padding-top: 50px;
+    padding-top: 20px;
   }
   .site-footer .top-footer {
     padding-bottom: 25px;
@@ -4577,16 +4569,16 @@ Due to the split circle of progress-left and progress right, we must use the ani
   }
 }
 
-/* .inner-shape {
-  background-image: url(@/assets/images/slider-pattern.png);
+.inner-shape {
+  /* background-image: url(@/assets/images/slider-pattern.png);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   content: "";
   height: 150px;
   width: 100%;
   margin-top: -100px;
   position: relative;
-} */
+}
 @media screen and (max-width: 991px) {
   .inner-shape {
     height: 105px;
@@ -4596,9 +4588,6 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .inner-banner-gray {
   background-color: #FAFAFA;
 }
-/* .inner-banner-gray .inner-shape {
-  background-image: url(@/assets/images/banner-pattern.png);
-} */
 
 .inner-baner-container {
   background-size: cover;
@@ -5184,7 +5173,7 @@ procduct details css
   line-height: 1.1;
 }
 .sidebar .package-price .rating-start:before {
-  color: #ffffff;
+  color: #ff0000;
 }
 .sidebar .map-area {
   margin-bottom: 50px;
@@ -6508,10 +6497,7 @@ procduct details css
   margin-bottom: 100px;
   z-index: 1;
 }
-/* .testimonial-page-section .testimonial-item:before {
-  background-image: url(@/assets/images/icon18.png);
-  background-repeat: no-repeat;
-  background-position: 40px 14px;
+.testimonial-page-section .testimonial-item:before {
   content: "";
   position: absolute;
   top: 0;
@@ -6520,7 +6506,7 @@ procduct details css
   height: 100%;
   opacity: 0.25;
   z-index: -1;
-} */
+}
 .testimonial-page-section .testimonial-item .testimonial-content p {
   font-size: 15px;
   font-style: normal;
@@ -8769,6 +8755,9 @@ product checkout css
 .footer-logo img{
   transform: scale(1.7);
 }
+.not-found-logo img{
+  transform: scale(1.4);
+}
 .no-item a::after{
   content: "" !important;
 }
@@ -8789,13 +8778,6 @@ product checkout css
   margin-top: 20px;
   position: relative;
 }
-/* .destination-section::after{
-  content: "";
-  background: url(@/assets/images/banner-pattern.png);
-  position: absolute;
-  width: 100%;
-  height: 200px;
-  top: -17%;
-  bottom: 0;
-  z-index: 90;
-} */
+.swiper-backface-hidden .swiper-slide{
+  height: 100vh;
+}

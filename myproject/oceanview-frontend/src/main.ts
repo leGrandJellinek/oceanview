@@ -3,7 +3,6 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-
 /* Стили и скрипты проекта */
 
 
@@ -28,9 +27,10 @@ import "@/assets/vendors/slick/slick-theme.css";
 import "@/assets/vendors/slick/slick.min.js";
 
 /* Custom */
-
-import "@/assets/styles/custom-style.css";
 import "@/assets/styles/style.css";
+import "@/assets/styles/custom-style.scss";
+import "@/assets/styles/media.css";
+
 
 
 createApp(App).use(store).use(router).mount('#app')
