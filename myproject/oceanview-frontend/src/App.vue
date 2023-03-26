@@ -22,6 +22,10 @@ export default defineComponent({
     // props, { attrs }
     ){
       const store = useStore()
+      const localLang =  localStorage.getItem('lang')
+      if (localLang) {
+        document.documentElement.lang = localLang
+      }
       const currentlang = document.documentElement.lang
       store.commit("setActiveLang", currentlang)
     // const lang: string = attrs.lang;

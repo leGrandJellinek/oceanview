@@ -89,11 +89,6 @@
             <div class="overlay"></div>
           </swiper-slide>
         </swiper>
-        <!-- Добавляем навигацию -->
-        <div class="swiper-button-prev">prev</div>
-        <div class="swiper-button-next">next</div>
-        <!-- Добавляем пагинацию -->
-        <div class="swiper-pagination"></div>
       </div>
     </section>
   </div>

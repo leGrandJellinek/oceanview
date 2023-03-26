@@ -1,15 +1,15 @@
 import { createStore } from 'vuex'
-interface ILang{
-  [key:string]:any
-}
+import { ILang } from "@/types/types";
+
 export default createStore({
   state: {
+    currentLang: "" as String,
     active_lang: {} as Object,
     lang: {
       ru: {
         nav: {
           main: ['Главная', 'Туры', 'Разделы'],
-          torsdropdwn: [
+          toursdropdwn:[
             {
               text: 'Пункты назначения',
               link: '#',
@@ -55,7 +55,7 @@ export default createStore({
       uz: {
         nav: {
           main: ['Asosiy', 'Barcha Turlar', "bo'limlar"],
-          torsdropdwn: [
+          toursdropdwn: [
             {
               text: 'Manzillar',
               link: '#',
@@ -107,15 +107,26 @@ export default createStore({
     getAllLang(state){
       const array:String[] = []
       for (const key in state.lang) {
-        array.push(key)
+        if (key !== state.currentLang) {
+          array.push(key)
+        }
       }
       return array
+    },
+    getCurrentLang(state){
+      return state.currentLang
     }
   },
   mutations: {
-    setActiveLang(state, payload:String):void{
-      state.active_lang = state.lang[`${payload}`]
-      console.log(state.active_lang);
+    setActiveLang(state, payload:string):void{
+      state.active_lang = state.lang[payload]
+      state.currentLang = payload
+    },
+    switchActiveLang(state,payload:string):void{
+      localStorage.setItem("lang", payload)
+      document.documentElement.lang = payload
+      state.active_lang = state.lang[payload]
+      state.currentLang = payload
 
     }
   },

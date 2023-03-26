@@ -21,7 +21,7 @@
         <nav id="navigation" class="navigation">
           <ul>
             <li class="menu-item-has-children no-item">
-              <router-link to="/">Главная</router-link>
+              <router-link to="/">{{activeLang.nav.main[0]}}</router-link>
             </li>
             <li class="menu-item-has-children">
               <a href="#">Туры</a>
@@ -79,15 +79,21 @@
                 </li>
               </ul>
             </li>
+            <li class="menu-item-has-children lang-child">
+              <a href="#"> {{ getCurrentLang }}</a>
+              <ul  class="lang-li">
+                <li>
+                <a class="activeLang" >{{ getCurrentLang }}</a>
+                </li>
+                <li v-for="(lang, index) in getAllLang" :key="index">
+                  <a @click="switchActiveLang(lang)" class="lang">{{ lang }}</a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </nav>
       </div>
       <div class="header-btn">
-        <div class="language-select" id="lang-sel">
-          <option v-for="(lang, index) in getAllLang" :value="lang" :key="index">
-            {{ lang }}
-          </option>
-        </div>
       </div>
     </div>
   </div>
@@ -161,10 +167,13 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { mapGetters } from 'vuex';
+import { mapGetters, mapMutations } from 'vuex';
 export default defineComponent({
   computed:{
-    ...mapGetters(['getAllLang'])
+    ...mapGetters(['getAllLang', 'getCurrentLang', 'activeLang']),
+  },
+  methods:{
+    ...mapMutations(['switchActiveLang'])
   }
 })
 </script>

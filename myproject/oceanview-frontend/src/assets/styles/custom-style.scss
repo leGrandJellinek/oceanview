@@ -112,3 +112,25 @@
 .lh{
     line-height: 25px;
 }
+.main-navigation ul>li.lang-child ul.lang-li li a{
+    &.activeLang{
+        font-weight: 700;
+        cursor: unset;
+        color: white;
+        background: #F56960;
+        &:hover{
+            background: #F56960;
+            padding-left: 20px;
+        }
+    }
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+ul.lang-li{
+    width: 100px !important;
+    & a.activeLang{
+
+    }
+}
+
