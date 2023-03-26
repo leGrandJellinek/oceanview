@@ -1,7 +1,6 @@
 import { createStore } from 'vuex'
-interface ILang{
-  [key:string]:any
-}
+import { ILang } from "@/types/types";
+
 export default createStore({
   state: {
     active_lang: {} as Object,
@@ -9,7 +8,7 @@ export default createStore({
       ru: {
         nav: {
           main: ['Главная', 'Туры', 'Разделы'],
-          torsdropdwn: [
+          toursdropdwn: [
             {
               text: 'Пункты назначения',
               link: '#',
@@ -51,11 +50,12 @@ export default createStore({
             }
           ],
         },
+        text: "text"
       },
       uz: {
         nav: {
           main: ['Asosiy', 'Barcha Turlar', "bo'limlar"],
-          torsdropdwn: [
+          toursdropdwn: [
             {
               text: 'Manzillar',
               link: '#',
