@@ -9,7 +9,7 @@ export default createStore({
       ru: {
         nav: {
           main: ['Главная', 'Туры', 'Разделы'],
-          toursdropdwn:[
+          toursdropdwn: [
             {
               text: 'Пункты назначения',
               link: '#',
@@ -51,6 +51,7 @@ export default createStore({
             }
           ],
         },
+        text: "text"
       },
       uz: {
         nav: {
