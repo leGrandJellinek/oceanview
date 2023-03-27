@@ -3,20 +3,22 @@
     <section class="home-slider-section">
       <div class="home-slider">
         <swiper :loop="true" :autoplay="autoplay" :navigation="navigation">
-          <swiper-slide class="home-banner-items">
+          <swiper-slide
+            v-for="slide in activeLang"
+            :key="slide"
+            class="home-banner-items"
+          >
             <div
               class="banner-inner-wrap"
               :style="{
-                'background-image':
-                  'url(' + require('@/assets/images/slider-banner-1.jpg') + ')',
+              background:  `url(${require(slide.img_link)})`
               }"
             ></div>
             <div class="banner-content-wrap">
               <div class="container">
                 <div class="banner-content text-center">
                   <h2 class="banner-title">
-                    Недельные туры <br />
-                    по всему миру
+                    {{}}
                   </h2>
                   <p>
                     Мы используем все доступные сегодня технологии, чтобы
@@ -28,7 +30,7 @@
             </div>
             <div class="overlay"></div>
           </swiper-slide>
-          <swiper-slide class="home-banner-items">
+          <!-- <swiper-slide class="home-banner-items">
             <div
               class="banner-inner-wrap up-img"
               :style="{
@@ -87,7 +89,7 @@
               </div>
             </div>
             <div class="overlay"></div>
-          </swiper-slide>
+          </swiper-slide> -->
         </swiper>
       </div>
     </section>
@@ -102,9 +104,13 @@ import SwiperCore, {
   Navigation,
 } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/vue'
+import { mapGetters } from 'vuex'
 import 'swiper/css'
 SwiperCore.use([EffectCube, Pagination, Autoplay, Navigation])
 export default {
+  computed: {
+    ...mapGetters(['activeLang']),
+  },
   data() {
     return {
       autoplay: {
