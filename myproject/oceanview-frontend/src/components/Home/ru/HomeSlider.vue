@@ -4,7 +4,7 @@
       <div class="home-slider">
         <swiper :loop="true" :autoplay="autoplay" :navigation="navigation">
           <swiper-slide
-            v-for="slide in activeLang"
+            v-for="slide in activeLang.slider"
             :key="slide"
             class="home-banner-items"
           >
