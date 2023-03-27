@@ -11,7 +11,7 @@
             <div
               class="banner-inner-wrap"
               :style="{
-              background:  `url(${require(slide.img_link)})`
+              backgroundImage:  'url(' + require(slide.img_link) + ')'
               }"
             ></div>
             <div class="banner-content-wrap">
