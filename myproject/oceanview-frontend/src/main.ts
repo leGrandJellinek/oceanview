@@ -2,7 +2,6 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import $ from "jquery"
 /* Стили и скрипты проекта */
 
 
@@ -30,6 +29,7 @@ import "@/assets/vendors/slick/slick.min.js";
 
 /* Custom */
 import "@/assets/js/custom.min.js"
+
 import "@/assets/styles/style.css";
 import "@/assets/styles/custom-style.scss";
 import "@/assets/styles/media.css";
