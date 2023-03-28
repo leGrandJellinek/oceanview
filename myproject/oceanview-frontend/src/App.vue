@@ -1,5 +1,6 @@
 <template lang="pug">
 .wrapper
+  Loader
   Header
   router-view
   Footer
@@ -10,12 +11,15 @@ import { defineComponent } from 'vue'
 
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
+import Loader from "@/components/Loader.vue"
+
 import { useStore } from 'vuex'
 export default defineComponent({
   methods: {},
   components: {
     Header,
     Footer,
+    Loader
   },
   setup() // props, { attrs }
   {
