@@ -1,195 +1,230 @@
 <template>
-    <section class="destination-section">
-      <div class="container">
-        <div class="section-heading">
-          <div class="row align-items-end">
-            <div class="col-lg-7">
-              <h5 class="dash-style">Популярные туры</h5>
-              <h2 class="upper">ТОП сезонные туры</h2>
+  <section class="destination-section">
+    <div class="container">
+      <div class="section-heading">
+        <div class="row align-items-end">
+          <div class="col-lg-7">
+            <h5 class="dash-style">{{ activeLang.sections_descr[0]}}</h5>
+            <h2 class="upper">{{ activeLang.sections_title[0]}}</h2>
+          </div>
+        </div>
+      </div>
+      <div class="destination-inner destination-three-column">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="desti-item overlay-desti-item">
+                  <figure class="desti-image">
+                    <img
+                      style="height: 35em"
+                      src="https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZHViYWl8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="meta-cat bg-meta-cat">
+                    <router-link to="/dubai">{{activeLang.directs[0].title}}</router-link>
+                  </div>
+                  <div class="desti-content">
+                    <h3>
+                      <router-link to="/dubai">{{ activeLang.directs[0].country }}</router-link>
+                    </h3>
+                    <div class="rating-start" title="Rated 5 out of 4">
+                      <span style="width: calc(17.5% * 4)"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="desti-item overlay-desti-item">
+                  <figure class="desti-image">
+                    <img
+                      style="height: 35em"
+                      src="@/assets/images/turkish.jpeg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="meta-cat bg-meta-cat">
+                    <router-link to="/stambul">{{activeLang.directs[1].title}}</router-link>
+                  </div>
+                  <div class="desti-content">
+                    <h3>
+                      <router-link to="/stambul">{{activeLang.directs[1].country}}</router-link>
+                    </h3>
+                    <div class="rating-start" title="Rated 5 out of 4">
+                      <span style="width: calc(17.5% * 4)"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="row">
+              <div class="col-md-6 col-lg-12 col-xl-12">
+                <div class="desti-item overlay-desti-item">
+                  <figure class="desti-image">
+                    <img
+                      style="height: 16.5em; width: 100%"
+                      src="@/assets/images/tblisi.jpeg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="meta-cat bg-meta-cat">
+                    <router-link to="/tbilisi">{{activeLang.directs[2].title}}</router-link>
+                  </div>
+                  <div class="desti-content">
+                    <h3>
+                      <router-link to="/tbilisi">{{activeLang.directs[2].country}}</router-link>
+                    </h3>
+                    <div class="rating-start" title="Rated 5 out of 5">
+                      <span style="width: calc(17.5% * 5)"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-12 col-xl-12">
+                <div class="desti-item overlay-desti-item">
+                  <figure class="desti-image">
+                    <img
+                      style="height: 16.5em; width: 100%"
+                      src="@/assets/images/malasia.jpeg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="meta-cat bg-meta-cat">
+                    <router-link to="/malasiya">{{activeLang.directs[3].title}}</router-link>
+                  </div>
+                  <div class="desti-content">
+                    <h3>
+                      <router-link to="/malasiya">{{activeLang.directs[3].country}}</router-link>
+                    </h3>
+                    <div class="rating-start" title="Rated 5 out of 4">
+                      <span style="width: calc(17.5% * 4)"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="row">
+              <div class="col-md-6 col-lg-12 col-xl-12">
+                <div class="desti-item overlay-desti-item">
+                  <figure class="desti-image">
+                    <img
+                      style="height: 16.5em; width: 100%"
+                      src="@/assets/images/tai.jpeg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="meta-cat bg-meta-cat">
+                    <router-link to="/bangkok">{{activeLang.directs[4].title}}</router-link>
+                  </div>
+                  <div class="desti-content">
+                    <h3>
+                      <router-link to="/bangkok">{{activeLang.directs[4].country}}</router-link>
+                    </h3>
+                    <div class="rating-start" title="Rated 5 out of 5">
+                      <span style="width: calc(17.5% * 5)"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-12 col-xl-12">
+                <div class="desti-item overlay-desti-item">
+                  <figure class="desti-image">
+                    <img
+                      style="height: 16.5em; width: 100%"
+                      src="@/assets/images/azer.jpeg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="meta-cat bg-meta-cat">
+                    <router-link to="/baku">{{activeLang.directs[5].title}}</router-link>
+                  </div>
+                  <div class="desti-content">
+                    <h3>
+                      <router-link to="/baku">{{activeLang.directs[5].country}}</router-link>
+                    </h3>
+                    <div class="rating-start" title="Rated 5 out of 4">
+                      <span style="width: calc(17.5% * 4)"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="desti-item overlay-desti-item">
+                  <figure class="desti-image">
+                    <img
+                      style="height: 35em"
+                      src="@/assets/images/ital.jpeg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="meta-cat bg-meta-cat">
+                    <router-link to="/milan">{{activeLang.directs[6].title}}</router-link>
+                  </div>
+                  <div class="desti-content">
+                    <h3>
+                      <router-link to="/milan">{{activeLang.directs[6].country}}</router-link>
+                    </h3>
+                    <div class="rating-start" title="Rated 5 out of 4">
+                      <span style="width: calc(17.5% * 4)"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="desti-item overlay-desti-item">
+                  <figure class="desti-image">
+                    <img
+                      style="height: 35em"
+                      src="@/assets/images/french.jpeg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="meta-cat bg-meta-cat">
+                    <router-link to="/paris">{{activeLang.directs[7].title}}</router-link>
+                  </div>
+                  <div class="desti-content">
+                    <h3>
+                      <router-link to="/paris">{{activeLang.directs[7].country}}</router-link>
+                    </h3>
+                    <div class="rating-start" title="Rated 5 out of 4">
+                      <span style="width: calc(17.5% * 4)"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="destination-inner destination-three-column">
-              <div class="row">
-                <div class="col-lg-7">
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="desti-item overlay-desti-item">
-                        <figure class="desti-image">
-                          <img style="height: 35em" src="@/assets/images/tai.jpeg" alt="">
-                        </figure>
-                        <div class="meta-cat bg-meta-cat">
-                          <a href="dubai.html">Дубай</a>
-                        </div>
-                        <div class="desti-content">
-                          <h3>
-                            <a href="dubai.html">ОАЭ</a>
-                          </h3>
-                          <div class="rating-start" title="Rated 5 out of 4">
-                            <span style="width: calc(17.5% * 4)"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="desti-item overlay-desti-item">
-                        <figure class="desti-image">
-                          <img style="height: 35em" src="@/assets/images/turkish.jpeg" alt="">
-                        </figure>
-                        <div class="meta-cat bg-meta-cat">
-                          <a href="stambul.html">стамбул</a>
-                        </div>
-                        <div class="desti-content">
-                          <h3>
-                            <a href="stambul.html">Турция</a>
-                          </h3>
-                          <div class="rating-start" title="Rated 5 out of 4">
-                            <span style="width: calc(17.5% * 4)"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-5">
-                  <div class="row">
-                    <div class="col-md-6 col-lg-12 col-xl-12">
-                      <div class="desti-item overlay-desti-item">
-                        <figure class="desti-image">
-                          <img style="height: 16.5em; width: 100%" src="@/assets/images/tblisi.jpeg" alt="">
-                        </figure>
-                        <div class="meta-cat bg-meta-cat">
-                          <a href="tblisi.html">тблиси</a>
-                        </div>
-                        <div class="desti-content">
-                          <h3>
-                            <a href="tblisi.html">Грузия</a>
-                          </h3>
-                          <div class="rating-start" title="Rated 5 out of 5">
-                            <span style="width: calc(17.5% * 5)"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-12 col-xl-12">
-                      <div class="desti-item overlay-desti-item">
-                        <figure class="desti-image">
-                          <img style="height: 16.5em; width: 100%" src="@/assets/images/malasia.jpeg" alt="">
-                        </figure>
-                        <div class="meta-cat bg-meta-cat">
-                          <a href="kuala-lumpur.html">куала-лумпур</a>
-                        </div>
-                        <div class="desti-content">
-                          <h3>
-                            <a href="kuala-lumpur.html">Малазия</a>
-                          </h3>
-                          <div class="rating-start" title="Rated 5 out of 4">
-                            <span style="width: calc(17.5% * 4)"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-5">
-                  <div class="row">
-                    <div class="col-md-6 col-lg-12 col-xl-12">
-                      <div class="desti-item overlay-desti-item">
-                        <figure class="desti-image">
-                          <img style="height: 16.5em; width: 100%" src="@/assets/images/tai.jpeg" alt="">
-                        </figure>
-                        <div class="meta-cat bg-meta-cat">
-                          <a href="bangkok.html">Бангкок</a>
-                        </div>
-                        <div class="desti-content">
-                          <h3>
-                            <a href="bangkok.html">Таиланд</a>
-                          </h3>
-                          <div class="rating-start" title="Rated 5 out of 5">
-                            <span style="width: calc(17.5% * 5)"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-12 col-xl-12">
-                      <div class="desti-item overlay-desti-item">
-                        <figure class="desti-image">
-                          <img style="height: 16.5em; width: 100%" src="@/assets/images/azer.jpeg" alt="">
-                        </figure>
-                        <div class="meta-cat bg-meta-cat">
-                          <a href="baku.html">Баку</a>
-                        </div>
-                        <div class="desti-content">
-                          <h3>
-                            <a href="baku.html">Азербайджан</a>
-                          </h3>
-                          <div class="rating-start" title="Rated 5 out of 4">
-                            <span style="width: calc(17.5% * 4)"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-7">
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div class="desti-item overlay-desti-item">
-                        <figure class="desti-image">
-                          <img style="height: 35em" src="@/assets/images/ital.jpeg" alt="">
-                        </figure>
-                        <div class="meta-cat bg-meta-cat">
-                          <a href="milan.html">Милан</a>
-                        </div>
-                        <div class="desti-content">
-                          <h3>
-                            <a href="milan.html">Италия</a>
-                          </h3>
-                          <div class="rating-start" title="Rated 5 out of 4">
-                            <span style="width: calc(17.5% * 4)"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="desti-item overlay-desti-item">
-                        <figure class="desti-image">
-                          <img style="height: 35em" src="@/assets/images/french.jpeg" alt="">
-                        </figure>
-                        <div class="meta-cat bg-meta-cat">
-                          <a href="paris.html">Париж</a>
-                        </div>
-                        <div class="desti-content">
-                          <h3>
-                            <a href="paris.html">Франция</a>
-                          </h3>
-                          <div class="rating-start" title="Rated 5 out of 4">
-                            <span style="width: calc(17.5% * 4)"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
 
-              </div>
-
-              <div class="btn-wrap d-flex btn-content justify-content-center align-items-center text-center">
-                <a href="#" class="button-primary">Другие направления</a>
-                <a href="#" class="button-primary">Дать запрос <br>
-                  на просчет маршрута</a>
-              </div>
-            </div>
+        <div
+          class="btn-wrap d-flex btn-content justify-content-center align-items-center text-center"
+        >
+          <a href="#" class="button-primary">{{ activeLang.btns[0]}}</a>
+          <a href="#" class="button-primary"
+            >{{ activeLang.btns[1]}}</a
+          >
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 </template>
 
-<script>
-    export default {
-
-    }
+<script lang="ts">
+import { mapGetters } from 'vuex'
+export default {
+  computed: {
+    ...mapGetters(['activeLang']),
+  },
+}
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

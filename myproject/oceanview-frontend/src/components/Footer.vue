@@ -9,7 +9,7 @@
                         </div>
                      </div>
                      <div class="col-md-5">
-                        <div class="copy-right text-right">Copyright © 2023 White lotus.</div>
+                        <div class="copy-right text-right">Copyright © 2023 Oceanview</div>
                      </div>
                   </div>
                </div>

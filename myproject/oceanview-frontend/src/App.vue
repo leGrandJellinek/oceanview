@@ -6,28 +6,26 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from 'vue'
 
-import Header from "@/components/Header.vue";
-import Footer from "@/components/Footer.vue";
-import { useStore } from 'vuex';
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
+import { useStore } from 'vuex'
 export default defineComponent({
-  methods:{
-  },
+  methods: {},
   components: {
     Header,
     Footer,
   },
-  setup(
-    // props, { attrs }
-    ){
-      const store = useStore()
-      const localLang =  localStorage.getItem('lang')
-      if (localLang) {
-        document.documentElement.lang = localLang
-      }
-      const currentlang = document.documentElement.lang
-      store.commit("setActiveLang", currentlang)
+  setup() // props, { attrs }
+  {
+    const store = useStore()
+    const localLang = localStorage.getItem('lang')
+    if (localLang) {
+      document.documentElement.lang = localLang
+    }
+    const currentlang = document.documentElement.lang
+    store.commit('setActiveLang', currentlang)
     // const lang: string = attrs.lang;
     // console.log(lang); // выводит значение атрибута lang в консоль
     // return {};
@@ -35,8 +33,4 @@ export default defineComponent({
 })
 </script>
 
-
-<style lang="scss">
-</style>
-
-
+<style lang="scss"></style>

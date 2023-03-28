@@ -1,5 +1,6 @@
 <template>
     <header id="masthead" class="site-header header-primary">
+        
       <Navbar/>
    </header>
 </template>
