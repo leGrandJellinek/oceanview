@@ -3,7 +3,7 @@ const BundleTracker = require('webpack-bundle-tracker');
 module.exports = defineConfig({
   transpileDependencies: true,
   publicPath: 'http://localhost:8080/',
-  outputDir: "./dist/",  
+  outputDir: "./dist/",
 
   chainWebpack: config => {
       config.optimization.splitChunks(false)
