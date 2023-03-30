@@ -11,9 +11,9 @@
       </div>
       <div class="destination-inner destination-three-column">
         <div class="row">
-          <div class="col-lg-7">
-            <div class="row">
-              <div class="col-sm-6">
+          <div class=" col-lg-7">
+            <div class="row cards-mob">
+              <div class="col-sm-12 col-lg-6">
                 <div class="desti-item overlay-desti-item">
                   <figure class="desti-image">
                     <img
@@ -35,7 +35,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-12 col-lg-6">
                 <div class="desti-item overlay-desti-item">
                   <figure class="desti-image">
                     <img
@@ -156,8 +156,8 @@
             </div>
           </div>
           <div class="col-lg-7">
-            <div class="row">
-              <div class="col-sm-6">
+            <div class="row cards-mob">
+              <div class="col-sm-12 col-lg-6">
                 <div class="desti-item overlay-desti-item">
                   <figure class="desti-image">
                     <img
@@ -179,7 +179,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-12 col-lg-6">
                 <div class="desti-item overlay-desti-item">
                   <figure class="desti-image">
                     <img

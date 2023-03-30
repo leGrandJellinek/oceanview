@@ -6,9 +6,10 @@ main#content.site-main
     .container.text-container
       .no-content-wrap
         span.space-top &nbsp
-        h1 {{ title }}
-        h4 {{ text }}
+
+
     .overlay
+Footer
 </template>
 
 <script lang="ts">
@@ -18,18 +19,18 @@ export default defineComponent({
     setup() {
     },
     props:{
-        img: {
-            type:String,
-            require: true
-        }, 
-        title: {
-            type: String,
+        direct: {
+            type:Object,
             require: true
         },
-        text: {
-            type: String,
-            require: true
-        }
+        // title: {
+        //     type: String,
+        //     require: true
+        // },
+        // text: {
+        //     type: String,
+        //     require: true
+        // }
     }
 })
 </script>

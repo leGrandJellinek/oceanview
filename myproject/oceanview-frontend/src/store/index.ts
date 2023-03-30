@@ -39,7 +39,7 @@ export default createStore({
               link: '#',
             },
           ],
-          adress:'г. Ташкент, ул. Шота Руставели, 63',
+          adress:'г.Ташкент, Мирабадский район, ул. Афрасиеб,4а',
           sectionsdropdwn: [
             {
               text:'О нас',
@@ -148,47 +148,221 @@ export default createStore({
         cards_review:'отзывов',
         cards_btns:['Забронируйте сейчас', 'Избранное'],
         btns:['Другие направления',"Дать запрос на просчет маршрута",'ЗАКАЗАТЬ ТУР','ПОСМОТРЕТЬ ВСЕ ПАКЕТЫ'],
-        contact_us:['Свяжитесь с нами','Мы на связи: +99871-253 9900'],
+        contact_us:['Свяжитесь с нами','Мы на связи: +998974749099'],
         pages:{
           dubai:{
             title:'Дубай',
-            text:`Дубай — самый большой город в ОАЭ, лежащий на берегу Персидского залива. Он поражает воображение с первых минут пребывания в нем - как-будто попадаешь в фильм о высокотехнологичном будущем, где возможно всё. Здесь создают заповедники и водоемы, прокладывают каналы, возводят небоскребы из стекла, строят торговые центры, размером с небольшие города и даже есть своя - Дубайская Венеция. Богатство и роскошь являются образом жизни этого крупнейшего на всем Ближнем Востоке торгового, финансового и туристического мегаполиса. Местные эмиры стремятся показать всему миру красоту и величие города, а также создать в нем новые, удивительные и неповторимые сооружения, которые будут привлекать еще большее количество туристов.
+            included_travel:["Авиаперелет Ташкент — Дубай — Ташкент","Проживание в отеле выбранной категории", "Питание — Завтраки", "Трансфер аэропорт — отель — аэропорт", "Мед. страховка на весь период", "Виза  ОАЭ", "Услуги компании."],
+            places:[
+              {
+                title:'Океанариум и дельфинарий',
+                descr:'Один из самых больших океанариумов мира, расположен в самом крупном торгово-развлекательном центре Ближнего Востока — «Дубай Молл».',
+                img:'',
+            },
+              {
+                title:'Дубайский небоскреб',
+                descr:'«Бурдж-Халифа» — небоскрёб высотой 828 метров в Дубае, самое высокое сооружение в мире.',
+                img:'',
 
-            Гастрономическое разнообразие в торговых центрах Дубая и высочайший класс местных ресторанов, готовых предложить вам блюда любой кухни мира, - удивят даже тех, кто, казалось бы, попробовал в своей жизни всё.`
+            },
+              {
+                title:'Парк Феррари',
+                descr:'Парк размещается под крышей площадью 200000 м² и является самым большим в мире тематическим парком, расположенным в помещении.',
+                img:'',
+
+            },
+              {
+                title:'Горнолыжный курорт',
+                descr:'Первый горнолыжный комплекс на Ближнем Востоке под крышей и один из крупнейших в мире, круглый год покрытый искусственным снегом.',
+                img:'',
+
+            },
+              {
+                title:'Роскошный отель Парус',
+                descr:'Бурдж-эль-Араб — роскошный отель в Дубае, самом крупном городе Объединённых Арабских Эмиратов.',
+                img:'',
+            },
+              {
+                title:'Пустынное сафари',
+                descr:'Посещение достопримечательностей в Дубаи будет неполноценным без поездки на внедорожнике по барханам пустыни ОАЭ.',
+                img:'',
+            },
+            ]
           },
           stambul:{
             title:'Стамбул',
-            text:'В течение столетий на земле Стамбула оставила свой след не одна культура. Сегодня Вы можете увидеть их влияние своими глазами: просто пройдитесь по его «махалле» (кварталам). От священных мест района Султанахмет и элегантного Бейоглу, напоминающего Европу 19-го века, до модного квартала Нишанташи, оживленного клубного общества в районе Кадыкёй и улиц района Бешикташ, на которых собираются любители футбола, — нетрудно догадаться, почему, по словам путешественников, Стамбул — это не просто город, но несколько городов в одном.',
+            included_travel:['Авиаперелет Ташкент — Стамбул — Ташкент (прямой чартер)','Проживание в отеле', 'Питание по системе — все включено','Трансфер аэропорт — отель — аэропорт',"Мед. страховка на весь период",'Услуги фирмы'],
+            palaces:[
+              {
+                title:'Собор Святой Софии',
+                descr:'Более тысячи лет Софийский собор в Константинополе оставался самым большим храмом в христианском мире — вплоть до постройки собора Святого Петра в Риме.',
+                img:'',
+              },
+              {
+                title:'Пролив Босфор',
+                descr:'Вас ждет удивительный круиз с лучшими панорамами Босфора. Величественные дворцы, монументальные храмы и мечети.',
+                img:'',
+              },
+              {
+                title:'Дворец Топкапи',
+                descr:'После падения Османской империи дворец превращён в музей — один из крупнейших по площади в мире. Число экспонатов, выставленных для общего обозрения, достигает 65 000 единиц (и это только десятая часть коллекции).',
+                img:'',
+              },
+              {
+                title:'Миниатюрк',
+                descr:'Парк миниатюр в котором на территории площадью более 60.000 кв. м. выставлены модели архитектурных объектов Турции и других стран, выполненные в масштабе 1:25.',
+                img:'',
+              },
+              {
+                title:'Крупные аквапарки',
+                descr:'Для любителей экстрима и острых ощущений лучшего развлечения, чем посещение аквапарка не найти.',
+                img:'',
+              },
+            ]
           },
           tbilisi:{
             title:'Тблиси',
-            text:`Расположенный на берегу реки Мтквари (Кура), Тбилиси - это не только столица Грузии, но и город с богатой историей. В этом году были отменены визовые ограничения для граждан стран Совета сотрудничества арабских государств Арабского залива, поэтому вам непременно стоит посетить этот замечательный город.
-
-            Великий Пушкин однажды назвал Тбилиси “волшебным краем”. Сегодня он является крупнейшим городом Грузии и популярным туристическим направлением благодаря своей яркой культуре и обилию достопримечательностей.
-
-            Легенда гласит, что Тбилиси был основан грузинским царем Вахтангом I Горгасали во время охоты в этих местах. За всю свою историю город был уничтожен более 29 раз руками захватчиков, стремящихся извлечь выгоду из его экономических и стратегических преимуществ. Но каждый раз Тбилиси восстанавливали, что, конечно, оставило свой след в его богатой многовековой истории.
-
-            Благодаря уникальной истории города, в Тбилиси есть множество достопримечательностей. Туристов ожидает разнообразие зданий в стиле ар-деко и церквей Старого города. По Тбилиси очень интересно прогуляться, посмотреть сердце оживленного города и познакомиться с традициями грузинского народа.`,
+            included_travel:['Авиаперелет Ташкент — Тбилиси — Ташкент','Проживание в отеле выбранной категории','Питание по системе все включено — Питание Завтраки', "Трансфер аэропорт — отель — аэропорт", 'Мед. страховка на весь период','Услуги компании.'],
+            places:[
+              {
+                title:'Река Кура',
+                descr:'Река с ее живописными скалистыми берегами, протекающая через весь город Мцхета',
+                img:'',
+              },
+              {
+                title:'Пещерный город Уплисцихе ',
+                descr:'Включает в себя более 700 пещер и сооружений, в т.ч. винные погреба, пекарни, античный театр, зал приемов царицы Тамары, сохранившиеся по сей день.',
+                img:'',
+              },
+              {
+                title:'Старый город',
+                descr:'Исторический центр Тбилиси, находится у подножья горы Мтацминда (Святая Гора). Проходя по улочкам вы посетите исторические или культурные памятники.',
+                img:'',
+              },
+              {
+                title:'Музея Сталина. ',
+                descr:'Музей состоит из трех блоков: самого музея, дома и личного ж/д вагона Сталина.',
+                img:'',
+              },
+              {
+                title:'Грузинский Сингапур',
+                descr:'самый известный черноморский курорт Грузии с населением в 120 000 человек.',
+                img:'',
+              },
+              {
+                title:'Дельфинарий',
+                descr:'Дельфинарий предлагает своим гостям новое интерактивное шоу. Оно включает около 30 номеров: три танца, игры с кольцами и шарами, которые дельфины балансируют на хвостах, незабываемое Foot Push и многих других трюков.',
+                img:'',
+              },
+            ]
           },
           malasiya:{
             title:'Куала-Лумпур',
-            text: `Куала-Лумпур — ворота между Азией и Океанией, город, словно экзотический цветок, расцветший за полтора века из шахтёрского посёлка в могущественный мегаполис. Расположившись в низинной долине, окруженной горами, покрытыми экваториальными лесами, Куала Лумпур, словно азиатский тигр, следит за всем, что происходит вокруг него. Здесь же сливаются и впадают в Малаккский пролив реки Кланг и Гомбак. Символом его могущества являются башни-близнецы Петронас, которые возвышаются над урбанистическим пейзажем. Это город контрастов, где сплелись воедино разные народы, языки и религии, где клокочет экономическая и культурная жизнь. Но не только этим он манит туристов. Вечнозелёные леса, холмистый рельеф и экваториальные пляжи с бело-золотистым песком, омываемые тёплыми водами Малаккского пролива, удивят самого искушенного ценителя экзотического отдыха.`,
-          },
-          bangkok:{
-            title:'Бангкок',
-            text:`В Бангкоке каждый путешественник находит занятие по душе. Любители исторических достопримечательностей отправляются на экскурсию в Большой дворец, а ценители качественного шопинга — в современные торговые центры, такие как Terminal 21. Столица Таиланда занимает первые строчки в рейтинге самых популярных туристических направлений, удивляя богатым культурным наследием, оживленной ночной жизнью, ресторанами мирового класса и невероятной доступностью по цене. Узнайте о том, когда лучше ехать в Бангкок, как передвигаться по городу, какие достопримечательности посетить и в каком районе остановиться.`,
+            included_travel:['Авиаперелеты Ташкент — Куала Лумпур — о. Лангкави — Куала Лумпур — Ташкент','Трансфер аэропорт — отель — аэропорт','Проживание в отеле выбранной категории + завтраки', 'Услуги компании','Страховка','Обзорная экскурсия по городу'],
+            places:[
+              {
+                title:'Архитектура городов',
+                descr:'Поражая сплавом традиций и современности, архитектура Малайзии отражает многочисленность стилей, культур и религий Азии.',
+                img:'',
+              },
+              {
+                title:'Самый большой в мире океанариум',
+                descr:'Это подводный тоннель длиной 90 метров со стеклянными стенами, полный жителями морей и океанов. В Водном театре океанариума можно кинуть корм пираньям.',
+                img:'',
+              },
+              {
+                title:'Пляжи с белоснежным песком',
+                descr:'Малайзия по-прежнему остается уголком девственной природы, бережно сохраняющихся традиций, чистых пляжей и отличного сервиса.',
+                img:'',
+              },
+              {
+                title:'Полет на воздушном шаре',
+                descr:'Любите тишину небес и воздушный шар для вас это лучший способ отдыха? Тогда вам обязательно нужно полетать в Малайзии.',
+                img:'',
+              },
+              {
+                title:'Национальный парк Таман Негара',
+                descr:'Вас ждут бескрайние джунгли, Куала-Тахан, подвесная тропа, река Сунгаи-Тембелинг и, конечно же, богатый животный мир.',
+                img:'',
+              },
+              {
+                title:'Самый большой пешеходный мост',
+                descr:'Небесный мост на Лангкави, с которого открывается сказочный вид на остров. Мост подвешен над пропастью и в ветреные дни это наиболее заметно ощущается.',
+                img:'',
+              },
+            ]
           },
           baku:{
             title:'Баку',
-            text:'Исторический центр Баку напоминает о его бурном прошлом — от периода, когда город был портом Великого шелкового пути, до нефтяного бума советских времен. Старый город представляет собой лабиринт аллей, мечетей, исторических зданий и остатков укреплений, включая дворец ширваншахов и Девичью башню, которая теперь входит в список объектов Всемирного наследия ЮНЕСКО. Это не просто историческая достопримечательность: город известен своим изобразительным искусством и культурными развлечениями, а также оживленным предпринимательским сектором.',
+            included_travel:['Авиаперелет Ташкент – Баку – Ташкент','Трансфер','Проживание в отеле','Страховой мед полис','Услуги компании'],
+            places:[
+              {
+                title:'Нагорный Парк',
+                descr:'«Огни Вечернего Баку» начинаются с посещения Нагорного Парка. Именно здесь «Город Ветров», как часто называют Баку, откроется вам во всей своей красе.',
+                img:'',
+              },
+              {
+                title:'Музей Ковров',
+                descr:'Ковроткачество было одним из ранних форм искусства в Азербайджане. Сложные паттерны и точные линии показывают насколько существенна работа азербайджанских мастеров!',
+                img:'',
+              },
+              {
+                title:'Маленькая Венеция',
+                descr:'Ресторан Венеция находится на морском побережье в центре города. Место, где вы можете отведать вкусного итальянского блюда, но и насладиться замечательной итальянской атмосферой. ',
+                img:'',
+              },
+              {
+                title:'Центр Гейдара Алиева',
+                descr:'Хотите посмотреть как выглядит одно из самых красивых зданий в мире? Архитектором этой прекрасной работы является всемирно известная Захи Хадид, благодаря которой здание было удостоено награды в номинации «Дизайн года» в 2014 году.',
+                img:'',
+              },
+              {
+                title:'Каспийский пляж ',
+                descr:'Если вам повезёт посетить Баку в летнюю пору, тогда поспешите на пляж! Вы можете выбрать любой из городских пляжей, курорты, также аквапарк.',
+                img:'',
+              },
+            ]
           },
-          milan:{
-            title:'Милан',
-            text:'Первое, что приходит на ум при упоминании о Милане – шоппинг. Это совсем неудивительно, ведь распродажи здесь проходят дважды в год, а количество модных бутиков на квадратный метр считается самым большим в Европе. Недели моды, стильные итальянки и итальянцы, шумные улицы, быстрый темп жизни – Милан кардинально отличается от других городов Италии. Даже кофе здесь подают некрепкий, да еще и с молоком, да еще и вечером - непростительная вольность для настоящих итальянцев. Но Милану можно простить все, ведь этот город объединяет то, что мы так любим в Италии: история, архитектура и искусство, кухня и, конечно, безупречный стиль.',
-          },
-          paris:{
-            title:'Париж',
-            text:'Париж имеет репутацию лучшего города для романтической поездки. Однако на самом деле посетители теряют голову от самого города. Великолепные здания из камня и кованого железа, тротуары, уютные кафе, извилистые берега Сены — почувствуйте себя как в кино. Однако очарование города не ограничивается внешним видом. Местная кухня славится бесконечным разнообразием. Сочный и сытный петух в вине, золотистые масляные круассаны… Здесь стоит также попробовать блюда современной кухни фьюжн и оригинальные международные блюда. (Поверьте, в этом городе делают потрясающий фалафель.) А дух Парижа так и манит прогуливаться по переулкам, заглядывать в многочисленные музеи и исследовать лабиринты магазинов. Ну а вечером отправляйтесь на Марсово поле, чтобы насладиться видом сверкающей Эйфелевой башни.',
+          tailand:{
+            title:'Пхукет',
+            included_travel:['Авиаперелет Ташкент — Пхукет — Ташкент','Проживание в отеле выбранной категории','Питание завтрак','Трансфер аэропорт — отель — аэропорт','Мед. страховка','Тур Код','Услуги фирмы'],
+            places:[
+              {
+                title:'Лучшие пляжи мира',
+                descr:'Пляжи Таиланда — это идеальное место отдыха для любителей полого спуска к воде, песчаной прибрежной линии, прозрачного и теплого моря и потрясающего пейзажа вокруг.',
+                img:'',
+              },
+              {
+                title:'Дайвинг',
+                descr:'Дайв-центры есть на любом тайском курорте. Большинство из них расположено в Паттайе и на Пхукете.',
+                img:'',
+              },
+              {
+                title:'Тайский массаж',
+                descr:'Тайский массаж формировался под влиянием древней культуры Китая и Индии и приобрел нынешний вид благодаря долгой практике, наблюдению за природой человеческого тела, создавая чёткую систему оздоровительной терапии.',
+                img:'',
+              },
+              {
+                title:'Кристальная вода',
+                descr:'Вода настолько лазурная и прозрачная, что плавать в ней невероятно приятно – оказавшись на Пхукете испытаете удовольствие от моря.',
+                img:'',
+              },
+              {
+                title:'Вечный карнавал',
+                descr:'Помимо ночных праздников, которые в Тайланде каждый день, регулярно устраиваются карнавалы.',
+                img:'',
+              },
+              {
+                title:'Рафтинг и тарзанка',
+                descr:'Вы получите удовольствие от захватывающего дух сплава по реке на надувных лодках. Получите всплеск адреналина прыгнув с тарзанки.',
+                img:'',
+              },
+              {
+                title:'Морские круизы',
+                descr:'Надоел отель и его окресности, тогда морской круиз вас сильно удивит. Посмотрите на Тайланд с другой стороны, по одному из морских маршрутов.',
+                img:'',
+              },
+            ]
           },
         },
       },
@@ -225,7 +399,7 @@ export default createStore({
               link: '#',
             },
           ],
-          adress: "Toshkent sh, Shota Rustaveli ko‘chasi, 63-uy",
+          adress: "Toshkent shahri, Mirobod tumani, Afrosiyob ko'chasi, 4a",
           sectionsdropdwn: [
             {
               text:'Biz haqimizda',
@@ -338,45 +512,219 @@ export default createStore({
         pages:{
           dubai:{
             title:'Dubay',
-            text:`Dubay BAAdagi eng katta shahar bo'lib, fors ko'rfazi sohilida joylashgan. U erda bo'lgan birinchi daqiqalardanoq tasavvurni hayratda qoldiradi-go'yo siz hamma narsa mumkin bo'lgan yuqori texnologiyali kelajak haqidagi filmga tushasiz. Bu erda ular qo'riqxonalar va suv havzalarini yaratadilar, kanallar yotqizadilar, shishadan osmono'par binolar quradilar, kichik shaharlarning kattaligi va hatto o'zlarining - Dubay Venetsiyasini quradilar. Boylik va hashamat butun yaqin Sharqdagi eng yirik savdo, moliyaviy va sayyohlik metropolining turmush tarzidir. Mahalliy amirlar butun dunyoga shaharning go'zalligi va ulug'vorligini namoyish etishga, shuningdek, unda ko'proq sayyohlarni jalb qiladigan yangi, ajoyib va \ u200b \ u200bg'ayrioddiy inshootlarni yaratishga intilishadi.
+            included_travel:["Toshkent — Dubay — Toshkent havo qatnovi","Tanlangan toifadagi mehmonxonada turar joy", "Ovqatlanish — nonushta", "Transfer aeroporti — mehmonxona — aeroport", "Butun davr uchun tibbiy sug'urta", "BAA vizasi", "Kompaniya xizmatlari."],
+            places:[
+              {
+                title:'Okeanarium va delfinarium',
+                descr:`Dunyodagi eng katta okeanariumlardan biri, yaqin Sharqning eng yirik savdo va ko'ngilochar markazi-Dubay mallda joylashgan.`,
+                img:'',
+            },
+              {
+                title:`Dubay osmono'par binosi`,
+                descr:`"Burj Xalifa" Dubaydagi 828 metr balandlikdagi osmono'par bino bo'lib, dunyodagi eng baland inshootdir.`,
+                img:'',
 
-            Dubay savdo markazlaridagi gastronomik xilma - xillik va sizga dunyoning har qanday oshxonasini taklif qilishga tayyor bo'lgan eng yuqori darajadagi mahalliy restoranlar, hatto hayotlarida hamma narsani sinab ko'rganlarni ham hayratda qoldiradi.`
+            },
+              {
+                title:'Ferrari Park',
+                descr:`Park 200 000 m2 tom ostida joylashgan va dunyodagi eng katta yopiq tematik parkdir.`,
+                img:'',
+
+            },
+              {
+                title:`Chang'i kurorti`,
+                descr:`Yaqin Sharqdagi birinchi tog' - chang'i majmuasi tom ostida va butun yil davomida sun'iy qor bilan qoplangan dunyodagi eng yiriklaridan biri.`,
+                img:'',
+
+            },
+              {
+                title:`Hashamatli mehmonxona yelkan`,
+                descr:`Burj Al Arab-Birlashgan Arab Amirliklarining eng yirik shahri Dubaydagi hashamatli mehmonxona.`,
+                img:'',
+            },
+              {
+                title:`Cho'l safari`,
+                descr:`Dubaydagi diqqatga sazovor joylarga tashrif BAA cho'l barxanlari bo'ylab suv sayohatisiz to'liq bo'lmaydi.`,
+                img:'',
+            },
+            ]
           },
           stambul:{
             title:'Istanbul',
-            text:`Asrlar davomida Istanbulda bir nechta madaniyat o'z izini qoldirdi. Bugun siz ularning ta'sirini o'z ko'zingiz bilan ko'rishingiz mumkin: shunchaki uning "mahallasi" (mahallalari) bo'ylab sayr qiling. Sultonahmet tumanining muqaddas joylaridan va 19-asr Evropasini eslatuvchi nafis Beyoğludan tortib, Kadikei tumanidagi gavjum klub jamiyati va futbol ishqibozlari to'planadigan Beshiktash tumanidagi ko'chalargacha, nima uchun Istanbul shunchaki shahar emas, balki bir nechta shahar ekanligini taxmin qilish qiyin emas..`,
+            included_travel:[`Toshkent — Istanbul — Toshkent havo qatnovi (to'g'ridan — to'g'ri charter)`,`Mehmonxonada qolish`, `Tizim orqali ovqatlanish — hamma narsani o'z ichiga oladi`,`Transfer aeroporti — mehmonxona-aeroport`,"Butun davr uchun tibbiy sug'urta",'Firma xizmatlari'],
+            palaces:[
+              {
+                title:'Ayasofya',
+                descr:`Ming yildan ko'proq vaqt davomida Konstantinopoldagi Sofiya sobori xristian olamidagi eng katta ibodatxona bo'lib qoldi — Rimda Avliyo Pyotr sobori qurilgunga qadar.`,
+                img:'',
+              },
+              {
+                title:`Bosfor bo'g'ozi`,
+                descr:`Sizni Bosforning eng yaxshi panoramalari bilan ajoyib kruiz kutmoqda. Ulug'vor saroylar, monumental ibodatxonalar va masjidlar.`,
+                img:'',
+              },
+              {
+                title:'Topkapi saroyi',
+                descr:`Usmonli imperiyasi qulaganidan keyin saroy muzeyga aylantirildi — dunyodagi eng katta maydonlardan biri. Umumiy ko'rish uchun namoyish etilgan eksponatlar soni 65000 donaga etadi (va bu to'plamning o'ndan bir qismi).`,
+                img:'',
+              },
+              {
+                title:'Miniatyura',
+                descr:`Miniatyuralar parki 60.000 kvadrat metrdan ortiq maydonda.M. Turkiya va boshqa mamlakatlarning me'moriy ob'ektlarining 1:25 masshtabida namoyish etilgan modellari.`,
+                img:'',
+              },
+              {
+                title:'Katta suv parklari',
+                descr:`Ekstremal va hayajonli ishqibozlar uchun akvaparkga tashrif buyurishdan ko'ra yaxshiroq o'yin-kulgi yo'q.`,
+                img:'',
+              },
+            ]
           },
           tbilisi:{
-            title:'Tbilisi',
-            text:`Mtkvari (kura) daryosi bo'yida joylashgan Tbilisi nafaqat Gruziyaning poytaxti, balki boy tarixga ega shahardir. Bu yil Arab ko'rfazi Arab hamkorlik Kengashi mamlakatlari fuqarolari uchun viza cheklovlari bekor qilindi, shuning uchun siz ushbu ajoyib shaharga albatta tashrif buyurishingiz kerak.
-
-            Buyuk Pushkin bir vaqtlar Tbilisini "sehrli chekka"deb atagan. Bugungi kunda u o'zining jonli madaniyati va diqqatga sazovor joylari tufayli Gruziyaning eng yirik shahri va mashhur sayyohlik maskani hisoblanadi.
-
-            Afsonada aytilishicha, Tbilisi Gruziya qiroli Vaxtang I Gorgasali tomonidan ushbu joylarda ov paytida tashkil etilgan. Butun tarixi davomida shahar o'zining iqtisodiy va strategik afzalliklaridan foydalanishga intilayotgan bosqinchilar qo'li bilan 29 martadan ko'proq vayron qilingan. Ammo har safar Tbilisi qayta tiklandi, bu, albatta, uning boy ko'p asrlik tarixida o'z izini qoldirdi.
-
-            Shaharning noyob tarixi tufayli Tbilisida ko'plab diqqatga sazovor joylar mavjud. Sayyohlarni Art Deco uslubidagi binolar va eski shahar cherkovlari kutmoqda. Tbilisida sayr qilish, gavjum shaharning yuragini tomosha qilish va Gruziya xalqining urf-odatlari bilan tanishish juda qiziq.`,
+            title:'Tblisi',
+            included_travel:['Havo qatnovi Toshkent — Tbilisi — Toshkent','Tanlangan toifadagi mehmonxonada turar joy',`Hamma narsani o'z ichiga olgan ovqatlanish — nonushta ovqatlari`, "Transfer aeroporti — mehmonxona — aeroport", `Butun davr uchun tibbiy sug'urta`,'Kompaniya xizmatlari.'],
+            places:[
+              {
+                title:'Kura daryosi',
+                descr:`Mtsxeta shahri bo'ylab oqadigan go'zal toshli qirg'oqlari bo'lgan Daryo`,
+                img:'',
+              },
+              {
+                title:`Upliskixe g'or shahri`,
+                descr:`700 dan ortiq g'or va inshootlarni o'z ichiga oladi, shu jumladan.sharob qabrlari, Novvoyxonalar, qadimiy teatr, Qirolicha Tamarani qabul qilish zali, bugungi kungacha saqlanib qolgan.`,
+                img:'',
+              },
+              {
+                title:'Eski shahar',
+                descr:`Tbilisining tarixiy markazi, Mtatsminda tog'ining etagida joylashgan (Muqaddas tog'). Ko'chalardan o'tayotganda siz tarixiy yoki madaniy yodgorliklarga tashrif buyurasiz.`,
+                img:'',
+              },
+              {
+                title:'Stalin muzeyi.',
+                descr:`Muzey uchta blokdan iborat: muzeyning o'zi, uyi va Stalinning shaxsiy temir yo'l vagoni.`,
+                img:'',
+              },
+              {
+                title:'Gruziya Singapur',
+                descr:`Gruziyaning eng mashhur qora dengiz kurorti, aholisi 120 ming kishi.`,
+                img:'',
+              },
+              {
+                title:'Delfinarium',
+                descr:`Delfinarium o'z mehmonlariga yangi interaktiv shou taklif qiladi. U 30 ga yaqin raqamlarni o'z ichiga oladi: uchta raqs, delfinlar dumlarini muvozanatlashtiradigan halqalar va to'plar bilan o'yinlar, unutilmas oyoq surish va boshqa ko'plab fokuslar.`,
+                img:'',
+              },
+            ]
           },
           malasiya:{
             title:'Kuala-Lumpur',
-            text: `Kuala-Lumpur-Osiyo va Okeaniya o'rtasidagi darvoza, shahar bir yarim asr davomida konchilar qishlog'idan qudratli metropolga gullab-yashnagan ekzotik gulga o'xshaydi. Ekvatorial o'rmonlar bilan qoplangan tog'lar bilan o'ralgan pasttekislik vodiysida joylashgan Kuala Lumpur, Osiyo yo'lbarsi kabi, uning atrofida sodir bo'layotgan hamma narsani kuzatib boradi. Bu yerda Klang va Gombak daryolari qo'shilib, Malakka bo'g'ozlariga quyiladi. Uning qudratining ramzi-shahar manzarasidan yuqoriga ko'tarilgan Petronas egizak minoralari. Bu qarama-qarshiliklar shahri bo'lib, u erda turli xalqlar, tillar va dinlar birlashib, iqtisodiy va madaniy hayot to'qnashadi. Ammo bu nafaqat sayyohlarni jalb qiladi. Malakka bo'g'ozining iliq suvlari bilan yuvilgan doim yashil o'rmonlar, tepalikli relyef va oq va oltin qumli ekvatorial plyajlar ekzotik dam olishning eng murakkab bilimdonini hayratda qoldiradi.`,
-          },
-          bangkok:{
-            title:'Bangkok',
-            text:`Bangkokda har bir sayyoh o'ziga yoqadigan narsani topadi. Tarixiy diqqatga sazovor joylarni sevuvchilar katta saroyga ekskursiya qilishadi va sifatli xarid qilishni biluvchilar Terminal 21 kabi zamonaviy savdo markazlariga borishadi. Tailand poytaxti eng mashhur sayyohlik yo'nalishlari reytingida birinchi o'rinni egallab, boy madaniy merosi, jonli tungi hayoti, jahon darajasidagi restoranlari va ajoyib narxlari bilan ajablantiradi. Bangkokga borishning eng yaxshi vaqti, shahar bo'ylab qanday sayohat qilish, qaysi diqqatga sazovor joylarga tashrif buyurish va qaysi hududda qolish haqida bilib oling.`,
+            included_travel:[`Havo qatnovi Toshkent-Kuala Lumpur-O. Langkavi — Kuala Lumpur — Toshkent`,`Transfer aeroporti-mehmonxona-aeroport`,'Tanlangan toifadagi mehmonxonada qolish + nonushta', 'Kompaniya xizmatlari',`Sug'urta`,`Shahar bo'ylab ekskursiya`],
+            places:[
+              {
+                title:'Shahar arxitekturasi',
+                descr:`An'analar va zamonaviylikning uyg'unligi bilan ajralib turadigan Malayziya me'morchiligi Osiyodagi ko'plab uslublar, madaniyatlar va dinlarni aks ettiradi.`,
+                img:'',
+              },
+              {
+                title:'Dunyodagi eng katta Akvarium',
+                descr:`Bu dengiz va okeanlar aholisi bilan to'la shisha devorlari bo'lgan 90 metr uzunlikdagi suv osti tunnelidir. Akvariumning suv teatrida siz piranhalarga ovqat tashlashingiz mumkin.`,
+                img:'',
+              },
+              {
+                title:'Qor-oq qumli plyajlar',
+                descr:`Malayziya hali ham bokira tabiat, ehtiyotkorlik bilan saqlanib qolgan an'analar, toza plyajlar va ajoyib xizmatning burchagi`,
+                img:'',
+              },
+              {
+                title:'Balon parvozi',
+                descr:`Osmon sukunati va sharni seving siz uchun bu dam olishning eng yaxshi usuli? Keyin, albatta, Malayziyaga uchishingiz kerak.`,
+                img:'',
+              },
+              {
+                title:`Taman Negara Milliy bog'i`,
+                descr:`Sizni cheksiz o'rmon, Kuala Tahan, osma yo'l, Sungai tembeling daryosi va, albatta, boy hayvonot dunyosi kutmoqda`,
+                img:'',
+              },
+              {
+                title:`Eng katta piyodalar ko'prigi`,
+                descr:`Langkavidagi osmon ko'prigi, bu orolning ajoyib ko'rinishini taqdim etadi. Ko'prik jarlik ustida osilgan va shamolli kunlarda u eng sezilarli darajada seziladi.`,
+                img:'',
+              },
+            ]
           },
           baku:{
-            title:'Boku shahri',
-            text:`Bokuning tarixiy markazi o'zining notinch o'tmishini eslaydi-shahar buyuk ipak yo'lining porti bo'lgan davrdan sovet davridagi neft bumigacha. Eski shahar xiyobonlar, masjidlar, tarixiy binolar va istehkomlarning qoldiqlari, shu jumladan shirvanshohlar saroyi va hozirda YUNESKOning Butunjahon merosi ro'yxatiga kiritilgan qiz minorasi labirintidir. Bu shunchaki tarixiy diqqatga sazovor joy emas: shahar o'zining tasviriy san'ati va madaniy o'yin-kulgilari, shuningdek, jonli tadbirkorlik sektori bilan mashhur.`,
+            title:'Boku',
+            included_travel:['Toshkent – Boku – Toshkent havo qatnovi','Transfer','Mehmonxonada qolish',`Sug'urta asal siyosati`,'Kompaniya xizmatlari'],
+            places:[
+              {
+                title:`Tog'li Park`,
+                descr:`Kechki Boku chiroqlari" tog ' parkiga tashrif buyurishdan boshlanadi. Bu erda" shamollar shahri", Boku tez-tez chaqirilganidek, sizga butun shon-shuhratida ochiladi.`,
+                img:'',
+              },
+              {
+                title:'Gilam muzeyi',
+                descr:`Gilam to'qish Ozarbayjonda san'atning dastlabki turlaridan biri bo'lgan. Murakkab naqshlar va aniq chiziqlar Ozarbayjon ustalarining ishi qanchalik muhimligini ko'rsatadi!`,
+                img:'',
+              },
+              {
+                title:'Kichik Venetsiya',
+                descr:`Restoran Venetsiya shahar markazidagi dengiz qirg'og'ida joylashgan. Siz mazali italyan taomidan bahramand bo'lishingiz mumkin bo'lgan joy, lekin ayni paytda ajoyib italyan muhitidan bahramand bo'lishingiz mumkin.`,
+                img:'',
+              },
+              {
+                title:'Haydar Aliyev markazi',
+                descr:`Ko'rishni xohlaysizmi dunyodagi eng chiroyli binolardan biri qanday ko'rinishga ega? Ushbu go'zal asarning me'mori dunyoga mashhur Zaha Hadid bo'lib, u binoni 2014 yilda "yil dizayni" nominatsiyasida mukofotga sazovor qildi.`,
+                img:'',
+              },
+              {
+                title:'Kaspiy plyaji',
+                descr:`Agar siz yozda Bokuga tashrif buyurish baxtiga muyassar bo'lsangiz, plyajga shoshiling! Siz har qanday shahar plyajlarini, kurortlarni, shuningdek suv parkini tanlashingiz mumkin.`,
+                img:'',
+              },
+            ]
           },
-          milan:{
-            title:'Milan shahri',
-            text:`Milan haqida gapirganda aqlga kelgan birinchi narsa bu xarid qilishdir. Buning ajablanarli joyi yo'q, chunki bu erda sotuvlar yiliga ikki marta bo'lib o'tadi va har kvadrat metr uchun moda butiklari soni Evropadagi eng katta hisoblanadi. Moda haftaliklari, zamonaviy italiyaliklar va italiyaliklar, shovqinli ko'chalar, hayotning tez sur'ati – Milan Italiyaning boshqa shaharlaridan tubdan farq qiladi. Hatto bu erda qahva ham zaif, hatto sut bilan va hatto kechqurun ham xizmat qiladi - haqiqiy italiyaliklar uchun kechirilmas erkinlik. Ammo Milan hamma narsani kechirishi mumkin, chunki bu shahar Italiyada biz juda yaxshi ko'radigan narsalarni birlashtiradi: tarix, arxitektura va san'at, oshxona va, albatta, benuqson uslub.`,
+          tailand:{
+            title:'Pxuket',
+            included_travel:['Havo qatnovi Toshkent-Pxuket-Toshkent','Tanlangan toifadagi mehmonxonada turar joy','Ovqatlanish nonushta','Transfer aeroporti — mehmonxona — aeroport',`Tibbiy sug'urta`,'Tur kodi','Firma xizmatlari'],
+            places:[
+              {
+                title:'Dunyoning eng yaxshi plyajlari',
+                descr:`Tailand plyajlari suvga, qumli qirg'oq chizig'iga, tiniq va iliq dengizga va atrofdagi ajoyib manzaraga ichi bo'sh tushishni yaxshi ko'radiganlar uchun ajoyib dam olish maskanidir.`,
+                img:'',
+              },
+              {
+                title:`Sho'ng'in`,
+                descr:`Har qanday Tailand kurortida sho'ng'in markazlari mavjud. Ularning aksariyati Pattaya va Pxuketda joylashgan.`,
+                img:'',
+              },
+              {
+                title:'Tailand massaji',
+                descr:`Tailand massaji Xitoy va Hindistonning qadimiy madaniyati ta'siri ostida shakllangan va uzoq amaliyot, inson tanasining tabiatini kuzatish, aniq sog'lomlashtirish terapiyasi tizimini yaratish orqali hozirgi ko'rinishga ega bo'lgan.`,
+                img:'',
+              },
+              {
+                title:'Kristalli suv',
+                descr:`Suv shunchalik jozibali va shaffofki, unda suzish juda yoqimli – Pxuketda bo'lganingizdan so'ng, siz dengizdan zavqlanasiz.`,
+                img:'',
+              },
+              {
+                title:'Abadiy karnaval',
+                descr:`Tailandda har kuni o'tkaziladigan tungi bayramlardan tashqari, karnavallar muntazam ravishda o'tkaziladi.`,
+                img:'',
+              },
+              {
+                title:'Rafting va bungee',
+                descr:`Siz puflanadigan qayiqlarda hayajonli Daryo raftingidan bahramand bo'lasiz. Bungee-dan sakrab adrenalinni oling.`,
+                img:'',
+              },
+              {
+                title:'Dengiz sayohatlari',
+                descr:`Mehmonxona va uning tuzsizlanishidan charchadingiz, keyin dengiz sayohati sizni hayratda qoldiradi. Tailandga boshqa tomondan, dengiz yo'nalishlaridan biriga qarang.`,
+                img:'',
+              },
+            ]
           },
-          paris:{
-            title:'Parij',
-            text:`Parij romantik sayohat uchun eng yaxshi shahar sifatida obro'ga ega. Biroq, tashrif buyuruvchilar aslida shaharning o'zidan boshlarini yo'qotadilar. Tosh va temirdan yasalgan ajoyib binolar, piyodalar yo'laklari, shinam kafelar, Sena daryosining burilishli qirg'oqlari — o'zingizni kino kabi his eting. Biroq, shaharning jozibasi tashqi ko'rinish bilan cheklanmaydi. Mahalliy oshxona cheksiz xilma-xilligi bilan mashhur. Sharobdagi suvli va qoniqarli xo'roz, oltin yog'li kruvasanlar ... bu erda zamonaviy termoyadroviy taomlar va original xalqaro taomlar ham sinab ko'rishga arziydi. (Ishoning, bu shaharda ajoyib falafel tayyorlanadi.) Va Parij ruhi xiyobonlar bo'ylab sayr qilishni, ko'plab muzeylarga qarashni va do'konlarning labirintlarini o'rganishni taklif qiladi. Kechqurun yorqin Eyfel minorasi manzarasidan bahramand bo'lish uchun Mars maydoniga boring.`,
-          },
-        }
+        },
       },
       en: {
         nav: {
@@ -411,7 +759,7 @@ export default createStore({
               link: '#',
             },
           ],
-          adress:'Tashkent, st. Shota Rustaveli, 63',
+          adress:'Tashkent, Mirabad district, Afrosiab str., 4a',
           sectionsdropdwn: [
             {
               text:'About Us',
@@ -522,7 +870,7 @@ export default createStore({
         cards_review:'reviews',
         cards_btns:['Book now', 'Favourites'],
         btns:['Other directions',"Give a request to calculate the route",'BOOK A TOUR','VIEW ALL PACKAGES'],
-        contact_us:['Contact us','We are in touch: +99871-253 9900'],
+        contact_us:['Contact us','We are in touch: +998974749099'],
         pages:{
           dubai:{
             title:'Dubai',

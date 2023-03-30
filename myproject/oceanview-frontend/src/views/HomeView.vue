@@ -10,8 +10,8 @@
         <div class="section-heading text-center">
           <div class="row">
             <div class="col-lg-8 offset-lg-2">
-              <h5 class="dash-style">{{activeLang.sections_descr[1]}}</h5>
-              <h2>{{activeLang.sections_title[1]}}</h2>
+              <h5 class="dash-style">{{ activeLang.sections_descr[1] }}</h5>
+              <h2>{{ activeLang.sections_title[1] }}</h2>
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@
                   </a>
                 </figure>
                 <div class="package-price">
-                  <h6><span>$900 </span>{{activeLang.cards_price}}</h6>
+                  <h6><span>$900 </span>{{ activeLang.cards_price }}</h6>
                 </div>
                 <div class="package-content-wrap">
                   <div class="package-meta text-center">
@@ -46,7 +46,7 @@
                   </div>
                   <div class="package-content">
                     <h3>
-                      <a href="#">{{ activeLang.cards_title[0]}}</a>
+                      <a href="#">{{ activeLang.cards_title[0] }}</a>
                     </h3>
                     <div class="review-area">
                       <span class="review-text">(25 {{ activeLang.cards_review }})</span>
@@ -59,7 +59,7 @@
                         >{{ activeLang.cards_btns[0] }}<i class="fas fa-arrow-right"></i
                       ></a>
                       <a href="#" class="button-text width-6"
-                        >{{activeLang.cards_btns[1]}}<i class="far fa-heart"></i
+                        >{{ activeLang.cards_btns[1] }}<i class="far fa-heart"></i
                       ></a>
                     </div>
                   </div>
@@ -74,7 +74,7 @@
                   </a>
                 </figure>
                 <div class="package-price">
-                  <h6><span>$600 </span>{{activeLang.cards_price}}</h6>
+                  <h6><span>$600 </span>{{ activeLang.cards_price }}</h6>
                 </div>
                 <div class="package-content-wrap">
                   <div class="package-meta text-center">
@@ -85,7 +85,7 @@
                       </li>
                       <li>
                         <i class="fas fa-user-friends"></i>
-                        {{activeLang.cards_person}} 2
+                        {{ activeLang.cards_person }} 2
                       </li>
                       <li>
                         <i class="fas fa-map-marker-alt"></i>
@@ -95,17 +95,17 @@
                   </div>
                   <div class="package-content">
                     <h3>
-                      <a href="#">{{activeLang.cards_title[1]}}</a>
+                      <a href="#">{{ activeLang.cards_title[1] }}</a>
                     </h3>
                     <div class="review-area">
-                      <span class="review-text">(17 {{activeLang.cards_review}})</span>
+                      <span class="review-text">(17 {{ activeLang.cards_review }})</span>
                       <div class="rating-start" title="Rated 5 out of 5">
                         <span style="width: 100%"></span>
                       </div>
                     </div>
                     <div class="btn-wrap">
                       <a href="#" class="button-text width-6"
-                        >{{activeLang.cards_btns[0]}}<i class="fas fa-arrow-right"></i
+                        >{{ activeLang.cards_btns[0] }}<i class="fas fa-arrow-right"></i
                       ></a>
                       <a href="#" class="button-text width-6"
                         >{{ activeLang.cards_btns[1] }}<i class="far fa-heart"></i
@@ -123,7 +123,7 @@
                   </a>
                 </figure>
                 <div class="package-price">
-                  <h6><span>$850 </span>{{activeLang.cards_price}}</h6>
+                  <h6><span>$850 </span>{{ activeLang.cards_price }}</h6>
                 </div>
                 <div class="package-content-wrap">
                   <div class="package-meta text-center">
@@ -134,7 +134,7 @@
                       </li>
                       <li>
                         <i class="fas fa-user-friends"></i>
-                        {{activeLang.cards_person}} 6
+                        {{ activeLang.cards_person }} 6
                       </li>
                       <li>
                         <i class="fas fa-map-marker-alt"></i>
@@ -144,20 +144,20 @@
                   </div>
                   <div class="package-content">
                     <h3>
-                      <a href="#">{{activeLang.cards_title[2]}}</a>
+                      <a href="#">{{ activeLang.cards_title[2] }}</a>
                     </h3>
                     <div class="review-area">
-                      <span class="review-text">(22 {{activeLang.cards_review}})</span>
+                      <span class="review-text">(22 {{ activeLang.cards_review }})</span>
                       <div class="rating-start" title="Rated 5 out of 5">
                         <span style="width: 80%"></span>
                       </div>
                     </div>
                     <div class="btn-wrap">
                       <a href="#" class="button-text width-6"
-                        >{{activeLang.cards_btns[0]}}<i class="fas fa-arrow-right"></i
+                        >{{ activeLang.cards_btns[0] }}<i class="fas fa-arrow-right"></i
                       ></a>
                       <a href="#" class="button-text width-6"
-                        >{{activeLang.cards_btns[1]}}<i class="far fa-heart"></i
+                        >{{ activeLang.cards_btns[1] }}<i class="far fa-heart"></i
                       ></a>
                     </div>
                   </div>
@@ -166,8 +166,8 @@
             </div>
           </div>
           <div class="btn-wrap text-center">
-            <a href="#" class="button-primary">{{activeLang.btns[3]}}</a>
-            <a href="#" class="button-primary upper">{{activeLang.btns[2]}}</a>
+            <a href="#" class="button-primary">{{ activeLang.btns[3] }}</a>
+            <a href="#" class="button-primary upper">{{ activeLang.btns[2] }}</a>
           </div>
         </div>
       </div>
@@ -181,8 +181,7 @@
             <div
               class="callback-img"
               :style="{
-                'background-image':
-                  'url(' + require('@/assets/images/img8.jpg') + ')',
+                'background-image': 'url(' + require('@/assets/images/img8.jpg') + ')',
               }"
             >
               <div class="video-button">
@@ -197,47 +196,39 @@
             <div class="callback-inner">
               <div class="section-heading section-heading-white">
                 <h5 class="dash-style">{{ activeLang.sections_descr[2] }}</h5>
-                <h2 class="upper">{{activeLang.sections_title[2]}}</h2>
+                <h2 class="upper">{{ activeLang.sections_title[2] }}</h2>
               </div>
               <div class="callback-counter-wrap">
                 <div class="counter-item">
                   <div class="counter-icon"></div>
                   <div class="counter-content">
-                    <span class="counter-no">
-                      <span class="counter">500</span>+
-                    </span>
-                    <span class="counter-text"> {{activeLang.video_sec[0]}} </span>
+                    <span class="counter-no"> <span class="counter">500</span>+ </span>
+                    <span class="counter-text"> {{ activeLang.video_sec[0] }} </span>
                   </div>
                 </div>
                 <div class="counter-item">
                   <div class="counter-icon"></div>
                   <div class="counter-content">
-                    <span class="counter-no">
-                      <span class="counter">100</span>+
-                    </span>
+                    <span class="counter-no"> <span class="counter">100</span>+ </span>
                     <span class="counter-text">
-                     {{activeLang.video_sec[1]}}
+                      {{ activeLang.video_sec[1] }}
                     </span>
                   </div>
                 </div>
                 <div class="counter-item">
                   <div class="counter-icon"></div>
                   <div class="counter-content">
-                    <span class="counter-no">
-                      <span class="counter">300</span>+
-                    </span>
+                    <span class="counter-no"> <span class="counter">300</span>+ </span>
                     <span class="counter-text">
-                    {{activeLang.video_sec[2]}}
+                      {{ activeLang.video_sec[2] }}
                     </span>
                   </div>
                 </div>
                 <div class="counter-item">
                   <div class="counter-icon"></div>
                   <div class="counter-content">
-                    <span class="counter-no">
-                      <span class="counter">25</span>+
-                    </span>
-                    <span class="counter-text">{{activeLang.video_sec[3]}}</span>
+                    <span class="counter-no"> <span class="counter">25</span>+ </span>
+                    <span class="counter-text">{{ activeLang.video_sec[3] }}</span>
                   </div>
                 </div>
               </div>
@@ -255,20 +246,19 @@
             <div
               class="contact-img"
               :style="{
-                'background-image':
-                  'url(' + require('@/assets/images/img24.jpg') + ')',
+                'background-image': 'url(' + require('@/assets/images/img24.jpg') + ')',
               }"
             ></div>
           </div>
-          <div class="contact-section-right">
+          <div class="contact-section-right col-lg-8">
             <div class="support-area">
               <div class="support-icon">
                 <img src="@/assets/images/icon5.png" alt="" />
               </div>
               <div class="support-content">
-                <h4>{{activeLang.contact_us[0]}}</h4>
+                <h4>{{ activeLang.contact_us[0] }}</h4>
                 <h3>
-                  <a href="tel:+998712539900">{{ activeLang.contact_us[1] }}</a>
+                  <a href="tel:+998974749099">{{ activeLang.contact_us[1] }}</a>
                 </h3>
               </div>
             </div>
@@ -283,9 +273,7 @@
                       <ul>
                         <li>
                           <a href="#"
-                            ><span class="__cf_email__"
-                              >info@oceanview.uz</span
-                            ></a
+                            ><span class="__cf_email__">info@oceanview.uz</span></a
                           >
                         </li>
                       </ul>
@@ -299,8 +287,7 @@
                       <ul>
                         <li>
                           <a href="#"
-                            >Моб./ Telegram/ Whatsapp: <br /><br />+99871-253
-                            9900</a
+                            >Моб./ Telegram/ Whatsapp: <br /><br />+998974749099</a
                           >
                         </li>
                       </ul>
@@ -312,8 +299,7 @@
                         <img src="@/assets/images/icon14.png" alt="" />
                       </div>
                       <ul>
-                        <li>г. Ташкент</li>
-                        <li>ул. Шота Руставели, 63</li>
+                        <li>{{ activeLang.nav.adress }}</li>
                       </ul>
                     </div>
                   </div>
@@ -329,19 +315,19 @@
 </template>
 
 <script lang="ts">
-import HomeSlider from '@/components/Home/ru/HomeSlider.vue';
-import { defineComponent } from 'vue'
-import HomeTopDes from '@/components/Home/ru/HomeTopDes.vue';
-import { mapGetters } from 'vuex';
+import HomeSlider from "@/components/Home/ru/HomeSlider.vue";
+import { defineComponent } from "vue";
+import HomeTopDes from "@/components/Home/ru/HomeTopDes.vue";
+import { mapGetters } from "vuex";
 export default defineComponent({
   components: {
     HomeSlider,
     HomeTopDes,
   },
-  computed:{
-    ...mapGetters(['activeLang'])
-  }
-})
+  computed: {
+    ...mapGetters(["activeLang"]),
+  },
+});
 </script>
 
 <style></style>

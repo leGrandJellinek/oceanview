@@ -1,33 +1,24 @@
-<template>
-         <main id="content" class="site-main">
-            <div class="no-content-section not-found-page" :style="{
-                'background-image': `url(${require('@/assets/images/'+ bg_img.malasiya)})`,
-              }">
-               <div class="container text-container">
-                  <div class="no-content-wrap">
-                     <span class="space-top">&nbsp</span>
-                     <h1>{{ activeLang.pages.malasiya.title }}</h1>
-                     <h4>{{ activeLang.pages.malasiya.text }}</h4>
-                  </div>
-               </div>
-               <div class="overlay"></div>
-            </div>
-         </main>
-</template>
+<template lang="pug">
+CountryDetail(
+        :direct="activeLang.pages.malasiya"
+    )
+    </template>
 
-<script lang="ts">
-import Navbar from '@/components/Header/Navbar.vue';
-import { mapGetters } from 'vuex';
-    export default {
-        components:{
-            Navbar
-        },
-        computed:{
-            ...mapGetters(['activeLang', 'bg_img'])
+    <script lang="ts">
+    import Navbar from '@/components/Header/Navbar.vue';
+    import CountryDetail from '@/components/Main/CountryDetail.vue';
+    import { mapGetters } from 'vuex';
+        export default {
+            components:{
+                Navbar,
+                CountryDetail
+            },
+            computed:{
+                ...mapGetters(['activeLang'])
+            }
         }
-    }
-</script>
+    </script>
 
-<style lang="scss" scoped>
+    <style lang="scss" scoped>
 
-</style>
+    </style>

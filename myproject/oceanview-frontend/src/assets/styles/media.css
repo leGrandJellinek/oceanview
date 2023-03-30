@@ -1,4 +1,7 @@
 @media (max-width:992px) {
+    .main-nav{
+        justify-content: center;
+    }
     .space-top{
         display: none;
     }
@@ -24,6 +27,9 @@
         font-size: 64px;
         top: 0;
         transform: translate(0, 0);
+    }
+    .cards-mob{
+        flex-direction: column;
     }
 }
 @media (max-width:576px) {

@@ -1,26 +1,24 @@
 <template lang="pug">
 CountryDetail(
-    :title="activeLang.pages.baku.title"
-    :text="activeLang.pages.baku.text"
-    :img="bg_img.baku"
-)
-</template>
+            :direct="activeLang.pages.baku"
+        )
+        </template>
 
-<script lang="ts">
-import Navbar from '@/components/Header/Navbar.vue';
-import CountryDetail from '@/components/Main/CountryDetail.vue';
-import { mapGetters } from 'vuex';
-    export default {
-        components:{
-            Navbar,
-            CountryDetail
-        },
-        computed:{
-            ...mapGetters(['activeLang', 'bg_img'])
-        }
-    }
-</script>
+        <script lang="ts">
+        import Navbar from '@/components/Header/Navbar.vue';
+        import CountryDetail from '@/components/Main/CountryDetail.vue';
+        import { mapGetters } from 'vuex';
+            export default {
+                components:{
+                    Navbar,
+                    CountryDetail
+                },
+                computed:{
+                    ...mapGetters(['activeLang'])
+                }
+            }
+        </script>
 
-<style lang="scss" scoped>
+        <style lang="scss" scoped>
 
-</style>
+        </style>

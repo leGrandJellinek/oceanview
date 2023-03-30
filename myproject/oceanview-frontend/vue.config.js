@@ -2,7 +2,8 @@ const { defineConfig } = require('@vue/cli-service')
 const BundleTracker = require('webpack-bundle-tracker');
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: 'http://localhost:8080/',
+  publicPath: 'https://oceanview.uz/',
+  // publicPath: 'http://localhost:8080/',
   outputDir: "./dist/",
 
   chainWebpack: config => {

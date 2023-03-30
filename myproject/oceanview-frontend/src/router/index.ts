@@ -17,7 +17,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path:'/stambul',
-    name:'dubai',
+    name:'stambul',
     component: () => import("@/views/StambulView.vue")
   },
   {
@@ -31,24 +31,14 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("@/views/MalasiyaView.vue")
   },
   {
-    path:'/bangkok',
-    name:'bangkok',
-    component: () => import("@/views/BangkokView.vue")
-  },
-  {
     path:'/baku',
     name:'baku',
     component: () => import("@/views/BakuView.vue")
   },
   {
-    path:'/milan',
-    name:'milan',
+    path:'/tailand',
+    name:'tailand',
     component: () => import("@/views/MilanView.vue")
-  },
-  {
-    path:'/paris',
-    name:'paris',
-    component: () => import("@/views/ParisView.vue")
   },
 ]
 
