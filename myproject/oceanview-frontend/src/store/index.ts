@@ -157,35 +157,29 @@ export default createStore({
               {
                 title:'Океанариум и дельфинарий',
                 descr:'Один из самых больших океанариумов мира, расположен в самом крупном торгово-развлекательном центре Ближнего Востока — «Дубай Молл».',
-                img:'',
             },
               {
                 title:'Дубайский небоскреб',
                 descr:'«Бурдж-Халифа» — небоскрёб высотой 828 метров в Дубае, самое высокое сооружение в мире.',
-                img:'',
 
             },
               {
                 title:'Парк Феррари',
                 descr:'Парк размещается под крышей площадью 200000 м² и является самым большим в мире тематическим парком, расположенным в помещении.',
-                img:'',
 
             },
               {
                 title:'Горнолыжный курорт',
                 descr:'Первый горнолыжный комплекс на Ближнем Востоке под крышей и один из крупнейших в мире, круглый год покрытый искусственным снегом.',
-                img:'',
 
             },
               {
                 title:'Роскошный отель Парус',
                 descr:'Бурдж-эль-Араб — роскошный отель в Дубае, самом крупном городе Объединённых Арабских Эмиратов.',
-                img:'',
             },
               {
                 title:'Пустынное сафари',
                 descr:'Посещение достопримечательностей в Дубаи будет неполноценным без поездки на внедорожнике по барханам пустыни ОАЭ.',
-                img:'',
             },
             ]
           },
@@ -196,27 +190,22 @@ export default createStore({
               {
                 title:'Собор Святой Софии',
                 descr:'Более тысячи лет Софийский собор в Константинополе оставался самым большим храмом в христианском мире — вплоть до постройки собора Святого Петра в Риме.',
-                img:'',
               },
               {
                 title:'Пролив Босфор',
                 descr:'Вас ждет удивительный круиз с лучшими панорамами Босфора. Величественные дворцы, монументальные храмы и мечети.',
-                img:'',
               },
               {
                 title:'Дворец Топкапи',
                 descr:'После падения Османской империи дворец превращён в музей — один из крупнейших по площади в мире. Число экспонатов, выставленных для общего обозрения, достигает 65 000 единиц (и это только десятая часть коллекции).',
-                img:'',
               },
               {
                 title:'Миниатюрк',
                 descr:'Парк миниатюр в котором на территории площадью более 60.000 кв. м. выставлены модели архитектурных объектов Турции и других стран, выполненные в масштабе 1:25.',
-                img:'',
               },
               {
                 title:'Крупные аквапарки',
                 descr:'Для любителей экстрима и острых ощущений лучшего развлечения, чем посещение аквапарка не найти.',
-                img:'',
               },
             ]
           },
@@ -227,32 +216,26 @@ export default createStore({
               {
                 title:'Река Кура',
                 descr:'Река с ее живописными скалистыми берегами, протекающая через весь город Мцхета',
-                img:'',
               },
               {
                 title:'Пещерный город Уплисцихе ',
                 descr:'Включает в себя более 700 пещер и сооружений, в т.ч. винные погреба, пекарни, античный театр, зал приемов царицы Тамары, сохранившиеся по сей день.',
-                img:'',
               },
               {
                 title:'Старый город',
                 descr:'Исторический центр Тбилиси, находится у подножья горы Мтацминда (Святая Гора). Проходя по улочкам вы посетите исторические или культурные памятники.',
-                img:'',
               },
               {
                 title:'Музея Сталина. ',
                 descr:'Музей состоит из трех блоков: самого музея, дома и личного ж/д вагона Сталина.',
-                img:'',
               },
               {
                 title:'Грузинский Сингапур',
                 descr:'самый известный черноморский курорт Грузии с населением в 120 000 человек.',
-                img:'',
               },
               {
                 title:'Дельфинарий',
                 descr:'Дельфинарий предлагает своим гостям новое интерактивное шоу. Оно включает около 30 номеров: три танца, игры с кольцами и шарами, которые дельфины балансируют на хвостах, незабываемое Foot Push и многих других трюков.',
-                img:'',
               },
             ]
           },
@@ -263,32 +246,26 @@ export default createStore({
               {
                 title:'Архитектура городов',
                 descr:'Поражая сплавом традиций и современности, архитектура Малайзии отражает многочисленность стилей, культур и религий Азии.',
-                img:'',
               },
               {
                 title:'Самый большой в мире океанариум',
                 descr:'Это подводный тоннель длиной 90 метров со стеклянными стенами, полный жителями морей и океанов. В Водном театре океанариума можно кинуть корм пираньям.',
-                img:'',
               },
               {
                 title:'Пляжи с белоснежным песком',
                 descr:'Малайзия по-прежнему остается уголком девственной природы, бережно сохраняющихся традиций, чистых пляжей и отличного сервиса.',
-                img:'',
               },
               {
                 title:'Полет на воздушном шаре',
                 descr:'Любите тишину небес и воздушный шар для вас это лучший способ отдыха? Тогда вам обязательно нужно полетать в Малайзии.',
-                img:'',
               },
               {
                 title:'Национальный парк Таман Негара',
                 descr:'Вас ждут бескрайние джунгли, Куала-Тахан, подвесная тропа, река Сунгаи-Тембелинг и, конечно же, богатый животный мир.',
-                img:'',
               },
               {
                 title:'Самый большой пешеходный мост',
                 descr:'Небесный мост на Лангкави, с которого открывается сказочный вид на остров. Мост подвешен над пропастью и в ветреные дни это наиболее заметно ощущается.',
-                img:'',
               },
             ]
           },
@@ -299,27 +276,22 @@ export default createStore({
               {
                 title:'Нагорный Парк',
                 descr:'«Огни Вечернего Баку» начинаются с посещения Нагорного Парка. Именно здесь «Город Ветров», как часто называют Баку, откроется вам во всей своей красе.',
-                img:'',
               },
               {
                 title:'Музей Ковров',
                 descr:'Ковроткачество было одним из ранних форм искусства в Азербайджане. Сложные паттерны и точные линии показывают насколько существенна работа азербайджанских мастеров!',
-                img:'',
               },
               {
                 title:'Маленькая Венеция',
                 descr:'Ресторан Венеция находится на морском побережье в центре города. Место, где вы можете отведать вкусного итальянского блюда, но и насладиться замечательной итальянской атмосферой. ',
-                img:'',
               },
               {
                 title:'Центр Гейдара Алиева',
                 descr:'Хотите посмотреть как выглядит одно из самых красивых зданий в мире? Архитектором этой прекрасной работы является всемирно известная Захи Хадид, благодаря которой здание было удостоено награды в номинации «Дизайн года» в 2014 году.',
-                img:'',
               },
               {
                 title:'Каспийский пляж ',
                 descr:'Если вам повезёт посетить Баку в летнюю пору, тогда поспешите на пляж! Вы можете выбрать любой из городских пляжей, курорты, также аквапарк.',
-                img:'',
               },
             ]
           },
@@ -330,37 +302,30 @@ export default createStore({
               {
                 title:'Лучшие пляжи мира',
                 descr:'Пляжи Таиланда — это идеальное место отдыха для любителей полого спуска к воде, песчаной прибрежной линии, прозрачного и теплого моря и потрясающего пейзажа вокруг.',
-                img:'',
               },
               {
                 title:'Дайвинг',
                 descr:'Дайв-центры есть на любом тайском курорте. Большинство из них расположено в Паттайе и на Пхукете.',
-                img:'',
               },
               {
                 title:'Тайский массаж',
                 descr:'Тайский массаж формировался под влиянием древней культуры Китая и Индии и приобрел нынешний вид благодаря долгой практике, наблюдению за природой человеческого тела, создавая чёткую систему оздоровительной терапии.',
-                img:'',
               },
               {
                 title:'Кристальная вода',
                 descr:'Вода настолько лазурная и прозрачная, что плавать в ней невероятно приятно – оказавшись на Пхукете испытаете удовольствие от моря.',
-                img:'',
               },
               {
                 title:'Вечный карнавал',
                 descr:'Помимо ночных праздников, которые в Тайланде каждый день, регулярно устраиваются карнавалы.',
-                img:'',
               },
               {
                 title:'Рафтинг и тарзанка',
                 descr:'Вы получите удовольствие от захватывающего дух сплава по реке на надувных лодках. Получите всплеск адреналина прыгнув с тарзанки.',
-                img:'',
               },
               {
                 title:'Морские круизы',
                 descr:'Надоел отель и его окресности, тогда морской круиз вас сильно удивит. Посмотрите на Тайланд с другой стороны, по одному из морских маршрутов.',
-                img:'',
               },
             ]
           },
@@ -517,35 +482,29 @@ export default createStore({
               {
                 title:'Okeanarium va delfinarium',
                 descr:`Dunyodagi eng katta okeanariumlardan biri, yaqin Sharqning eng yirik savdo va ko'ngilochar markazi-Dubay mallda joylashgan.`,
-                img:'',
             },
               {
                 title:`Dubay osmono'par binosi`,
                 descr:`"Burj Xalifa" Dubaydagi 828 metr balandlikdagi osmono'par bino bo'lib, dunyodagi eng baland inshootdir.`,
-                img:'',
 
             },
               {
                 title:'Ferrari Park',
                 descr:`Park 200 000 m2 tom ostida joylashgan va dunyodagi eng katta yopiq tematik parkdir.`,
-                img:'',
 
             },
               {
                 title:`Chang'i kurorti`,
                 descr:`Yaqin Sharqdagi birinchi tog' - chang'i majmuasi tom ostida va butun yil davomida sun'iy qor bilan qoplangan dunyodagi eng yiriklaridan biri.`,
-                img:'',
 
             },
               {
                 title:`Hashamatli mehmonxona yelkan`,
                 descr:`Burj Al Arab-Birlashgan Arab Amirliklarining eng yirik shahri Dubaydagi hashamatli mehmonxona.`,
-                img:'',
             },
               {
                 title:`Cho'l safari`,
                 descr:`Dubaydagi diqqatga sazovor joylarga tashrif BAA cho'l barxanlari bo'ylab suv sayohatisiz to'liq bo'lmaydi.`,
-                img:'',
             },
             ]
           },
@@ -556,27 +515,22 @@ export default createStore({
               {
                 title:'Ayasofya',
                 descr:`Ming yildan ko'proq vaqt davomida Konstantinopoldagi Sofiya sobori xristian olamidagi eng katta ibodatxona bo'lib qoldi — Rimda Avliyo Pyotr sobori qurilgunga qadar.`,
-                img:'',
               },
               {
                 title:`Bosfor bo'g'ozi`,
                 descr:`Sizni Bosforning eng yaxshi panoramalari bilan ajoyib kruiz kutmoqda. Ulug'vor saroylar, monumental ibodatxonalar va masjidlar.`,
-                img:'',
               },
               {
                 title:'Topkapi saroyi',
                 descr:`Usmonli imperiyasi qulaganidan keyin saroy muzeyga aylantirildi — dunyodagi eng katta maydonlardan biri. Umumiy ko'rish uchun namoyish etilgan eksponatlar soni 65000 donaga etadi (va bu to'plamning o'ndan bir qismi).`,
-                img:'',
               },
               {
                 title:'Miniatyura',
                 descr:`Miniatyuralar parki 60.000 kvadrat metrdan ortiq maydonda.M. Turkiya va boshqa mamlakatlarning me'moriy ob'ektlarining 1:25 masshtabida namoyish etilgan modellari.`,
-                img:'',
               },
               {
                 title:'Katta suv parklari',
                 descr:`Ekstremal va hayajonli ishqibozlar uchun akvaparkga tashrif buyurishdan ko'ra yaxshiroq o'yin-kulgi yo'q.`,
-                img:'',
               },
             ]
           },
@@ -587,32 +541,26 @@ export default createStore({
               {
                 title:'Kura daryosi',
                 descr:`Mtsxeta shahri bo'ylab oqadigan go'zal toshli qirg'oqlari bo'lgan Daryo`,
-                img:'',
               },
               {
                 title:`Upliskixe g'or shahri`,
                 descr:`700 dan ortiq g'or va inshootlarni o'z ichiga oladi, shu jumladan.sharob qabrlari, Novvoyxonalar, qadimiy teatr, Qirolicha Tamarani qabul qilish zali, bugungi kungacha saqlanib qolgan.`,
-                img:'',
               },
               {
                 title:'Eski shahar',
                 descr:`Tbilisining tarixiy markazi, Mtatsminda tog'ining etagida joylashgan (Muqaddas tog'). Ko'chalardan o'tayotganda siz tarixiy yoki madaniy yodgorliklarga tashrif buyurasiz.`,
-                img:'',
               },
               {
                 title:'Stalin muzeyi.',
                 descr:`Muzey uchta blokdan iborat: muzeyning o'zi, uyi va Stalinning shaxsiy temir yo'l vagoni.`,
-                img:'',
               },
               {
                 title:'Gruziya Singapur',
                 descr:`Gruziyaning eng mashhur qora dengiz kurorti, aholisi 120 ming kishi.`,
-                img:'',
               },
               {
                 title:'Delfinarium',
                 descr:`Delfinarium o'z mehmonlariga yangi interaktiv shou taklif qiladi. U 30 ga yaqin raqamlarni o'z ichiga oladi: uchta raqs, delfinlar dumlarini muvozanatlashtiradigan halqalar va to'plar bilan o'yinlar, unutilmas oyoq surish va boshqa ko'plab fokuslar.`,
-                img:'',
               },
             ]
           },
@@ -623,32 +571,26 @@ export default createStore({
               {
                 title:'Shahar arxitekturasi',
                 descr:`An'analar va zamonaviylikning uyg'unligi bilan ajralib turadigan Malayziya me'morchiligi Osiyodagi ko'plab uslublar, madaniyatlar va dinlarni aks ettiradi.`,
-                img:'',
               },
               {
                 title:'Dunyodagi eng katta Akvarium',
                 descr:`Bu dengiz va okeanlar aholisi bilan to'la shisha devorlari bo'lgan 90 metr uzunlikdagi suv osti tunnelidir. Akvariumning suv teatrida siz piranhalarga ovqat tashlashingiz mumkin.`,
-                img:'',
               },
               {
                 title:'Qor-oq qumli plyajlar',
                 descr:`Malayziya hali ham bokira tabiat, ehtiyotkorlik bilan saqlanib qolgan an'analar, toza plyajlar va ajoyib xizmatning burchagi`,
-                img:'',
               },
               {
                 title:'Balon parvozi',
                 descr:`Osmon sukunati va sharni seving siz uchun bu dam olishning eng yaxshi usuli? Keyin, albatta, Malayziyaga uchishingiz kerak.`,
-                img:'',
               },
               {
                 title:`Taman Negara Milliy bog'i`,
                 descr:`Sizni cheksiz o'rmon, Kuala Tahan, osma yo'l, Sungai tembeling daryosi va, albatta, boy hayvonot dunyosi kutmoqda`,
-                img:'',
               },
               {
                 title:`Eng katta piyodalar ko'prigi`,
                 descr:`Langkavidagi osmon ko'prigi, bu orolning ajoyib ko'rinishini taqdim etadi. Ko'prik jarlik ustida osilgan va shamolli kunlarda u eng sezilarli darajada seziladi.`,
-                img:'',
               },
             ]
           },
@@ -659,27 +601,22 @@ export default createStore({
               {
                 title:`Tog'li Park`,
                 descr:`Kechki Boku chiroqlari" tog ' parkiga tashrif buyurishdan boshlanadi. Bu erda" shamollar shahri", Boku tez-tez chaqirilganidek, sizga butun shon-shuhratida ochiladi.`,
-                img:'',
               },
               {
                 title:'Gilam muzeyi',
                 descr:`Gilam to'qish Ozarbayjonda san'atning dastlabki turlaridan biri bo'lgan. Murakkab naqshlar va aniq chiziqlar Ozarbayjon ustalarining ishi qanchalik muhimligini ko'rsatadi!`,
-                img:'',
               },
               {
                 title:'Kichik Venetsiya',
                 descr:`Restoran Venetsiya shahar markazidagi dengiz qirg'og'ida joylashgan. Siz mazali italyan taomidan bahramand bo'lishingiz mumkin bo'lgan joy, lekin ayni paytda ajoyib italyan muhitidan bahramand bo'lishingiz mumkin.`,
-                img:'',
               },
               {
                 title:'Haydar Aliyev markazi',
                 descr:`Ko'rishni xohlaysizmi dunyodagi eng chiroyli binolardan biri qanday ko'rinishga ega? Ushbu go'zal asarning me'mori dunyoga mashhur Zaha Hadid bo'lib, u binoni 2014 yilda "yil dizayni" nominatsiyasida mukofotga sazovor qildi.`,
-                img:'',
               },
               {
                 title:'Kaspiy plyaji',
                 descr:`Agar siz yozda Bokuga tashrif buyurish baxtiga muyassar bo'lsangiz, plyajga shoshiling! Siz har qanday shahar plyajlarini, kurortlarni, shuningdek suv parkini tanlashingiz mumkin.`,
-                img:'',
               },
             ]
           },
@@ -690,37 +627,30 @@ export default createStore({
               {
                 title:'Dunyoning eng yaxshi plyajlari',
                 descr:`Tailand plyajlari suvga, qumli qirg'oq chizig'iga, tiniq va iliq dengizga va atrofdagi ajoyib manzaraga ichi bo'sh tushishni yaxshi ko'radiganlar uchun ajoyib dam olish maskanidir.`,
-                img:'',
               },
               {
                 title:`Sho'ng'in`,
                 descr:`Har qanday Tailand kurortida sho'ng'in markazlari mavjud. Ularning aksariyati Pattaya va Pxuketda joylashgan.`,
-                img:'',
               },
               {
                 title:'Tailand massaji',
                 descr:`Tailand massaji Xitoy va Hindistonning qadimiy madaniyati ta'siri ostida shakllangan va uzoq amaliyot, inson tanasining tabiatini kuzatish, aniq sog'lomlashtirish terapiyasi tizimini yaratish orqali hozirgi ko'rinishga ega bo'lgan.`,
-                img:'',
               },
               {
                 title:'Kristalli suv',
                 descr:`Suv shunchalik jozibali va shaffofki, unda suzish juda yoqimli – Pxuketda bo'lganingizdan so'ng, siz dengizdan zavqlanasiz.`,
-                img:'',
               },
               {
                 title:'Abadiy karnaval',
                 descr:`Tailandda har kuni o'tkaziladigan tungi bayramlardan tashqari, karnavallar muntazam ravishda o'tkaziladi.`,
-                img:'',
               },
               {
                 title:'Rafting va bungee',
                 descr:`Siz puflanadigan qayiqlarda hayajonli Daryo raftingidan bahramand bo'lasiz. Bungee-dan sakrab adrenalinni oling.`,
-                img:'',
               },
               {
                 title:'Dengiz sayohatlari',
                 descr:`Mehmonxona va uning tuzsizlanishidan charchadingiz, keyin dengiz sayohati sizni hayratda qoldiradi. Tailandga boshqa tomondan, dengiz yo'nalishlaridan biriga qarang.`,
-                img:'',
               },
             ]
           },
@@ -874,64 +804,193 @@ export default createStore({
         pages:{
           dubai:{
             title:'Dubai',
-            text:`Dubai is the largest city in the UAE, lying on the shores of the Persian Gulf. It strikes the imagination from the first minutes of staying in it - as if you get into a movie about a high-tech future where everything is possible. Reserves and reservoirs are being created here, canals are being laid, glass skyscrapers are being erected, shopping malls are being built, the size of small cities, and there is even its own - Dubai Venice. Wealth and luxury are the way of life of this largest commercial, financial and tourist metropolis in the entire Middle East. Local emirs strive to show the beauty and grandeur of the city to the whole world, as well as to create new, amazing and unique structures in it that will attract even more tourists.
+            included_travel:["Flight Tashkent — Dubai — Tashkent","Accommodation in a hotel of the selected category", "Meals — Breakfast", "Airport — hotel — airport transfer", "Medical insurance for the entire period", "UAE Visa", "Company services."],
+            places:[
+              {
+                title:'Oceanarium and Dolphinarium',
+                descr:'One of the largest oceanariums in the world, located in the largest shopping and entertainment center of the Middle East - "Dubai Mall',
+            },
+              {
+                title:'Dubai Skyscraper',
+                descr:'Burj Khalifa is an 828-meter—high skyscraper in Dubai, the tallest structure in the world.',
 
-            The gastronomic diversity in Dubai's shopping malls and the highest class of local restaurants ready to offer you dishes of any cuisine in the world will surprise even those who, it would seem, have tried everything in their lives.`
+            },
+              {
+                title:'Ferrari Park',
+                descr:`The park is located under a 200,000 m2 roof and is the world's largest indoor theme park.`,
+
+            },
+              {
+                title:'Ski resort',
+                descr:'The first ski resort in the Middle East under a roof and one of the largest in the world, covered with artificial snow all year round.',
+
+            },
+              {
+                title:'Luxury Hotel Sail',
+                descr:'Burj Al Arab is a luxury hotel in Dubai, the largest city in the United Arab Emirates.',
+            },
+              {
+                title:'Desert Safari',
+                descr:'Visiting the sights in Dubai will be incomplete without a trip by SUV through the dunes of the UAE desert.',
+            },
+            ]
           },
           stambul:{
             title:'Istanbul',
-            text:'Over the centuries, more than one culture has left its mark on the land of Istanbul. Today you can see their influence with your own eyes: just walk through his "mahalla" (quarters). From the sacred sites of Sultanahmet district and elegant Beyoglu, reminiscent of 19th-century Europe, to the fashionable Nisantasi quarter, the lively club society in Kadikey district and the streets of Besiktas district, where football fans gather, it is not difficult to guess why, according to travelers, Istanbul is not just a city, but several cities in one.',
+            included_travel:['Tashkent — Istanbul — Tashkent flight (direct charter)','Hotel accommodation', 'All—inclusive meals','Airport — hotel — airport transfer',"Med. insurance for the entire period",'Company services'],
+            palaces:[
+              {
+                title:'Hagia Sophia',
+                descr:`'For more than a thousand years, St. Sophia Cathedral in Constantinople remained the largest church in the Christian world — until the construction of St. Peter's Cathedral in Rome.`,
+              },
+              {
+                title:'Bosphorus Strait',
+                descr:'An amazing cruise with the best panoramas of the Bosphorus awaits you. Majestic palaces, monumental temples and mosques.',
+              },
+              {
+                title:'Topkapi Palace',
+                descr:'After the fall of the Ottoman Empire, the palace was turned into a museum — one of the largest in the world by area. The number of exhibits on display for general viewing reaches 65,000 units (and this is only a tenth of the collection).',
+              },
+              {
+                title:'Miniature',
+                descr:'A miniature park in which models of architectural objects of Turkey and other countries, made on a scale of 1:25, are exhibited on an area of more than 60,000 sq. m.',
+              },
+              {
+                title:'Large water parks',
+                descr:'For fans of extreme sports and thrills, there is no better entertainment than visiting a water park.',
+              },
+            ]
           },
           tbilisi:{
-            title:'Tbilisi',
-            text:`Located on the banks of the Mtkvari (Kura) River, Tbilisi is not only the capital of Georgia, but also a city with a rich history. Visa restrictions for citizens of the countries of the Cooperation Council of the Arab States of the Arab Gulf were lifted this year, so you should definitely visit this wonderful city.
-
-            The great Pushkin once called Tbilisi a “magical land". Today it is the largest city in Georgia and a popular tourist destination due to its vibrant culture and abundance of attractions.
-
-            Legend has it that Tbilisi was founded by the Georgian king Vakhtang I Gorgasali while hunting in these places. Throughout its history, the city has been destroyed more than 29 times by the hands of invaders seeking to benefit from its economic and strategic advantages. But every time Tbilisi was restored, which, of course, left its mark on its rich centuries-old history.
-
-            Due to the unique history of the city, there are many attractions in Tbilisi. Tourists can expect a variety of Art Deco buildings and churches of the Old Town. It is very interesting to walk around Tbilisi, see the heart of the lively city and get acquainted with the traditions of the Georgian people.`,
+            title:'Tblisi',
+            included_travel:['Tashkent — Tbilisi — Tashkent flight','Accommodation in a hotel of the selected category','All-inclusive meals — Meals Breakfast', "Airport — hotel — airport transfer", 'Med. insurance for the entire period','Company services'],
+            places:[
+              {
+                title:'Kura River',
+                descr:'The river with its picturesque rocky shores, flowing through the entire city of Mtskheta',
+              },
+              {
+                title:'Uplistsikhe Cave City',
+                descr:'It includes more than 700 caves and structures, including wine cellars, bakeries, an antique theater, a reception hall of Queen Tamara, preserved to this day.',
+              },
+              {
+                title:'Old Town',
+                descr:'The historical center of Tbilisi is located at the foot of Mtatsminda Mountain (Holy Mountain). Walking through the streets you will visit historical or cultural monuments.',
+              },
+              {
+                title:'The Stalin Museum.',
+                descr:`The museum consists of three blocks: the museum itself, the house and Stalin's personal railway car.`,
+              },
+              {
+                title:'Georgian Singapore',
+                descr:'The most famous Black Sea resort in Georgia with a population of 120,000 people.',
+              },
+              {
+                title:'Dolphinarium',
+                descr:'The Dolphinarium offers its guests a new interactive show. It includes about 30 numbers: three dances, games with rings and balls that dolphins balance on their tails, an unforgettable Foot Push and many other tricks.',
+              },
+            ]
           },
           malasiya:{
             title:'Kuala Lumpur',
-            text: `Kuala Lumpur is the gateway between Asia and Oceania, a city like an exotic flower that bloomed in a century and a half from a mining village to a powerful metropolis. Located in a low-lying valley surrounded by mountains covered with equatorial forests, Kuala Lumpur, like an Asian tiger, watches everything that happens around it. Here the Klang and Gombak rivers merge and flow into the Strait of Malacca. The symbol of his power is the Petronas twin towers, which rise above the urban landscape. It is a city of contrasts, where different peoples, languages and religions are intertwined, where economic and cultural life is bubbling. But it is not only this that attracts tourists. Evergreen forests, hilly terrain and equatorial beaches with white-golden sand, washed by the warm waters of the Strait of Malacca, will surprise the most sophisticated connoisseur of exotic holidays.`,
-          },
-          bangkok:{
-            title:'Bangkok',
-            text:`In Bangkok, every traveler finds something to do. Lovers of historical sights go on an excursion to the Grand Palace, and connoisseurs of quality shopping go to modern shopping centers such as Terminal 21. The capital of Thailand ranks first in the ranking of the most popular tourist destinations, surprising with its rich cultural heritage, lively nightlife, world-class restaurants and incredible affordability. Find out when it's best to go to Bangkok, how to get around the city, what sights to visit and in which area to stay.`,
+            included_travel:['Flights Tashkent — Kuala Lumpur — Langkawi Island — Kuala Lumpur — Tashkent','Airport — hotel — airport transfer','Accommodation in a hotel of the selected category + breakfast', 'Company services','Insurance','City sightseeing tour'],
+            places:[
+              {
+                title:'Architecture of cities',
+                descr:`Striking a fusion of tradition and modernity, the architecture of Malaysia reflects the multiplicity of styles, cultures and religions of Asia.`,
+              },
+              {
+                title:`The world's largest aquarium`,
+                descr:`This is an underwater tunnel 90 meters long with glass walls, full of inhabitants of the seas and oceans. In the aquarium's Water Theater, you can throw food to piranhas.`,
+              },
+              {
+                title:'Beaches with white sand',
+                descr:'Malaysia is still a corner of pristine nature, carefully preserved traditions, clean beaches and excellent service.',
+              },
+              {
+                title:'Hot air balloon flight',
+                descr:`Do you love the silence of the heavens and a balloon is the best way for you to relax? Then you definitely need to fly to Malaysia.`,
+              },
+              {
+                title:'Taman Negara National Park',
+                descr:'Endless jungles, Kuala Tahan, a hanging trail, the Sungai River-Tembeling and, of course, a rich animal world are waiting for you.',
+              },
+              {
+                title:'The biggest pedestrian bridge',
+                descr:'Sky Bridge on Langkawi, which offers a fabulous view of the island. The bridge is suspended over a precipice and on windy days it is most noticeably felt.',
+              },
+            ]
           },
           baku:{
             title:'Baku',
-            text:`The historical center of Baku recalls its turbulent past — from the period when the city was a port of the Great Silk Road to the oil boom of Soviet times. The Old City is a maze of alleys, mosques, historical buildings and remnants of fortifications, including the Shirvanshahs' Palace and the Maiden Tower, which is now included in the UNESCO World Heritage List. It is not just a historical landmark: the city is known for its fine arts and cultural entertainment, as well as a vibrant business sector.`,
+            included_travel:['Tashkent – Baku – Tashkent flight','Transfer','Hotel accommodation','Medical insurance policy','Company services'],
+            places:[
+              {
+                title:'Nagorny Park',
+                descr:'The "Lights of Evening Baku" begin with a visit Nagorny Park. It is here that the "City of Winds", as Baku is often called, will open to you in all its glory.',
+              },
+              {
+                title:'Carpet Museum',
+                descr:'Carpet weaving was one of the earliest art forms in Azerbaijan. Complex patterns and precise lines show how essential the work of Azerbaijani masters is!',
+              },
+              {
+                title:'Little Venice',
+                descr:'The Venice restaurant is located on the seashore in the city center. A place where you can taste delicious Italian dishes, but also enjoy the wonderful Italian atmosphere.  ',
+              },
+              {
+                title:'Heydar Aliyev Center',
+                descr:'Do you want to see what one of the most beautiful buildings in the world looks like? The architect of this beautiful work is the world-famous Zaha Hadid, thanks to whom the building was awarded in the nomination "Design of the Year" in 2014.',
+              },
+              {
+                title:'Caspian Beach',
+                descr:'If you are lucky enough to visit Baku in the summer, then hurry to the beach! You can choose any of the city beaches, resorts, also a water park.',
+              },
+            ]
           },
-          milan:{
-            title:'Milan',
-            text:`The first thing that comes to mind when you mention Milan is shopping. This is not surprising at all, because sales are held here twice a year, and the number of fashion boutiques per square meter is considered the largest in Europe. Fashion weeks, stylish Italians and Italians, noisy streets, fast pace of life – Milan is radically different from other Italian cities. Even the coffee here is not strong, and even with milk, and even in the evening - an unforgivable liberty for real Italians. But Milan can be forgiven for everything, because this city unites what we love so much in Italy: history, architecture and art, cuisine and, of course, impeccable style.`,
-          },
-          paris:{
-            title:'Paris',
-            text:'Paris has a reputation as the best city for a romantic trip. However, in fact, visitors lose their heads from the city itself. Magnificent buildings made of stone and wrought iron, sidewalks, cozy cafes, winding banks of the Seine — feel like in a movie. However, the charm of the city is not limited to the appearance. The local cuisine is famous for its endless variety. Juicy and hearty rooster in wine, golden butter croissants... Here it is also worth trying modern fusion cuisine and original international dishes. (Believe me, they make amazing falafel in this city.) And the spirit of Paris beckons to stroll through the alleys, look into numerous museums and explore the labyrinths of shops. Well, in the evening, go to the Champ de Mars to enjoy the view of the sparkling Eiffel Tower.',
+          tailand:{
+            title:'Phuket',
+            included_travel:['Flight Tashkent — Phuket — Tashkent','Accommodation in a hotel of the selected category','Meals breakfast','Airport — hotel — airport transfer','Med. insurance','Tour Code','Services of the company'],
+            places:[
+              {
+                title:'The best beaches in the world',
+                descr:'The beaches of Thailand are an ideal holiday destination for lovers of a gentle descent to the water, sandy coastline, clear and warm sea and stunning scenery around.',
+              },
+              {
+                title:'Diving',
+                descr:`There are dive centers at any Thai resort. Most of them are located in Pattaya and Phuket.`,
+              },
+              {
+                title:'Thai massage',
+                descr:'Thai massage was formed under the influence of the ancient culture of China and India and acquired its current form thanks to long practice, observation of the nature of the human body, creating a clear system of wellness therapy.',
+              },
+              {
+                title:'Crystal water',
+                descr:'The water is so azure and transparent that it is incredibly pleasant to swim in it – once in Phuket you will experience the pleasure of the sea.',
+              },
+              {
+                title:'Eternal Carnival',
+                descr:'In addition to night celebrations, which are held in Thailand every day, carnivals are regularly organized.',
+              },
+              {
+                title:'Rafting and bungee jumping',
+                descr:'You will enjoy the breathtaking rafting on the river on inflatable boats. Get an adrenaline rush by bungee jumping.',
+              },
+              {
+                title:'Sea cruises',
+                descr:'Tired of the hotel and its surroundings, then a sea cruise will surprise you greatly. Look at Thailand from the other side, along one of the sea routes.',
+              },
+            ]
           },
         },
       },
     } as ILang,
-    bg_img:{
-      dubai:'dubai.jpg',
-      stambul:'stambul.jpg',
-      tbilisi:'tblisi.jpg',
-      malasiya:'kuala-lumpur.jpg',
-      bangkok:'bangkok.jpg',
-      baku:'baku.jpg',
-      milan:'milan.jpg',
-      paris:'paris.jpg',
-    },
+    places_imgs:{
+      dubai:['', ]
+    }
   },
   getters: {
     activeLang(state){
       return state.active_lang
-    },
-    bg_img(state){
-      return state.bg_img
     },
     getAllLang(state){
       const array:String[] = []
