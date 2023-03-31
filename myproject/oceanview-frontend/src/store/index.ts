@@ -985,7 +985,12 @@ export default createStore({
       },
     } as ILang,
     places_imgs:{
-      dubai:['', ]
+      dubai:['', '', '', '','',''],
+      tailand:[],
+      baku:[],
+      malasiya:[],
+      tbilisi:[],
+      stambul:[],
     }
   },
   getters: {
