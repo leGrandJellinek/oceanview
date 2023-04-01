@@ -1,15 +1,12 @@
 <template lang="pug">
 section.direction
-  
-Footer
+  .container.direction-content
+    h1.direction-title {{ direct.title }}
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-
 export default defineComponent({
-    setup() {
-    },
     props:{
         direct: {
             type:Object,

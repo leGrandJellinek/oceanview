@@ -1,24 +1,19 @@
 <template lang="pug">
-CountryDetail(
-        :direct="activeLang.pages.dubai"
-    )
-    </template>
 
-    <script lang="ts">
-    import Navbar from '@/components/Header/Navbar.vue';
-    import CountryDetail from '@/components/Main/CountryDetail.vue';
-    import { mapGetters } from 'vuex';
-        export default {
-            components:{
-                Navbar,
-                CountryDetail
-            },
-            computed:{
-                ...mapGetters(['activeLang'])
-            }
-        }
-    </script>
+CountryDetail(:direct="activeLang.pages")
+</template>
 
-    <style lang="scss" scoped>
+<script lang="ts">
+import CountryDetail from '@/components/Main/CountryDetail.vue'
+import { mapGetters } from 'vuex'
+export default {
+  components: {
+    CountryDetail,
+  },
+  computed: {
+    ...mapGetters(['activeLang']),
+  },
+}
+</script>
 
-    </style>
+<style lang="scss" scoped></style>

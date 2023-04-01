@@ -131,13 +131,10 @@ export default createStore({
             country:'Азербайджан'
           },
           {
-            title: "Милан",
-            country:'Италия'
+            title: "Пхукет",
+            country:'Тайланд'
           },
-          {
-            title: "Париж",
-            country:'Франция'
-          },
+
         ],
         video_sec:['Постоянных клиентов',`Партнеров
         тур-операторов по миру`, `Партнеров отелей
@@ -150,6 +147,8 @@ export default createStore({
         btns:['Другие направления',"Дать запрос на просчет маршрута",'ЗАКАЗАТЬ ТУР','ПОСМОТРЕТЬ ВСЕ ПАКЕТЫ'],
         contact_us:['Свяжитесь с нами','Мы на связи: +998974749099'],
         pages:{
+          title:'Путишествие в',
+          included:'Что входит в поездку',
           dubai:{
             title:'Дубай',
             included_travel:["Авиаперелет Ташкент — Дубай — Ташкент","Проживание в отеле выбранной категории", "Питание — Завтраки", "Трансфер аэропорт — отель — аэропорт", "Мед. страховка на весь период", "Виза  ОАЭ", "Услуги компании."],
@@ -475,6 +474,8 @@ export default createStore({
         dunyo bo'ylab`, `Kundalik so'rovlar`],
         contact_us:["Biz bilan bog'laning", 'Biz aloqadamiz: +99871-253 9900'],
         pages:{
+          title:"Sayohat",
+          include:`Nima kiritilgan`,
           dubai:{
             title:'Dubay',
             included_travel:["Toshkent — Dubay — Toshkent havo qatnovi","Tanlangan toifadagi mehmonxonada turar joy", "Ovqatlanish — nonushta", "Transfer aeroporti — mehmonxona — aeroport", "Butun davr uchun tibbiy sug'urta", "BAA vizasi", "Kompaniya xizmatlari."],
@@ -802,6 +803,8 @@ export default createStore({
         btns:['Other directions',"Give a request to calculate the route",'BOOK A TOUR','VIEW ALL PACKAGES'],
         contact_us:['Contact us','We are in touch: +998974749099'],
         pages:{
+          title:"Tour to",
+          include:`What's included`,
           dubai:{
             title:'Dubai',
             included_travel:["Flight Tashkent — Dubai — Tashkent","Accommodation in a hotel of the selected category", "Meals — Breakfast", "Airport — hotel — airport transfer", "Medical insurance for the entire period", "UAE Visa", "Company services."],

@@ -1,6 +1,5 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw , createWebHistory} from 'vue-router'
-import HomeView from '@/views/HomeView.vue'
-
+import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import Dubai from "@/views/DubaiView.vue"
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
@@ -13,7 +12,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path:'/dubai',
     name:'dubai',
-    component: () => import("@/views/DubaiView.vue")
+    component: Dubai
   },
   {
     path:'/stambul',
@@ -34,6 +33,11 @@ const routes: Array<RouteRecordRaw> = [
     path:'/baku',
     name:'baku',
     component: () => import("@/views/BakuView.vue")
+  },
+  {
+    path:'/tai',
+    name:'tailand',
+    component: () => import("@/views/TailandView.vue")
   },
 ]
 
