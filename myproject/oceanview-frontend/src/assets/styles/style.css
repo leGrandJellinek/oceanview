@@ -2309,7 +2309,7 @@ input[type=submit]:focus {
 }
 
 .home-slider{
-  height: 88vh;
+  height: 700px;
   overflow: hidden;
 }
 .home-slider .slick-arrow {
@@ -2351,7 +2351,7 @@ input[type=submit]:focus {
 }
 
 .home-slider .home-banner-items .banner-content-wrap {
-  height: 80vh;
+  height: 700px;
   padding-bottom: 230px;
 }
 .home-slider .banner-content {
@@ -2366,7 +2366,7 @@ input[type=submit]:focus {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: top top;
+  background-position: center;
   background-repeat: no-repeat;
   position: absolute;
   bottom: 0;
@@ -2385,7 +2385,7 @@ input[type=submit]:focus {
 }
 .home-banner-items .banner-content-wrap {
   padding-bottom: 140px;
-  padding-top: 260px;
+  padding-top: 230px;
 }
 .home-banner-items .banner-content {
   margin-left: auto;
@@ -8778,5 +8778,6 @@ product checkout css
   position: relative;
 }
 .swiper-backface-hidden .swiper-slide{
-  height: 100vh;
+
+  height: 100%;
 }

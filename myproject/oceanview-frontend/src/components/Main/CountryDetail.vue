@@ -1,18 +1,14 @@
 <template lang="pug">
 main#content.site-main
-  .no-content-section.not-found-page(:style="{\
-  'background-image': `url(${require('@/assets/images/'+ img)})`,\
-  }")
+  .no-content-section.not-found-page()
     .container.text-container
       .no-content-wrap
         span.space-top &nbsp
-
-
     .overlay
-Footer
 </template>
 
 <script lang="ts">
+/*     :style="{\ 'background-image': `url(${require('@/assets/images/'+ img)})`,\}" */
 import { defineComponent } from 'vue'
 
 export default defineComponent({
@@ -21,7 +17,7 @@ export default defineComponent({
     props:{
         direct: {
             type:Object,
-            require: true
+            require: false
         },
         // title: {
         //     type: String,
