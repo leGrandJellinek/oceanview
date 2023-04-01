@@ -162,7 +162,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> 
             </div>
           </div>
           <div class="btn-wrap text-center">
@@ -315,10 +315,12 @@
 </template>
 
 <script lang="ts">
-import HomeSlider from "@/components/Home/ru/HomeSlider.vue";
 import { defineComponent } from "vue";
-import HomeTopDes from "@/components/Home/ru/HomeTopDes.vue";
 import { mapGetters } from "vuex";
+
+import HomeSlider from "@/components/Home/ru/HomeSlider.vue";
+import HomeTopDes from "@/components/Home/ru/HomeTopDes.vue";
+
 export default defineComponent({
   components: {
     HomeSlider,

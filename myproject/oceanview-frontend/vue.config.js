@@ -5,7 +5,7 @@ module.exports = defineConfig({
   // publicPath: 'http://localhost:8080/',
   publicPath: process.env.NODE_ENV === 'production'
   ? 'https://oceanview.uz/'
-  : 'http://localhost:8080/',
+  : '/',
   outputDir: "./dist/",
 
   chainWebpack: config => {
@@ -24,6 +24,7 @@ module.exports = defineConfig({
           .port(8080)
           .hot(true)
           .https(false)
+          .historyApiFallback(true)
           .headers({'Access-Control-Allow-Origin': ['\*']})
       config.watchOptions({
         poll: 1000
