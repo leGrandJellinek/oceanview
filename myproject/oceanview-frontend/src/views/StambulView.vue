@@ -1,24 +1,26 @@
 <template lang="pug">
 CountryDetail(
-    :direct="activeLang.pages.stambul"
-)
-</template>
+        :text="activeLang.pages"
+        :direct='activeLang.pages.stambul'
+        :bg='bgImg.stambul'
+        :placesImgs='placesImgs.stambul'
+    )
+    </template>
 
-<script lang="ts">
-import Navbar from '@/components/Header/Navbar.vue';
-import CountryDetail from '@/components/Main/CountryDetail.vue';
-import { mapGetters } from 'vuex';
-export default {
-    components:{
-        Navbar,
-        CountryDetail
-},
-    computed:{
-        ...mapGetters(['activeLang'])
-    }
-}
-</script>
+    <script lang="ts">
 
-<style lang="scss" scoped>
+    import CountryDetail from '@/components/Main/CountryDetail.vue';
+    import { mapGetters } from 'vuex';
+        export default {
+            components:{
+                CountryDetail
+            },
+            computed:{
+                ...mapGetters(['activeLang', 'placesImgs', 'bgImg'])
+            }
+        }
+    </script>
 
-</style>
+    <style lang="scss" scoped>
+
+    </style>

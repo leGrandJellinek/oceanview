@@ -1,5 +1,10 @@
 <template lang="pug">
-h1 dubai
+CountryDetail(
+    :text="activeLang.pages"
+    :direct='activeLang.pages.dubai'
+    :bg='bgImg.dubai'
+    :placesImgs='placesImgs.dubai'
+)
 </template>
 
 <script lang="ts">
@@ -11,7 +16,7 @@ import { mapGetters } from 'vuex';
             CountryDetail
         },
         computed:{
-            ...mapGetters(['activeLang'])
+            ...mapGetters(['activeLang', 'placesImgs', 'bgImg'])
         }
     }
 </script>

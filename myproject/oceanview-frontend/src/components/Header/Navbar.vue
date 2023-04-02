@@ -4,10 +4,10 @@
       <div class="container d-flex main-nav align-items-center">
         <div class="site-identity">
           <h1 class="site-title">
-            <a href="">
+            <router-link to="/">
               <img class="white-logo" src="@/assets/images/logo_white.svg" alt="logo" />
               <img class="black-logo" src="@/assets/images/logo_blue.svg" alt="logo" />
-            </a>
+            </router-link>
           </h1>
         </div>
 
