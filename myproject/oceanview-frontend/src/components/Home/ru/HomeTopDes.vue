@@ -153,7 +153,7 @@
             <div class="row">
               <div class="col-md-6 col-lg-12 col-xl-12">
                 <div class="desti-item overlay-desti-item">
-                  <router-link to="/tai" class="desti-image">
+                  <router-link to="/tailand" class="desti-image">
                     <img
                       style="height: 16.5em; width: 100%"
                       src="@/assets/images/phuket.jpg"
@@ -161,11 +161,11 @@
                     />
                   </router-link>
                   <div class="meta-cat bg-meta-cat">
-                    <router-link to="/tai">{{activeLang.directs[6].title}}</router-link>
+                    <router-link to="/tailand">{{activeLang.directs[6].title}}</router-link>
                   </div>
                   <div class="desti-content">
                     <h3>
-                      <router-link to="/tai">{{activeLang.directs[6].country}}</router-link>
+                      <router-link to="/tailand">{{activeLang.directs[6].country}}</router-link>
                     </h3>
                     <div class="rating-start" title="Rated 5 out of 5">
                       <span style="width: calc(17.5% * 5)"></span>

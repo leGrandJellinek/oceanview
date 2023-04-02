@@ -35,6 +35,11 @@ const routes: Array<RouteRecordRaw> = [
     name:'baku',
     component: () => import("@/views/BakuView.vue")
   },
+  {
+    path:'/tailand',
+    name:'tailand',
+    component: () => import("@/views/TailandView.vue")
+  },
 ]
 
 const router = createRouter({

@@ -463,6 +463,8 @@ ol {
 
 ul {
   list-style: disc;
+  margin: 0;
+  padding: 0;
 }
 
 ol {
