@@ -7,6 +7,7 @@ export default createStore({
     active_lang: {} as Object,
     lang: {
       ru: {
+        not_found:'Упс! Эта страница не может быть найдена',
         nav: {
           main: ['Главная', 'Туры', 'Разделы'],
           toursdropdwn: [
@@ -368,6 +369,7 @@ export default createStore({
         },
       },
       uz: {
+        not_found:'Voy! Bu sahifa topilmadi',
         nav: {
           main: ['Asosiy', 'Barcha Turlar', "bo'limlar"],
           toursdropdwn: [
@@ -556,29 +558,29 @@ export default createStore({
           stambul:{
             title:'Istanbul',
             included_travel:[`Toshkent — Istanbul — Toshkent havo qatnovi (to'g'ridan — to'g'ri charter)`,`Mehmonxonada qolish`, `Tizim orqali ovqatlanish — hamma narsani o'z ichiga oladi`,`Transfer aeroporti — mehmonxona-aeroport`,"Butun davr uchun tibbiy sug'urta",'Firma xizmatlari'],
-            palaces:[
+            places:[
               {
-                id:1,
+                id:0,
                 title:'Ayasofya',
                 descr:`Ming yildan ko'proq vaqt davomida Konstantinopoldagi Sofiya sobori xristian olamidagi eng katta ibodatxona bo'lib qoldi — Rimda Avliyo Pyotr sobori qurilgunga qadar.`,
               },
               {
-                id:2,
+                id:1,
                 title:`Bosfor bo'g'ozi`,
                 descr:`Sizni Bosforning eng yaxshi panoramalari bilan ajoyib kruiz kutmoqda. Ulug'vor saroylar, monumental ibodatxonalar va masjidlar.`,
               },
               {
-                id:3,
+                id:2,
                 title:'Topkapi saroyi',
                 descr:`Usmonli imperiyasi qulaganidan keyin saroy muzeyga aylantirildi — dunyodagi eng katta maydonlardan biri. Umumiy ko'rish uchun namoyish etilgan eksponatlar soni 65000 donaga etadi (va bu to'plamning o'ndan bir qismi).`,
               },
               {
-                id:4,
+                id:3,
                 title:'Miniatyura',
                 descr:`Miniatyuralar parki 60.000 kvadrat metrdan ortiq maydonda.M. Turkiya va boshqa mamlakatlarning me'moriy ob'ektlarining 1:25 masshtabida namoyish etilgan modellari.`,
               },
               {
-                id:5,
+                id:4,
                 title:'Katta suv parklari',
                 descr:`Ekstremal va hayajonli ishqibozlar uchun akvaparkga tashrif buyurishdan ko'ra yaxshiroq o'yin-kulgi yo'q.`,
               },
@@ -731,6 +733,7 @@ export default createStore({
         },
       },
       en: {
+        not_found:`Oops! That page can't be found`,
         nav: {
           main: ['Home', 'Tours', 'Sections'],
           toursdropdwn: [
