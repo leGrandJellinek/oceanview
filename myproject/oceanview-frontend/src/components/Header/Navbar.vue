@@ -1,12 +1,44 @@
 <template>
-  <div class="navigator">
+  <div id="navigator" class="navigator">
+    <div class="mobile-nav" :class="{'active': activeNav}" @click="activeNav = !activeNav">
+      <ul class="mobile-nav-lists">
+        <li class="menu-item-has-children no-item">
+          <router-link class="mobile-nav-link" to="/">{{ activeLang.nav.main[0] }}</router-link>
+        </li>
+        <li class="menu-item-has-children">
+          <a class="mobile-nav-link" href="#">{{ activeLang.nav.main[1] }}</a>
+        </li>
+        <li class="menu-item-has-children">
+          <a class="mobile-nav-link" href="#">{{ activeLang.nav.main[2] }}</a>
+        </li>
+        <li class="menu-item-has-children lang-child" @click="activeNav = !activeNav,  dropdownActive = !dropdownActive">
+          <a href="#"> {{ getCurrentLang }} <i class="fa-solid" :class="dropdownActive ? 'fa-caret-up': 'fa-caret-down' "></i></a>
+          <ul class="lang-li" :class="{'active': dropdownActive}">
+            <li>
+              <a class="activeLang">{{ getCurrentLang }}</a>
+            </li>
+            <li  v-for="(lang, index) in getAllLang" :key="index">
+              <a @click="switchActiveLang(lang)" class="lang">{{ lang }}</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
     <div class="bottom-header">
       <div class="container d-flex main-nav align-items-center">
         <div class="site-identity">
           <h1 class="site-title">
             <router-link to="/">
-              <img class="white-logo" src="@/assets/images/logo_white.svg" alt="logo" />
-              <img class="black-logo" src="@/assets/images/logo_blue.svg" alt="logo" />
+              <img
+                class="white-logo"
+                src="@/assets/images/logo_white.svg"
+                alt="logo"
+              />
+              <img
+                class="black-logo"
+                src="@/assets/images/logo_blue.svg"
+                alt="logo"
+              />
             </router-link>
           </h1>
         </div>
@@ -34,13 +66,15 @@
                 </ul>
               </li>
               <li class="menu-item-has-children lang-child">
-                <a href="#"> {{ getCurrentLang }}</a>
+                <a  href="#"> {{ getCurrentLang }} </a>
                 <ul class="lang-li">
                   <li>
                     <a class="activeLang">{{ getCurrentLang }}</a>
                   </li>
                   <li v-for="(lang, index) in getAllLang" :key="index">
-                    <a @click="switchActiveLang(lang)" class="lang">{{ lang }}</a>
+                    <a @click="switchActiveLang(lang)" class="lang">{{
+                      lang
+                    }}</a>
                   </li>
                 </ul>
               </li>
@@ -62,16 +96,16 @@
                   >
                 </li>
                 <li>
-                  <div class="mobile-menu-container"></div>
                   <a href="mailto:info@watsondj.uz"
                     ><i class="fas fa-envelope"></i>
-                    <span class="__cf_email__">info@oceanview.uz</span></a
+                    <span class="">info@oceanview.uz</span></a
                   >
                 </li>
                 <li>
                   <a
                     href="https://www.google.com/maps/place/63+Shota+Rustaveli+Street,+Tashkent,+Uzbekistan/@41.2853808,69.2527336,17.88z/data=!4m5!3m4!1s0x38ae8aed0aa2176f:0x4235674141659ea6!8m2!3d41.2851776!4d69.2535719"
-                    ><i class="fas fa-map-marker-alt"></i>{{ activeLang.nav.adress }}</a
+                    ><i class="fas fa-map-marker-alt"></i
+                    >{{ activeLang.nav.adress }}</a
                   >
                 </li>
               </ul>
@@ -82,16 +116,24 @@
             <div class="header-social social-links">
               <ul>
                 <li>
-                  <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                  <a href="#"
+                    ><i class="fab fa-facebook-f" aria-hidden="true"></i
+                  ></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                  <a href="#"
+                    ><i class="fab fa-twitter" aria-hidden="true"></i
+                  ></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                  <a href="#"
+                    ><i class="fab fa-instagram" aria-hidden="true"></i
+                  ></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                  <a href="#"
+                    ><i class="fab fa-linkedin" aria-hidden="true"></i
+                  ></a>
                 </li>
               </ul>
             </div>
@@ -99,7 +141,7 @@
               <button class="search-icon">
                 <i class="fas fa-search"></i>
               </button>
-              <button class="search-icon">
+              <button @click="activeNav = !activeNav" class="search-icon burger-icon">
                 <i class="fas fa-bars"></i>
               </button>
             </div>
@@ -111,14 +153,20 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import { mapGetters, mapMutations } from "vuex";
+import { defineComponent } from 'vue'
+import { mapGetters, mapMutations } from 'vuex'
 export default defineComponent({
   computed: {
-    ...mapGetters(["getAllLang", "getCurrentLang", "activeLang"]),
+    ...mapGetters(['getAllLang', 'getCurrentLang', 'activeLang']),
   },
   methods: {
-    ...mapMutations(["switchActiveLang"]),
+    ...mapMutations(['switchActiveLang']),
   },
-});
+  data() {
+    return {
+      activeNav: false,
+      dropdownActive: false,
+    }
+  },
+})
 </script>

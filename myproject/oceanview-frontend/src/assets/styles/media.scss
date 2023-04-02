@@ -5,9 +5,66 @@
     .home-slider {
         height: 500px;
     }
+
 }
 
 @media (max-width:992px) {
+    .burger-icon{
+        display: block;
+    }
+    .header-search-icon .burger-icon:hover{
+        color: white;
+
+    }
+    .mobile-nav{
+        position: fixed;
+        background: white;
+        right: -100%;
+        top: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        transition: all 300ms ease-in-out;
+        &-lists{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        &-link, .lang-child a{
+            color: black;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+        }
+        & .lang-li {
+
+            list-style: none;
+            & .activeLang{
+                background: #F56960;
+                padding: 5px;
+                color: white;
+                cursor: none;
+            }
+        }
+    }
+    .lang-li{
+        position: relative;
+        transition: all 500ms ease-in-out;
+        bottom: -1000%;
+        &.active{
+            bottom: 0;
+        }
+    }
+    .lang-child{
+        z-index: 99999;
+    }
+    .mobile-nav.active{
+        right: 0;
+    }
     .main-nav{
         justify-content: center;
     }

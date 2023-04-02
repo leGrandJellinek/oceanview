@@ -201,4 +201,15 @@
 }
 .not-found-404{
     height: 90.1vh;
+}.mobile-nav{
+    display: none;
+}
+.lang-child{
+    & a{
+        text-transform: uppercase;
+    }
+    text-transform: uppercase;
+}
+.burger-icon{
+    display: none;
 }

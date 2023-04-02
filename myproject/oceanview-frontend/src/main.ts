@@ -26,13 +26,11 @@ import "@/assets/vendors/slick/slick.css";
 import "@/assets/vendors/slick/slick-theme.css";
 import "@/assets/vendors/slick/slick.min.js";
 
-
 /* Custom */
 import "@/assets/js/custom.min.js"
-
 import "@/assets/styles/style.css";
 import "@/assets/styles/custom-style.scss";
-import "@/assets/styles/media.css";
+import "@/assets/styles/media.scss";
 
 
 
