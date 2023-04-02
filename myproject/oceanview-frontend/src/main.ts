@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 /* Стили и скрипты проекта */
 
-
+import "animate.css"
 
 /* Bootstrap */
 import "@/assets/vendors/bootstrap/css/bootstrap.min.css";

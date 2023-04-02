@@ -189,11 +189,15 @@
 </template>
 
 <script lang="ts">
+
 import { mapGetters } from 'vuex'
 export default {
   computed: {
     ...mapGetters(['activeLang']),
   },
+  // mounted() { 
+  //   new WOW({live: false}).init() 
+  // }
 }
 </script>
 
