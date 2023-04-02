@@ -1108,7 +1108,7 @@ export default createStore({
       stambul:'stambul-bg.jpg',
       malasiya:'kuala-lumpur-bg.jpg',
       baku:'baku-bg.jpg',
-      tai:'tai-bg.jpg',
+      tailand:'tailand-bg.jpg',
     }
   },
   getters: {

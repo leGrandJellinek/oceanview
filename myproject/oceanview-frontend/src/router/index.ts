@@ -1,5 +1,4 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw , createWebHistory} from 'vue-router'
-import HomeView from '@/views/HomeView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -10,6 +9,7 @@ const routes: Array<RouteRecordRaw> = [
     // which is lazy-loaded when the route is visited.
     component: () => import( /* webpackChunkName: "home" */ "@/views/HomeView.vue")
   },
+
   {
     path:'/dubai',
     name:'dubai',
@@ -39,6 +39,10 @@ const routes: Array<RouteRecordRaw> = [
     path:'/tailand',
     name:'tailand',
     component: () => import("@/views/TailandView.vue")
+  },
+  {
+    path: '/:pathMatch(.*)',
+    component: () => import ("@/views/404.vue")
   },
 ]
 
