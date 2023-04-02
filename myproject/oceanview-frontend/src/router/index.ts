@@ -51,4 +51,9 @@ const router = createRouter({
   routes
 })
 
+router.beforeEach((to, from, next) => {
+  window.scrollTo(0, 0) // прокрутка страницы в начало
+  next()
+})
+
 export default router
