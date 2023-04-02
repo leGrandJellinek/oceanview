@@ -919,29 +919,29 @@ export default createStore({
           stambul:{
             title:'Istanbul',
             included_travel:['Tashkent — Istanbul — Tashkent flight (direct charter)','Hotel accommodation', 'All—inclusive meals','Airport — hotel — airport transfer',"Med. insurance for the entire period",'Company services'],
-            palaces:[
+            places:[
               {
-                id:1,
+                id:0,
                 title:'Hagia Sophia',
                 descr:`'For more than a thousand years, St. Sophia Cathedral in Constantinople remained the largest church in the Christian world — until the construction of St. Peter's Cathedral in Rome.`,
               },
               {
-                id:2,
+                id:1,
                 title:'Bosphorus Strait',
                 descr:'An amazing cruise with the best panoramas of the Bosphorus awaits you. Majestic palaces, monumental temples and mosques.',
               },
               {
-                id:3,
+                id:2,
                 title:'Topkapi Palace',
                 descr:'After the fall of the Ottoman Empire, the palace was turned into a museum — one of the largest in the world by area. The number of exhibits on display for general viewing reaches 65,000 units (and this is only a tenth of the collection).',
               },
               {
-                id:4,
+                id:3,
                 title:'Miniature',
                 descr:'A miniature park in which models of architectural objects of Turkey and other countries, made on a scale of 1:25, are exhibited on an area of more than 60,000 sq. m.',
               },
               {
-                id:5,
+                id:4,
                 title:'Large water parks',
                 descr:'For fans of extreme sports and thrills, there is no better entertainment than visiting a water park.',
               },
