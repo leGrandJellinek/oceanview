@@ -78,71 +78,7 @@
             </div>
           </div>
           <div class="col-lg-4 d-flex start-center justify-content-between">
-            <div class="mobile-menu-container"><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">Menu</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
-                <ul>
-                  <li class="menu-item-has-children no-item">
-                    <a href="" role="menuitem">Главная</a>
-                  </li>
-
-                  <li class="menu-item-has-children slicknav_parent slicknav_collapsed"><span class="slicknav_parent-link slicknav_row">
-                      <a href="#">Туры</a>
-                        <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="outline: none;"><span class="slicknav_arrow"><i class="fas fa-plus"></i></span></a></span><ul role="menu" class="slicknav_hidden" aria-hidden="true" style="display: none;">
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Пункты назначения</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Турпакеты</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Комплексное предложение</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Детали пакета</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Туристическая карта</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Бронирование</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Подтверждение</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children slicknav_parent slicknav_collapsed"><span class="slicknav_parent-link slicknav_row">
-                    <a href="#">Разделы</a>
-                    <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="outline: none;"><span class="slicknav_arrow"><i class="fas fa-plus"></i></span></a></span><ul role="menu" class="slicknav_hidden" aria-hidden="true" style="display: none;">
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">О нас</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Сервис</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Вакансии</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Детали Вакансии</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Гайды по турам</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Галерея</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Служба поддержки</a>
-                      </li>
-                      <li>
-                        <a href="#" role="menuitem" tabindex="-1">Контакты</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </nav>
-              </div>
-            </div>
+            <div class="mobile-menu-container"></div>
             <div class="header-social social-links">
               <ul>
                 <li>
