@@ -40,10 +40,10 @@ const routes: Array<RouteRecordRaw> = [
     name:'tailand',
     component: () => import("@/views/TailandView.vue")
   },
-  {
-    path: '/:pathMatch(.*)',
-    component: () => import ("@/views/404.vue")
-  },
+  // {
+  //   path: '/:pathMatch(.*)',
+  //   component: () => import ("@/views/404.vue")
+  // },
 ]
 
 const router = createRouter({
