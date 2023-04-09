@@ -162,7 +162,7 @@
                     </div>
                   </div>
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
           <div class="btn-wrap text-center">
@@ -299,7 +299,7 @@
                         <img src="@/assets/images/icon14.png" alt="" />
                       </div>
                       <ul>
-                        <li>{{ activeLang.nav.adress }}</li>
+                        <li> <a href="https://goo.gl/maps/zhUtmfVyeAyKEYTN6">{{ activeLang.nav.adress }}</a> </li>
                       </ul>
                     </div>
                   </div>
