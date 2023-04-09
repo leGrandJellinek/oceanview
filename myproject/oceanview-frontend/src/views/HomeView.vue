@@ -55,9 +55,9 @@
                       </div>
                     </div>
                     <div class="btn-wrap">
-                      <a href="#" class="button-text width-6"
+                      <router-link to="/payment" class="button-text width-6"
                         >{{ activeLang.cards_btns[0] }}<i class="fas fa-arrow-right"></i
-                      ></a>
+                      ></router-link>
                       <a href="#" class="button-text width-6"
                         >{{ activeLang.cards_btns[1] }}<i class="far fa-heart"></i
                       ></a>
@@ -104,9 +104,9 @@
                       </div>
                     </div>
                     <div class="btn-wrap">
-                      <a href="#" class="button-text width-6"
+                      <router-link to="/payment" class="button-text width-6"
                         >{{ activeLang.cards_btns[0] }}<i class="fas fa-arrow-right"></i
-                      ></a>
+                      ></router-link>
                       <a href="#" class="button-text width-6"
                         >{{ activeLang.cards_btns[1] }}<i class="far fa-heart"></i
                       ></a>
@@ -153,9 +153,9 @@
                       </div>
                     </div>
                     <div class="btn-wrap">
-                      <a href="#" class="button-text width-6"
+                      <router-link to="/payment" class="button-text width-6"
                         >{{ activeLang.cards_btns[0] }}<i class="fas fa-arrow-right"></i
-                      ></a>
+                      ></router-link>
                       <a href="#" class="button-text width-6"
                         >{{ activeLang.cards_btns[1] }}<i class="far fa-heart"></i
                       ></a>
@@ -167,7 +167,7 @@
           </div>
           <div class="btn-wrap text-center">
             <a href="#" class="button-primary">{{ activeLang.btns[3] }}</a>
-            <a href="#" class="button-primary upper">{{ activeLang.btns[2] }}</a>
+            <router-link to="/payment" class="button-primary upper">{{ activeLang.btns[2] }}</router-link>
           </div>
         </div>
       </div>
