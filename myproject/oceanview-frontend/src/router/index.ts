@@ -41,9 +41,14 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("@/views/TailandView.vue")
   },
   {
-    path: '/:pathMatch(.*)',
-    component: () => import ("@/views/404.vue")
+    path:'/payment',
+    name:'payment',
+    component: () => import("@/views/PayView.vue")
   },
+  // {
+  //   path: '/:pathMatch(.*)',
+  //   component: () => import ("@/views/404.vue")
+  // },
 ]
 
 const router = createRouter({
