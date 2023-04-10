@@ -31,7 +31,7 @@ import "@/assets/js/custom.min.js"
 import "@/assets/styles/style.css";
 import "@/assets/styles/custom-style.scss";
 import "@/assets/styles/media.scss";
-
+/* CLICK*/
 
 
 createApp(App).use(store).use(router).mount('#app')
