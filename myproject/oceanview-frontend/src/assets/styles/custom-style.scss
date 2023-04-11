@@ -220,35 +220,38 @@
 .fixed-header .white-logo {
   display: none;
 }
-.amount{
+.amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  gap: 30px;
+  &__btn {
+      height: 50px;
+      border: none;
+      border-radius: 15px;
+      width: 100px;
+      display: flex;
+      padding: 5px;
+      align-items: center;
+      background: white;
+  }
+  &-btns {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    flex-direction: column;
     gap: 30px;
-    &__btn{
-        height: 50px;
-        border: none;
-        border-radius: 15px;
-        width: 100px;
+  }
+  &-input {
+    display: flex;
+    align-items: center;
+  }
+  &__label {
+    background: white;
+    padding: 12px;
+    border-radius: 10px 0 0 10px;
+    margin-bottom: 0;
+    &-back {
+      border-radius: 0 10px 10px 0;
     }
-    &-btns{
-        display: flex;
-        gap: 30px;
-    }
-    &-input{
-        display: flex;
-        align-items: center;
-    }
-    &__label{
-        background: white;
-        padding: 12px;
-        border-radius: 10px 0 0 10px;
-        margin-bottom: 0;
-        &-back{
-            border-radius: 0 10px 10px 0;
-
-        }
-    }
+  }
 }

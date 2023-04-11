@@ -7,7 +7,9 @@ main#content.site-main
             input#amount.amount__input(type="number")
             label.amount__label.amount__label-back(for="amount") сум
         .amount-btns
-            button(type="submit")
+            a.amount__btn(href="https://oceanview.uz/click/")
+              img(src="@/assets/images/click.png")
+
 
   .overlay
 </template>
@@ -16,7 +18,7 @@ main#content.site-main
 export default {
   data(){
     return{
-      
+
     }
   }
 }

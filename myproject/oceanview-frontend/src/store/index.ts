@@ -12,32 +12,8 @@ export default createStore({
           main: ['Главная', 'Туры', 'Разделы'],
           toursdropdwn: [
             {
-              text: 'Пункты назначения',
-              link: '#',
-            },
-            {
-              text: 'Турпакеты',
-              link: '#',
-            },
-            {
-              text: 'Комплексное предложение',
-              link: '#',
-            },
-            {
-              text: 'Детали пакета',
-              link: '#',
-            },
-            {
-              text: 'Туристическая карта',
-              link: '#',
-            },
-            {
-              text: 'Бронирование',
-              link: '#',
-            },
-            {
-              text: 'Подтверждение',
-              link: '#',
+              text: 'Онлайн оплата',
+              link: '/payment',
             },
           ],
           adress:'г.Ташкент, Мирабадский район, ул. Афрасиеб,4а',
@@ -374,32 +350,8 @@ export default createStore({
           main: ['Asosiy', 'Barcha Turlar', "bo'limlar"],
           toursdropdwn: [
             {
-              text: 'Manzillar',
-              link: '#',
-            },
-            {
-              text: 'Tur paketlari',
-              link: '#',
-            },
-            {
-              text: 'Keng qamrovli taklif',
-              link: '#',
-            },
-            {
-              text: 'Paket tafsilotlari',
-              link: '#',
-            },
-            {
-              text: 'turistik xaritasi',
-              link: '#',
-            },
-            {
-              text: 'Bron qilish',
-              link: '#',
-            },
-            {
-              text: 'Tasdiqlash',
-              link: '#',
+              text: 'Onlayn tolov',
+              link: '/payment',
             },
           ],
           adress: "Toshkent shahri, Mirobod tumani, Afrosiyob ko'chasi, 4a",
@@ -738,32 +690,8 @@ export default createStore({
           main: ['Home', 'Tours', 'Sections'],
           toursdropdwn: [
             {
-              text: 'Destinations',
-              link: '#',
-            },
-            {
-              text: 'Tour packages',
-              link: '#',
-            },
-            {
-              text: 'Comprehensive offer',
-              link: '#',
-            },
-            {
-              text: 'Package details',
-              link: '#',
-            },
-            {
-              text: 'Tourist map',
-              link: '#',
-            },
-            {
-              text: 'Booking',
-              link: '#',
-            },
-            {
-              text: 'Confirmation',
-              link: '#',
+              text: 'Online payment',
+              link: '/payment',
             },
           ],
           adress:'Tashkent, Mirabad district, Afrosiab str., 4a',

@@ -45,11 +45,6 @@ const routes: Array<RouteRecordRaw> = [
     name:'payment',
     component: () => import("@/views/PayView.vue")
   },
-  {
-    path:'/click',
-    name:'click',
-    component: () => import("@/views/Click.vue")
-  },
   // {
   //   path: '/:pathMatch(.*)',
   //   component: () => import ("@/views/404.vue")

@@ -60,7 +60,7 @@
                 <a href="#">{{ activeLang.nav.main[1] }}</a>
                 <ul>
                   <li v-for="li in activeLang.nav.toursdropdwn" :key="li">
-                    <a :href="li.link">{{ li.text }}</a>
+                    <router-link :to="li.link">{{ li.text }}</router-link>
                   </li>
                 </ul>
               </li>
