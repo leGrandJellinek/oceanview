@@ -4,6 +4,7 @@ CountryDetail(
             :direct='activeLang.pages.tbilisi'
             :bg='bgImg.tbilisi'
             :placesImgs='placesImgs.tbilisi'
+            :activeLang="activeLang"
         )
         </template>
 

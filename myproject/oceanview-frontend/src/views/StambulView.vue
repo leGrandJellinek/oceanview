@@ -4,6 +4,7 @@ CountryDetail(
         :direct='activeLang.pages.stambul'
         :bg='bgImg.stambul'
         :placesImgs='placesImgs.stambul'
+        :activeLang="activeLang"
     )
     </template>
 

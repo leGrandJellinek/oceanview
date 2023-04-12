@@ -18,6 +18,10 @@ main#content.site-main
                 h3.places-title {{ card.title }}
             .places-card__text
                 p.places-descr {{ card.descr }}
+    .btn-wrap.d-flex.btn-content.justify-content-center.align-items-center.text-center
+        a.button-primary(href='#') {{ activeLang.btns[0] }}
+        a.button-primary(href='#') {{ activeLang.btns[1] }}
+        router-link.button-primary( to="/payment") {{ activeLang.btns[2] }}
 </template>
 
 <script lang="ts">
@@ -41,6 +45,10 @@ export default defineComponent({
             type:Array,
             require: true
         },
+        activeLang:{
+            type:Object,
+            require: true
+        }
     }
 })
 </script>

@@ -227,6 +227,20 @@
   height: 100%;
   flex-direction: column;
   gap: 30px;
+  &-paywith{
+    color: white;
+    font-size: 24px;
+  }
+  &-title{
+    color: white;
+    text-align: center;
+  }
+  &__input{
+    display: block;
+    border: 2px solid gray !important;
+    width: 20em;
+    border-radius: 15px !important;
+  }
   &__btn {
       height: 50px;
       border: none;
@@ -239,12 +253,28 @@
   }
   &-btns {
     display: flex;
-    gap: 30px;
+    flex-direction: column;
+    justify-content: start;
+    transform: translateX(-20%);
+    gap: 10px;
   }
-  &-input {
-    display: flex;
-    align-items: center;
+  &-inputs{
+    &-left{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    &-content{
+      display: flex;
+      justify-content: space-between;
+      gap: 60px;
+      & textarea{
+        width: 250px;
+        height: 150px;
+      }
+    }
   }
+
   &__label {
     background: white;
     padding: 12px;

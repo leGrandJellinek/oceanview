@@ -7,12 +7,14 @@ export default createStore({
     active_lang: {} as Object,
     lang: {
       ru: {
+        pay_title:'Прием платежей',
+        pay_with:'Вы сможете оплатить с помощью:',
         not_found:'Упс! Эта страница не может быть найдена',
         nav: {
           main: ['Главная', 'Туры', 'Разделы'],
           toursdropdwn: [
             {
-              text: 'Онлайн оплата',
+              text: 'Прием платежей',
               link: '/payment',
             },
           ],
@@ -121,7 +123,7 @@ export default createStore({
         cards_person:'Человека',
         cards_review:'отзывов',
         cards_btns:['Забронируйте сейчас', 'Избранное'],
-        btns:['Другие направления',"Дать запрос на просчет маршрута",'ЗАКАЗАТЬ ТУР','ПОСМОТРЕТЬ ВСЕ ПАКЕТЫ'],
+        btns:['Другие направления',"Дать запрос на просчет маршрута",'Забронировать','ПОСМОТРЕТЬ ВСЕ ПАКЕТЫ'],
         contact_us:['Свяжитесь с нами','Мы на связи: +998974749099'],
         pages:{
           title:'Путешествие в',
@@ -345,12 +347,15 @@ export default createStore({
         },
       },
       uz: {
+        pay_title:`To'lovlarni qabul qilish`,
+        pay_with:`Siz bilan to'lashingiz mumkin:`,
+
         not_found:'Voy! Bu sahifa topilmadi',
         nav: {
           main: ['Asosiy', 'Barcha Turlar', "bo'limlar"],
           toursdropdwn: [
             {
-              text: 'Onlayn tolov',
+              text: `To'lovlarni qabul qilish`,
               link: '/payment',
             },
           ],
@@ -685,12 +690,14 @@ export default createStore({
         },
       },
       en: {
+        pay_title:`Acceptance of payments`,
+        pay_with:'You will be able to pay using:',
         not_found:`Oops! That page can't be found`,
         nav: {
           main: ['Home', 'Tours', 'Sections'],
           toursdropdwn: [
             {
-              text: 'Online payment',
+              text: 'Acceptance of payments',
               link: '/payment',
             },
           ],

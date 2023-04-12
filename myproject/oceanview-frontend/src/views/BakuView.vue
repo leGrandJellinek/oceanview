@@ -4,6 +4,7 @@ CountryDetail(
                     :direct='activeLang.pages.baku'
                     :bg='bgImg.baku'
                     :placesImgs='placesImgs.baku'
+                    :activeLang="activeLang"
                 )
                 </template>
 

@@ -4,6 +4,7 @@ CountryDetail(
                 :direct='activeLang.pages.malasiya'
                 :bg='bgImg.malasiya'
                 :placesImgs='placesImgs.malasiya'
+                :activeLang="activeLang"
             )
             </template>
 

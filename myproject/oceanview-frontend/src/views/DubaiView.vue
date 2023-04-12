@@ -4,6 +4,7 @@ CountryDetail(
     :direct='activeLang.pages.dubai'
     :bg='bgImg.dubai'
     :placesImgs='placesImgs.dubai'
+    :activeLang="activeLang"
 )
 </template>
 

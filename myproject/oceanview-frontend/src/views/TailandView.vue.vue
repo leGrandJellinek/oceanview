@@ -4,6 +4,7 @@ CountryDetail(
                         :direct='activeLang.pages.tailand'
                         :bg='bgImg.tailand'
                         :placesImgs='placesImgs.tailand'
+                        :activeLang="activeLang"
                     )
 </template>
 
