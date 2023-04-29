@@ -1,6 +1,6 @@
 <template lang="pug">
 main#content.site-main
-  .no-content-section.not-found-404.amount-bg(:style="{'background-image': `url(${require('@/assets/images/404-bg.jpg')})`,}")
+  .no-content-section(:style="{'background-image': `url(${require('@/assets/images/404-bg.jpg')})`,}")
       h1.amount-title {{ activeLang.pay_title }}
       form.amount(action="/click/" method="post")
         .amount-inputs-content
