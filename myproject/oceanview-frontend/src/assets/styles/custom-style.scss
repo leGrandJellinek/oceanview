@@ -13,13 +13,20 @@
 .contact-btn-wrap {
   display: none;
 }
+.btn-wrap{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
 .support-area h3 {
   font-size: 26px;
 }
 .search-icon {
   margin: 10px 0;
 }
-
+.first-card{
+  font-size: 20px;
+}
 .fixed-header .slicknav_nav {
   height: 100vh !important;
 }
@@ -88,8 +95,8 @@
     transform: scale(1);
   }
 }
-.white-logo {
-  height: 100%;
+.white-logo,.black-logo, .footer-logo{
+  transform: scale(0.85);
 }
 .adress {
   font-size: 13px;
@@ -227,6 +234,9 @@
   height: 100%;
   flex-direction: column;
   gap: 30px;
+  &-bg{
+    height: 100vh;
+  }
   &-paywith{
     color: white;
     font-size: 24px;
@@ -253,8 +263,7 @@
   }
   &-btns {
     display: flex;
-    flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     transform: translateX(-20%);
     gap: 10px;
   }

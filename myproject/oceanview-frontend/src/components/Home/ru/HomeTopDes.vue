@@ -180,8 +180,9 @@
         <div
           class="btn-wrap d-flex btn-content justify-content-center align-items-center text-center"
         >
-          <a href="#" class="button-primary">{{ activeLang.btns[0] }}</a>
           <a href="#" class="button-primary">{{ activeLang.btns[1] }}</a>
+          <a href="#" class="button-primary">{{ activeLang.btns[0] }}</a>
+          <router-link to="/payment" class="button-primary">{{ activeLang.btns[2] }}</router-link>
         </div>
       </div>
     </div>

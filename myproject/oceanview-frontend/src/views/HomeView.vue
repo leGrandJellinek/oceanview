@@ -40,13 +40,13 @@
                       </li>
                       <li>
                         <i class="fas fa-map-marker-alt"></i>
-                        Malaysia
+                        {{ activeLang.cards_direct[0]}}
                       </li>
                     </ul>
                   </div>
                   <div class="package-content">
                     <h3>
-                      <a href="#">{{ activeLang.cards_title[0] }}</a>
+                      <a class="first-card" href="#">{{ activeLang.cards_title[0] }}</a>
                     </h3>
                     <div class="review-area">
                       <span class="review-text">(25 {{ activeLang.cards_review }})</span>
@@ -55,7 +55,7 @@
                       </div>
                     </div>
                     <div class="btn-wrap">
-                      <router-link to="/payment" class="button-text width-6"
+                      <router-link to="/payment" class="button-text "
                         >{{ activeLang.cards_btns[0] }}<i class="fas fa-arrow-right"></i
                       ></router-link>
                       <a href="#" class="button-text width-6"
@@ -89,7 +89,7 @@
                       </li>
                       <li>
                         <i class="fas fa-map-marker-alt"></i>
-                        Dubai
+                        {{ activeLang.cards_direct[1]}}
                       </li>
                     </ul>
                   </div>
@@ -104,7 +104,7 @@
                       </div>
                     </div>
                     <div class="btn-wrap">
-                      <router-link to="/payment" class="button-text width-6"
+                      <router-link to="/payment" class="button-text "
                         >{{ activeLang.cards_btns[0] }}<i class="fas fa-arrow-right"></i
                       ></router-link>
                       <a href="#" class="button-text width-6"
@@ -138,7 +138,7 @@
                       </li>
                       <li>
                         <i class="fas fa-map-marker-alt"></i>
-                        Vietnam
+                        {{ activeLang.cards_direct[2]}}
                       </li>
                     </ul>
                   </div>
@@ -153,7 +153,7 @@
                       </div>
                     </div>
                     <div class="btn-wrap">
-                      <router-link to="/payment" class="button-text width-6"
+                      <router-link to="/payment" class="button-text "
                         >{{ activeLang.cards_btns[0] }}<i class="fas fa-arrow-right"></i
                       ></router-link>
                       <a href="#" class="button-text width-6"
@@ -195,7 +195,6 @@
           <div class="col-lg-7">
             <div class="callback-inner">
               <div class="section-heading section-heading-white">
-                <h5 class="dash-style">{{ activeLang.sections_descr[2] }}</h5>
                 <h2 class="upper">{{ activeLang.sections_title[2] }}</h2>
               </div>
               <div class="callback-counter-wrap">
@@ -256,7 +255,6 @@
                 <img src="@/assets/images/icon5.png" alt="" />
               </div>
               <div class="support-content">
-                <h4>{{ activeLang.contact_us[0] }}</h4>
                 <h3>
                   <a href="tel:+998974749099">{{ activeLang.contact_us[1] }}</a>
                 </h3>

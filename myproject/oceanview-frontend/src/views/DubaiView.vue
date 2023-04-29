@@ -12,7 +12,7 @@ CountryDetail(
 
 import CountryDetail from '@/components/Main/CountryDetail.vue';
 import { mapGetters } from 'vuex';
-    export default {
+    export default{
         components:{
             CountryDetail
         },

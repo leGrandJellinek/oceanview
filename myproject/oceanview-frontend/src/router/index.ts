@@ -45,10 +45,10 @@ const routes: Array<RouteRecordRaw> = [
     name:'payment',
     component: () => import("@/views/PayView.vue")
   },
-  // {
-  //   path: '/:pathMatch(.*)',
-  //   component: () => import ("@/views/404.vue")
-  // },
+  {
+    path: '/:pathMatch(.*)',
+    component: () => import ("@/views/404.vue")
+  },
 ]
 
 const router = createRouter({

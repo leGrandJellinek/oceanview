@@ -107,6 +107,21 @@
     }
 }
 @media (max-width:576px) {
+    .amount{
+        &-inputs-content{
+            transform: scale(0.7);
+            flex-direction: column;
+            align-items: center;
+        }
+        &-paywith{
+            transform: translateY(-120%);
+            text-align: center;
+        }
+        &-btns{
+            transform: translateY(-180%);
+
+        }
+    }
     .no-content-wrap{
         height: 60vh;
         display: flex;

@@ -99,7 +99,7 @@ export default createStore({
           },
           {
             title: "Куала-Лумпур",
-            country:'Малазия'
+            country:'Малайзия'
           },
           {
             title: "Бангкок",
@@ -122,6 +122,7 @@ export default createStore({
         cards_price:"/ на человека",
         cards_person:'Человека',
         cards_review:'отзывов',
+        cards_direct:['Малайзия', 'Дубай', 'Вьетнам'],
         cards_btns:['Забронируйте сейчас', 'Избранное'],
         btns:['Другие направления',"Дать запрос на просчет маршрута",'Забронировать','ПОСМОТРЕТЬ ВСЕ ПАКЕТЫ'],
         contact_us:['Свяжитесь с нами','Мы на связи: +998974749099'],
@@ -463,6 +464,7 @@ export default createStore({
         cards_title:[`Ko'l bo'yidagi go'zal qarorgohning quyosh botishi manzarasi`, `Orolning tabiiy go'zalligini his eting`, "Portugaliyaning suv shahrida ta'til"],
         cards_price:"/ kishi boshiga",
         cards_person:'Kishi',
+        cards_direct:['Malayziya', 'Dubay', 'Vetnam'],
         cards_review:'sharhlar',
         cards_btns:['Hozir bron qiling', "Sevimlilar"],
         video_sec:['Doimiy mijozlar',`Hamkorlar
@@ -807,6 +809,7 @@ export default createStore({
         cards_title:['Sunset view of a beautiful residence on the lake shore', 'Experience the natural beauty of the island', 'Vacation in the water city of Portugal'],
         cards_price:"/ per person",
         cards_person:'Person',
+        cards_direct:['Malayziya', 'Dubay', 'Vetnam'],
         cards_review:'reviews',
         cards_btns:['Book now', 'Favourites'],
         btns:['Other directions',"Give a request to calculate the route",'BOOK A TOUR','VIEW ALL PACKAGES'],
