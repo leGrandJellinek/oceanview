@@ -211,6 +211,9 @@
 }
 .mobile-nav {
   display: none;
+  &-ul{
+    list-style: none;
+  }
 }
 .lang-child {
   & a {
@@ -233,7 +236,24 @@
   align-items: center;
   height: 100%;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px;
+  &-payment{
+    display: flex;
+    gap: 30px;
+  }
+  &-errors{
+    color: white;
+    &-title{
+      font-size: 28px;
+      color: white;
+    }
+    &-list{
+      font-size: 18px;
+      &s{
+        list-style: none;
+      }
+    }
+  }
   &-bg{
     height: 100vh;
   }
@@ -260,6 +280,7 @@
       padding: 5px;
       align-items: center;
       background: white;
+      overflow: hidden;
   }
   &-btns {
     display: flex;
@@ -293,4 +314,7 @@
       border-radius: 0 10px 10px 0;
     }
   }
+}
+.no-content-section{
+  padding-bottom: 189px;
 }
