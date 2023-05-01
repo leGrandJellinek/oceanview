@@ -2,7 +2,7 @@
 main#content.site-main
   .no-content-section(:style="{'background-image': `url(${require('@/assets/images/404-bg.jpg')})`,}")
       h1.amount-title {{ activeLang.pay_title }}
-      form.amount(action="/click/" @submit="checkForm"  method="post")
+      form.amount( @submit="checkForm"  method="post")
         .amount-inputs-content
           .amount-inputs-left
               input#name.amount__input(type="text" placeholder="ФИО" v-model="name" name="name")
@@ -26,58 +26,80 @@ main#content.site-main
 
 <script>
 import { mapGetters } from 'vuex'
-import VueTelInput from 'vue-tel-input'
 export default {
   computed: {
     ...mapGetters(['activeLang']),
   },
-  data(){
-    return{
-      errors:[],
+  data() {
+    return {
+      errors: [],
       name: null,
       email: null,
       bookNum: null,
       amount: null,
       phoneNum: null,
       comment: null,
-
     }
   },
   methods: {
+
     checkForm: function (e) {
-      this.errors = [];
+      this.errors = []
       if (!this.name) {
-        this.errors.push('Укажите имя.');
+        this.errors.push('Укажите имя.')
       }
       if (!this.email) {
-        this.errors.push('Укажите электронную почту.');
+        this.errors.push('Укажите электронную почту.')
       } else if (!this.validEmail(this.email)) {
-        this.errors.push('Укажите корректный адрес электронной почты.');
+        this.errors.push('Укажите корректный адрес электронной почты.')
       }
-      if(this.amount <= 1000){
-        this.errors.push('Укажите сумму платежа минимум: 1000 сум.');
+      if (this.amount <= 1000) {
+        this.errors.push('Укажите сумму платежа минимум: 1000 сум.')
       }
-      if(!this.phoneNum){
-        this.errors.push('Укажите ваш номер в формате  +998974749099.');
-      } else if (!this.validPhone(this.phoneNum)){
-        this.errors.push('Укажите корректный телефоный номер пример: +998974749099.');
-
+      if (!this.phoneNum) {
+        this.errors.push('Укажите ваш номер в формате  +998974749099.')
+      } else if (!this.validPhone(this.phoneNum)) {
+        this.errors.push(
+          'Укажите корректный телефоный номер пример: +998974749099.'
+        )
       }
       if (!this.errors.length) {
-        return true;
+        this.submitPaymentForm()
+        return true
       }
-
-      e.preventDefault();
+      e.preventDefault()
+        return
     },
     validEmail: function (email) {
-      var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-      return re.test(email);
+      var re =
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      return re.test(email)
     },
     validPhone: function (phone) {
-      var re = /\+998\d{2}\d{3}\d{2}\d{2}/;
-      return re.test(phone);
-    }
-  }
+      var re = /\+998\d{2}\d{3}\d{2}\d{2}/
+      return re.test(phone)
+    },
+    submitPaymentForm() {
+      const formData = new FormData()
+      formData.append('name', this.name)
+      formData.append('email', this.email)
+      formData.append('bookNum', this.bookNum)
+      formData.append('amount', this.amount)
+      formData.append('phoneNum', this.phoneNum)
+      formData.append('comment', this.comment)
+      // Отправляем AJAX запрос на бэк
+      axios
+        .post('/ajax/payment.php', formData)
+        .then((response) => {
+          console.log(response.data)
+          // Обработка ответа от сервера
+        })
+        .catch((error) => {
+          console.error(error)
+          // Обработка ошибки
+        })
+      },
+  },
 }
 </script>
 
