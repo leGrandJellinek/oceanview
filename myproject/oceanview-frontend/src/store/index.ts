@@ -13,10 +13,7 @@ export default createStore({
         nav: {
           main: ['Главная', 'Туры', 'Разделы'],
           toursdropdwn: [
-            {
-              text: 'Прием платежей',
-              link: '/payment',
-            },
+
           ],
           adress:'г.Ташкент, Мирабадский район, ул. Афрасиеб,4а',
           sectionsdropdwn: [
@@ -25,7 +22,7 @@ export default createStore({
               link: '#'
             },
             {
-              text:'Сервисы',
+              text:'Актуальные туры',
               link: '#'
             },
             {
@@ -33,24 +30,12 @@ export default createStore({
               link: '#'
             },
             {
-              text:'Детали Вакансии',
-              link: '#'
-            },
-            {
-              text:'Гайды по турам',
-              link: '#'
-            },
-            {
-              text:'Галерея',
-              link: '#'
-            },
-            {
-              text:'Службы поддержки',
-              link: '#'
+              text: 'БРОНЬ И ОПЛАТА',
+              link: '/payment',
             },
             {
               text:'Контакты',
-              link: '#'
+              link: '/contacts'
             },
           ],
         },
@@ -355,10 +340,7 @@ export default createStore({
         nav: {
           main: ['Asosiy', 'Barcha Turlar', "bo'limlar"],
           toursdropdwn: [
-            {
-              text: `To'lovlarni qabul qilish`,
-              link: '/payment',
-            },
+
           ],
           adress: "Toshkent shahri, Mirobod tumani, Afrosiyob ko'chasi, 4a",
           sectionsdropdwn: [
@@ -367,7 +349,7 @@ export default createStore({
               link: '#'
             },
             {
-              text:'Xizmatlar',
+              text:'Haqiqiy sayohatlar',
               link: '#'
             },
             {
@@ -375,20 +357,8 @@ export default createStore({
               link: '#'
             },
             {
-              text:'Ish tafsilotlari',
-              link: '#'
-            },
-            {
-              text:'Ekskursiya guydlar',
-              link: '#'
-            },
-            {
-              text:'Galereya',
-              link: '#'
-            },
-            {
-              text:'Yordam xizmatlari',
-              link: '#'
+              text: `To'lovlarni qabul qilish`,
+              link: '/payment',
             },
             {
               text:'Kontaktlar',
@@ -698,10 +668,7 @@ export default createStore({
         nav: {
           main: ['Home', 'Tours', 'Sections'],
           toursdropdwn: [
-            {
-              text: 'Acceptance of payments',
-              link: '/payment',
-            },
+
           ],
           adress:'Tashkent, Mirabad district, Afrosiab str., 4a',
           sectionsdropdwn: [
@@ -710,7 +677,7 @@ export default createStore({
               link: '#'
             },
             {
-              text:'Services',
+              text:'Active Tours',
               link: '#'
             },
             {
@@ -718,20 +685,8 @@ export default createStore({
               link: '#'
             },
             {
-              text:'Job Details',
-              link: '#'
-            },
-            {
-              text:'Tour guides',
-              link: '#'
-            },
-            {
-              text:'Gallery',
-              link: '#'
-            },
-            {
-              text:'Support Services',
-              link: '#'
+              text: 'Acceptance of payments',
+              link: '/payment',
             },
             {
               text:'Contacts',

@@ -12,19 +12,17 @@
           }}</router-link>
         </li>
         <li class="menu-item-has-children">
-          <a class="mobile-nav-link" href="#">{{ activeLang.nav.main[1] }}            <i
-              class="fa-solid"
-              :class="dropdownActive ? 'fa-caret-up' : 'fa-caret-down'"
-            ></i
-          ></a>
+          <a class="mobile-nav-link" href="#">{{ activeLang.nav.main[2] }}</a>
           <ul class="mobile-nav-ul">
             <li v-for="li in activeLang.nav.toursdropdwn" :key="li">
               <router-link :to="li.link">{{ li.text }}</router-link>
             </li>
           </ul>
-        </li>
-        <li class="menu-item-has-children">
-          <a class="mobile-nav-link" href="#">{{ activeLang.nav.main[2] }}</a>
+          <ul class="mobile-nav-ul">
+                  <li v-for="li in activeLang.nav.sectionsdropdwn" :key="li">
+                    <a href="#">{{ li.text }}</a>
+                  </li>
+                </ul>
         </li>
         <li
           class="menu-item-has-children lang-child"
@@ -48,7 +46,7 @@
       </ul>
     </div>
     <div class="bottom-header">
-      <div class="container d-flex main-nav align-items-center">
+      <div class=" d-flex main-nav  align-items-center">
         <div class="site-identity">
           <h1 class="site-title">
             <router-link to="/">
@@ -65,42 +63,23 @@
             </router-link>
           </h1>
         </div>
-
-        <div class="main-navigation d-none d-lg-block">
+        <div class="main-navigation d-lg-block">
           <nav id="navigation" class="navigation">
-            <ul>
+            <ul class="navbar-links">
               <li class="menu-item-has-children no-item">
                 <router-link to="/">{{ activeLang.nav.main[0] }}</router-link>
               </li>
-              <li class="menu-item-has-children">
-                <a href="#">{{ activeLang.nav.main[1] }}</a>
-                <ul>
-                  <li v-for="li in activeLang.nav.toursdropdwn" :key="li">
-                    <router-link :to="li.link">{{ li.text }}</router-link>
-                  </li>
-                </ul>
-              </li>
-              <li class="menu-item-has-children">
-                <a href="#">{{ activeLang.nav.main[2] }}</a>
-                <ul>
                   <li v-for="li in activeLang.nav.sectionsdropdwn" :key="li">
-                    <a href="#">{{ li.text }}</a>
+                    <a  :href="li.link">{{ li.text }}</a>
                   </li>
-                </ul>
-              </li>
-              <li class="menu-item-has-children lang-child">
-                <a href="#"> {{ getCurrentLang }} </a>
-                <ul class="lang-li">
-                  <li>
+                  <li class="activeLang-li">
                     <a class="activeLang">{{ getCurrentLang }}</a>
                   </li>
                   <li v-for="(lang, index) in getAllLang" :key="index">
-                    <a @click="switchActiveLang(lang)" class="lang">{{
+                    <a @click="switchActiveLang(lang)"  class="lang">{{
                       lang
                     }}</a>
                   </li>
-                </ul>
-              </li>
             </ul>
           </nav>
         </div>
@@ -126,7 +105,8 @@
                 </li>
                 <li>
                   <a
-                    href="https://www.google.com/maps/place/63+Shota+Rustaveli+Street,+Tashkent,+Uzbekistan/@41.2853808,69.2527336,17.88z/data=!4m5!3m4!1s0x38ae8aed0aa2176f:0x4235674141659ea6!8m2!3d41.2851776!4d69.2535719"
+                    href="https://maps.google.com/maps?q=41.302601,69.268190&ll=41.302601,69.268190&z=16"
+                    target="__blank"
                     ><i class="fas fa-map-marker-alt"></i
                     >{{ activeLang.nav.adress }}</a
                   >

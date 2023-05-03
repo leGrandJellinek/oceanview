@@ -1568,7 +1568,6 @@ input[type=submit]:focus {
 
 .main-navigation .navigation > ul > li {
   display: inline-block;
-  padding: 0 16px;
 }
 .main-navigation ul {
   font-size: 0;
@@ -1589,7 +1588,6 @@ input[type=submit]:focus {
   color: #ffffff;
   display: inline-block;
   font-size: 15px;
-  padding: 30px 0;
   font-weight: 600;
   line-height: 1.3;
   position: relative;
@@ -4457,9 +4455,13 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .site-footer .award-img a:first-child {
   margin-right: 10px;
 }
-.site-footer .buttom-footer {
+.site-footer .top-footer {
   background-color: #404040;
   padding: 30px 0;
+}
+.site-footer .bottom-footer {
+  background-color: #404040;
+  padding: 0px 0;
 }
 .site-footer .copy-right {
   color: #ffffff;

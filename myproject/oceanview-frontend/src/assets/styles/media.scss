@@ -1,4 +1,24 @@
 @media(max-width:1100px){
+    .contacts{
+        height: 100%;
+        padding-top: 60%;
+        padding-bottom: 50%;
+        &-title{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        &-left{
+            gap: 30px ;
+            align-items: center;
+            text-align: center;
+        }
+        &-content{
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+
+        }
+    }
     .home-slider .home-banner-items .banner-content-wrap {
         height: 500px;
     }
@@ -7,8 +27,43 @@
     }
 
 }
+@media screen and (max-width: 992px) {
+    .bottom-header-content {
+      justify-content: center;
+    }
+    .start-center {
+      align-items: start;
+    }
+    .contact-content {
+      justify-content: center;
+      gap: 90px;
+    }
+    .contact-icons {
+      display: flex;
+      justify-content: center;
+    }
+  }
 
 @media (max-width:992px) {
+    .contacts{
+        padding-top: 77%;
+        padding-bottom: 58%;
+    }
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        justify-content: center;
+        text-align: center;
+        & li{
+          padding: 0 !important;
+        }
+      }
+    .navigation{
+        display: none;
+    }
     .burger-icon{
         display: block;
     }
@@ -89,6 +144,10 @@
     }
 }
 @media (max-width:768px) {
+    .contacts{
+        padding-top: 90%;
+        padding-bottom: 75%;
+    }
     .no-content-wrap h1{
         position: static;
         font-size: 64px;
@@ -105,18 +164,80 @@
             color: black;
         }
     }
-}
-@media (max-width:576px) {
     .amount{
+        &-paywith{
+            margin-bottom: 30px;
+        }
         &-inputs-content{
-            transform: scale(0.7);
+            margin-bottom: 30px;
             flex-direction: column;
             align-items: center;
         }
-        &-paywith{
-            transform: translateY(-120%);
-            text-align: center;
+        &-errors-title{
+            font-size: 20px;
         }
+    }
+    .no-content-section{
+        padding-bottom: 0;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 630px) {
+    .contacts{
+        padding-top: 90%;
+        padding-bottom: 100%;
+        &-right{
+            width: 100%;
+            height: 30%;
+        }
+    }
+    .contacts{
+        &-title{
+            font-size: 38px;
+        }
+        &-sub-title{
+            font-size: 24px;
+        }
+        &-link{
+            justify-content: center;
+        }
+        & a{
+            font-size: 18px;
+        }
+    }
+    .counting-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .counter-item {
+      width: 100% !important;
+    }
+    .support-area {
+      flex-direction: column;
+      text-align: center;
+    }
+    .support-icon img {
+      margin: 0 0 10px 10px;
+    }
+    .btn-content {
+      flex-direction: column;
+    }
+    .bottom-header {
+      display: flex;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .footer-logo img {
+      transform: scale(1);
+    }
+  }
+@media (max-width:576px) {
+    .contacts{
+        padding-top: 140%;
+        padding-bottom: 150%;
+    }
+    .amount{
         &-btns{
             transform: translateY(-180%);
 
@@ -136,6 +257,37 @@
     }
 }
 @media screen and (max-width:400px) {
+    .contacts{
+        padding-top: 180%;
+        padding-bottom: 140%;
+        &-right{
+            height: 300px;
+            & iframe{
+                height: 300px;
+
+            }
+        }
+        &-title{
+            font-size: 28px;
+        }
+        &-sub-title{
+            font-size: 18px;
+        }
+        &-link a{
+            font-size: 16px;
+        }
+    }
+    .amount{
+        &-paywith{
+            & h3{
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        &-errors{
+            text-align: center;
+        }
+    }
     .included-lists{
         margin: 0 15px;
     }
