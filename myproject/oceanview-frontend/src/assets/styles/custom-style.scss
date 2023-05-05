@@ -70,7 +70,7 @@
 }
 .navigation{
   padding-left: 50px;
-  
+
 }
 .main-navigation ul > li.lang-child ul.lang-li li a {
   font-weight: 400;
@@ -234,9 +234,10 @@
   }
   &__input{
     display: block;
+    // overflow: hidden;
     border: 2px solid gray !important;
     width: 20em;
-    border-radius: 15px !important;
+    border-radius: 10px !important;
   }
   &__btn {
       height: 50px;
@@ -357,4 +358,29 @@
     color: white;
     font-size: 30px;
   }
+}
+.order{
+  padding-top: 80px;
+  margin-bottom: 20px;
+  &-content{
+    border-radius: 30px;
+    padding: 20px 0;
+  }
+  &__btn{
+    padding: 15px 10px;
+    background: #f56960;
+    border-radius: 30px;
+    color: white;
+    border: none;
+  }
+  &-errors{
+    color: black;
+  }
+  &-title{
+    text-align: center;
+  }
+}
+.forms-nav-bg{
+  background: #18306b;
+  padding: 55px 0;
 }

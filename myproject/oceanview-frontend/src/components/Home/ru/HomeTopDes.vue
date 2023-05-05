@@ -1,5 +1,5 @@
 <template>
-  <section class="destination-section">
+  <section id="#actual-tours" class="destination-section">
     <div class="container">
       <div class="section-heading">
         <div class="row align-items-end">
@@ -196,6 +196,7 @@ export default {
   computed: {
     ...mapGetters(['activeLang']),
   },
+  
   // mounted() {
   //   new WOW({live: false}).init()
   // }

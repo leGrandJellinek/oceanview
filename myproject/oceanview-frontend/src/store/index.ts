@@ -7,6 +7,15 @@ export default createStore({
     active_lang: {} as Object,
     lang: {
       ru: {
+        formOrder:{
+          title:"Сделать бронь",
+          namePlaceholder:'ФИО',
+          phonePlaceholder:"Ваш номер телефона",
+          sumPlaceholder:`Сумма платежа, сум`,
+          commentPlaceholder:'Примечание',
+          dateOfFlyPlaceholder: 'Дата вылета',
+          peopleCountPlaceholder:"Кол-во человек",
+        },
         pay_title:'Прием платежей',
         pay_with:'Вы сможете оплатить с помощью:',
         not_found:'Упс! Эта страница не может быть найдена',
@@ -23,7 +32,8 @@ export default createStore({
             },
             {
               text:'Актуальные туры',
-              link: '#'
+              link: '/',
+              hash:'#my-section',
             },
             {
               text:'Вакансии',
@@ -333,12 +343,21 @@ export default createStore({
         },
       },
       uz: {
+        formOrder:{
+          title:"Bron qilish",
+          namePlaceholder:'ISH',
+          phonePlaceholder:"Telefon raqamingiz",
+          sumPlaceholder:`To'lov miqdori`,
+          commentPlaceholder:'Izohlar',
+          dateOfFlyPlaceholder: 'Uchish sanasi',
+          peopleCountPlaceholder:"Odamlar soni",
+        },
         pay_title:`To'lovlarni qabul qilish`,
         pay_with:`Siz bilan to'lashingiz mumkin:`,
 
         not_found:'Voy! Bu sahifa topilmadi',
         nav: {
-          main: ['Asosiy', 'Barcha Turlar', "bo'limlar"],
+          main: ['', 'Barcha Turlar', "bo'limlar"],
           toursdropdwn: [
 
           ],
@@ -349,15 +368,16 @@ export default createStore({
               link: '#'
             },
             {
-              text:'Haqiqiy sayohatlar',
+              text:'DOLZARB YONALISHLAR',
+              link: '/',
+              hash:'#my-section',
+            },
+            {
+              text:'ISH O`RINLARI',
               link: '#'
             },
             {
-              text:'Ishlar',
-              link: '#'
-            },
-            {
-              text: `To'lovlarni qabul qilish`,
+              text: `TO'LOV QILISH`,
               link: '/payment',
             },
             {
@@ -662,6 +682,15 @@ export default createStore({
         },
       },
       en: {
+        formOrder:{
+          title:"Make order",
+          namePlaceholder:'FCs',
+          phonePlaceholder:"Your phone",
+          sumPlaceholder:`Payment amount`,
+          commentPlaceholder:'Notes',
+          dateOfFlyPlaceholder: 'Departure date',
+          peopleCountPlaceholder:"Number of people",
+        },
         pay_title:`Acceptance of payments`,
         pay_with:'You will be able to pay using:',
         not_found:`Oops! That page can't be found`,
@@ -678,7 +707,7 @@ export default createStore({
             },
             {
               text:'Active Tours',
-              link: '#'
+              link: '#my-section'
             },
             {
               text:'Jobs',

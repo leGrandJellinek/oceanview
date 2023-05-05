@@ -1,40 +1,35 @@
 <template lang="pug">
-.forms-nav-bg
-FormOrder
-main#content.site-main
-    .no-content-section(:style="{'background-image': `url(${require('@/assets/images/404-bg.jpg')})`,}")
-        h1.amount-title {{ activeLang.pay_title }}
-        form.amount(:action="`https://my.click.uz/services/pay?service_id=27448&merchant_id=19850&amount=${amount}&transaction_param=${bookNum}`" @submit="checkForm"  method="post")
-          .amount-inputs-content
-            .amount-inputs-left
-                input#name.amount__input(type="text" :placeholder="activeLang.formOrder.namePlaceholder" v-model="name" name="name")
-                input#email.amount__input(type="email" v-model="email"  placeholder="E-mail" name="email")
-                input#phone.amount__input(type="text" v-model="phoneNum"  :placeholder="activeLang.formOrder.phonePlaceholder" name="phone")
-                input#amount.amount__input(type="number" v-model="amount" :placeholder="activeLang.formOrder.sumPlaceholder" name="amount")
-            .amount-inputs-right
-                textarea.amount__input(:placeholder="activeLang.formOrder.commentPlaceholder" v-model="comment")
-          p.amount-errors(v-if='errors.length')
-            h3.amount-errors-title Пожалуйста исправьте ошибки:
-            ul.amount-errors-lists
-              li.amount-errors-list(v-for='error in errors') {{ error }}
-          .amount-paywith
-            h3.amount-paywith {{ activeLang.pay_with }}
-            .amount-payment
-              button.amount__btn(type="submit")
-                  img(src="@/assets/images/click.png")
-
+section.order
+        .container.order-content
+          h1.order-title {{ activeLang.formOrder.title }}
+          form.amount(:action="`https://my.click.uz/services/pay?service_id=27448&merchant_id=19850&amount=${amount}&transaction_param=${bookNum}`" @submit="checkForm"  method="post")
+            .amount-inputs-content
+              .amount-inputs-left
+                  input#name.amount__input(type="text" :placeholder="activeLang.formOrder.namePlaceholder" v-model="name" name="name")
+                  input#email.amount__input(type="email" v-model="email"  placeholder="E-mail" name="email")
+                  VueDatePicker.amount__input(v-model="date" :placeholder="activeLang.formOrder.dateOfFlyPlaceholder")
+                  input#phone.amount__input(type="text" v-model="phoneNum"  :placeholder="activeLang.formOrder.phonePlaceholder" name="phone")
+                  input#amount.amount__input(type="number" v-model="amount" :placeholder="activeLang.formOrder.peopleCountPlaceholder" name="amount")
+              .amount-inputs-right
+                  textarea.amount__input(:placeholder="activeLang.formOrder.commentPlaceholder" v-model="comment")
+            p.order-errors(v-if='errors.length')
+              h3.order-errors-title Пожалуйста исправьте ошибки:
+              ul.order-errors-lists
+                li.amount-errors-list(v-for='error in errors') {{ error }}
+              .amount-payment
+            button.order__btn(type="submit") Бронировать
 </template>
 
 <script>
 import { mapGetters } from 'vuex'
-import FormOrder from '@/components/Main/FormOrder.vue'
-
+import VueDatePicker from '@vuepic/vue-datepicker'
+import '@vuepic/vue-datepicker/dist/main.css'
 export default {
-  components: {
-    FormOrder,
-  },
   computed: {
     ...mapGetters(['activeLang']),
+  },
+  components: {
+    VueDatePicker,
   },
   data() {
     return {
@@ -56,13 +51,13 @@ export default {
       if (!this.name) {
         this.errors.push('Укажите имя.')
       }
+      if (!this.name) {
+        this.errors.push('Укажите имя.')
+      }
       if (!this.email) {
         this.errors.push('Укажите электронную почту.')
       } else if (!this.validEmail(this.email)) {
         this.errors.push('Укажите корректный адрес электронной почты.')
-      }
-      if (this.amount <= 1000) {
-        this.errors.push('Укажите сумму платежа минимум: 1000 сум.')
       }
       if (!this.phoneNum) {
         this.errors.push('Укажите ваш номер в формате  +998974749099.')
@@ -110,5 +105,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped></style>

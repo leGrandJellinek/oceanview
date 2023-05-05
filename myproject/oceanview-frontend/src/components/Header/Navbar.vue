@@ -15,7 +15,7 @@
           <a class="mobile-nav-link" href="#">{{ activeLang.nav.main[2] }}</a>
           <ul class="mobile-nav-ul">
             <li v-for="li in activeLang.nav.toursdropdwn" :key="li">
-              <router-link :to="li.link">{{ li.text }}</router-link>
+              <router-link :to="{ path: `${li.link}`, hash: `${li.hash}` }">{{ li.text }}</router-link>
             </li>
           </ul>
           <ul class="mobile-nav-ul">

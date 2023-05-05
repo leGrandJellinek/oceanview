@@ -309,25 +309,103 @@
       </div>
     </section>
     <!--  contact details html end -->
+
   </main>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script>
 import { mapGetters } from "vuex";
-
 import HomeSlider from "@/components/Home/ru/HomeSlider.vue";
 import HomeTopDes from "@/components/Home/ru/HomeTopDes.vue";
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
+import Loader from "@/components/Loader.vue"
 
-export default defineComponent({
-  components: {
-    HomeSlider,
-    HomeTopDes,
-  },
-  computed: {
-    ...mapGetters(["activeLang"]),
-  },
-});
+
+export default {
+    computed: {
+      ...mapGetters(['activeLang']),
+    },
+    components:{
+      HomeSlider,
+      HomeTopDes,
+      Header,
+      Footer,
+      Loader
+    },
+    data() {
+      return {
+        errors: [],
+        name: null,
+        email: null,
+        bookNum: null,
+        amount: null,
+        phoneNum: null,
+        comment: null,
+      }
+    },
+    methods: {
+      generateBookNum(){
+        this.bookNum = Math.floor(Math.random() * (90 - 50 + 1)) + 50
+      },
+      checkForm: function (e) {
+        this.errors = []
+        if (!this.name) {
+          this.errors.push('Укажите имя.')
+        }
+        if (!this.email) {
+          this.errors.push('Укажите электронную почту.')
+        } else if (!this.validEmail(this.email)) {
+          this.errors.push('Укажите корректный адрес электронной почты.')
+        }
+        if (this.amount <= 1000) {
+          this.errors.push('Укажите сумму платежа минимум: 1000 сум.')
+        }
+        if (!this.phoneNum) {
+          this.errors.push('Укажите ваш номер в формате  +998974749099.')
+        } else if (!this.validPhone(this.phoneNum)) {
+          this.errors.push(
+            'Укажите корректный телефоный номер пример: +998974749099.'
+          )
+        }
+        if (!this.errors.length) {
+          this.submitPaymentForm()
+          return true
+        }
+        e.preventDefault()
+          return
+      },
+      validEmail: function (email) {
+        var re =
+          /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        return re.test(email)
+      },
+      validPhone: function (phone) {
+        var re = /\+998\d{2}\d{3}\d{2}\d{2}/
+        return re.test(phone)
+      },
+      submitPaymentForm() {
+        const formData = new FormData()
+        formData.append('name', this.name)
+        formData.append('email', this.email)
+        formData.append('bookNum', this.bookNum)
+        formData.append('amount', this.amount)
+        formData.append('phoneNum', this.phoneNum)
+        formData.append('comment', this.comment)
+        // Отправляем AJAX запрос на бэк
+        axios
+          .post('/ajax/payment.php', formData)
+          .then((response) => {
+            console.log(response.data)
+            // Обработка ответа от сервера
+          })
+          .catch((error) => {
+            console.error(error)
+            // Обработка ошибки
+          })
+        },
+    },
+  }
 </script>
 
 <style></style>
