@@ -1,8 +1,8 @@
 <template lang="pug">
-section.order
+section.order(:class="{'hidden-scroll':doneWindow}")
         .container.order-content
           h1.order-title {{ activeLang.formOrder.title }}
-          form.amount(:action="`https://my.click.uz/services/pay?service_id=27448&merchant_id=19850&amount=${amount}&transaction_param=${bookNum}`" @submit="checkForm"  method="post")
+          form.amount(action="" @submit.prevent="checkForm")
             .amount-inputs-content
               .amount-inputs-left
                   input#name.amount__input(type="text" :placeholder="activeLang.formOrder.namePlaceholder" v-model="name" name="name")
@@ -17,7 +17,13 @@ section.order
               ul.order-errors-lists
                 li.amount-errors-list(v-for='error in errors') {{ error }}
               .amount-payment
-            button.order__btn(type="submit") Бронировать
+            button.order__btn(@click="checkForm") Бронировать
+.done-win(v-if="doneWindow")
+  .done-win-content
+    a.close(@click="doneWindow = false")
+      i.fa-solid.fa-xmark
+    i.fa-regular.fa-circle-check.cheked
+    span Спасибо! Мы свяжемся с Вами в ближайшее время!
 </template>
 
 <script>
@@ -38,11 +44,23 @@ export default {
       email: null,
       bookNum: null,
       amount: null,
+      date:null,
       phoneNum: null,
       comment: null,
+      doneWindow: false
     }
   },
   methods: {
+    clearForm(){
+      this.name = null
+      this.email = null
+      this.bookNum = null
+      this.amount = null
+      this.phoneNum = null
+      this.comment = null
+      this.date = null
+      this.doneWindow = true
+    },
     generateBookNum() {
       this.bookNum = Math.floor(Math.random() * (90 - 50 + 1)) + 50
     },
@@ -67,7 +85,7 @@ export default {
         )
       }
       if (!this.errors.length) {
-        this.submitPaymentForm()
+        this.clearForm()
         return true
       }
       e.preventDefault()
@@ -81,26 +99,6 @@ export default {
     validPhone: function (phone) {
       var re = /\+998\d{2}\d{3}\d{2}\d{2}/
       return re.test(phone)
-    },
-    submitPaymentForm() {
-      const formData = new FormData()
-      formData.append('name', this.name)
-      formData.append('email', this.email)
-      formData.append('bookNum', this.bookNum)
-      formData.append('amount', this.amount)
-      formData.append('phoneNum', this.phoneNum)
-      formData.append('comment', this.comment)
-      // Отправляем AJAX запрос на бэк
-      axios
-        .post('/ajax/payment.php', formData)
-        .then((response) => {
-          console.log(response.data)
-          // Обработка ответа от сервера
-        })
-        .catch((error) => {
-          console.error(error)
-          // Обработка ошибки
-        })
     },
   },
 }

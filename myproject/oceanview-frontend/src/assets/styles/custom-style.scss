@@ -384,3 +384,40 @@
   background: #18306b;
   padding: 55px 0;
 }
+
+.done-win{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #48484831;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  z-index: 99999;
+  &-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    & .close{
+      position: relative;
+      right: -45%;
+      top: -5%;
+      cursor: pointer;
+    }
+    & .cheked{
+      font-size: 108px;
+      color: #18306b;
+    }
+  }
+}
+.hidden-scroll{
+  overflow-y: hidden;
+  height: 100vh;
+}

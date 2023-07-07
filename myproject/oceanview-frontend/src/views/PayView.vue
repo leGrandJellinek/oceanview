@@ -1,7 +1,9 @@
 <template lang="pug">
-.forms-nav-bg
-FormOrder
-main#content.site-main
+div(:class="{'hide-scroll': doneWindow}")
+  .forms-nav-bg
+
+  FormOrder
+  main#content.site-main
     .no-content-section(:style="{'background-image': `url(${require('@/assets/images/404-bg.jpg')})`,}")
         h1.amount-title {{ activeLang.pay_title }}
         form.amount(:action="`https://my.click.uz/services/pay?service_id=27448&merchant_id=19850&amount=${amount}&transaction_param=${bookNum}`" @submit="checkForm"  method="post")
@@ -33,6 +35,9 @@ export default {
   components: {
     FormOrder,
   },
+  created(){
+    console.log(this.bookNum);
+  },
   computed: {
     ...mapGetters(['activeLang']),
   },
@@ -41,10 +46,11 @@ export default {
       errors: [],
       name: null,
       email: null,
-      bookNum: null,
+      bookNum: Math.floor(Math.random() * (99 - 10) + 10 , 1),
       amount: null,
       phoneNum: null,
       comment: null,
+      doneWindow: true,
     }
   },
   methods: {

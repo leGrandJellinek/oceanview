@@ -4,6 +4,7 @@
   Header
   router-view( style="height: 100%; width: 100%;")
   Footer
+
 </template>
 
 <script lang="ts">
@@ -21,6 +22,7 @@ export default defineComponent({
     Footer,
     Loader
   },
+
   setup() // props, { attrs }
   {
     const store = useStore()
